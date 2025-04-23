@@ -72,8 +72,8 @@ Every fork, derivative, or reproduction must maintain source attribution to the 
 ## Contact
 
 For licensing, collaboration, or secure evidence transmission:  
-**contact@thatsedutainment.org**  
-**www.valorchain.org** *(launch pending)*
+dgillson@adler.edu
+www.18fu.ai pending
 
 ---
 
