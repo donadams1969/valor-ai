@@ -33,9 +33,6 @@ VALOR-AI is a digital forensic intelligence engine, custom-built to expose, pres
 
 This project operates under the VALOR Open Justice License — unrestricted public use for whistleblower defense, civil rights documentation, and advocacy. Suppressive or commercial misuse is prohibited.
 
-## Contact
-
-**contact@thatsedutainment.org**  
-**www.valorchain.org**
+dgillson@18fu.ai 
 
 > Truth doesn’t fade. It gets timestamped.
