@@ -1,6 +1,7 @@
 # VALOR-AI: The Legal Witness System
 
 **Creator**: Donny Adams
+
 **Organization**: That’s Edutainment, LLC  
 **Initiated**: 2024 | Public Drop: TBD  
 **Status**: Blockchain Sealed | NFT Certified | Public Archive Pending  
