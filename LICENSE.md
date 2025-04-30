@@ -1,4 +1,4 @@
-![1000010788](https://github.com/user-attachments/assets/35252480-ea1e-4064-9c35-c8f4b5a41b44)
+
 ![1000010901](https://github.com/user-attachments/assets/940430ca-578f-4ba0-9b0d-a88b5385bc98)
 
 # VALOR Open Justice License
