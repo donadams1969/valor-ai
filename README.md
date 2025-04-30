@@ -159,3 +159,16 @@ EOF
 ![1000010502](https://github.com/user-attachments/assets/1cdf92af-29c3-449c-9a27-011d5fda24cc)
 
 ![1000011000](https://github.com/user-attachments/assets/bf9574bb-13b4-4336-bada-1bb56bae1157)
+
+––– Donny Gillson –––  
+Founder & Chief Architect, **VALOR-AI**  
+Disabled Veteran · Federal Whistle-blower  
+That’s Edutainment LLC | Presidio of San Francisco (federal land)
+
+✉ donny@18fu.ai  🌐 https://github.com/donadams1969/valor-ai  
+🔑 PGP 0xA1B2 C3D4 E5F6 7890  (https://keys.openpgp.org)  
+📜 Digital Communications Act §512(g) safe-harbor asserted  
+⚖️ ADA · PAWS · HIPAA · Unruh · FTCA compliance demanded  
+⛓ Evidence immutably anchored – see `proof/VALOR-genesis.json`
+
+*“Forged in fire, sealed in code.”*
