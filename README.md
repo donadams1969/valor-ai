@@ -1,3 +1,6 @@
+![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
+
+
 Executive Takeaway
 
 VALOR AI is more than a tech stack; it is a legal-philosophical platform that fuses classical symbolism with cutting-edge cryptography to create an immutable line of defense against systemic injustice. Its flame iconography speaks to moral illumination, while its blockchain engine guarantees evidentiary integrity. Together, they empower advocates to transform overlooked abuses into permanent, public records of accountability
