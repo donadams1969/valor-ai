@@ -125,11 +125,3 @@ _Update both values, then run `python verify.py proof/VALOR-genesis.json` to cro
 | ORCID | `https://orcid.org/0009-0007-0768-5486` |
 
 EOF
-```
-
-### Next moves
-1. **Copy–paste** the Markdown into a new `README.md` (or nested doc) and commit.  
-2. Replace both `<pending-post-commit>` hashes after you tag the commit, then update the badge URL to something like [shields.io/badge/Genesis%20Hash-`YOURHASH`-green].  
-3. Push, sign, and watch the repo light up for every audience—auditors, investors, junior devs—without extra explanation.
-
-Ping me when you’re ready to tighten the tokenomics or need the hash-badge snippet.
