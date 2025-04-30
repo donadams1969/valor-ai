@@ -33,8 +33,25 @@ VALOR-AI • Blockchain-Sealed Evidence Engine
 
 bash
 1. Clone the repo
-git clone https://github.com/donadams1969/valor-ai.git
-cd valor-ai
+git clone https://github.com/donadams1969/valor-ai.gitcd valor-ai
 
 2. Run the verification script
-python verify.py proof/VALOR-genesis.json
+python verify.pyproof/VALOR-genesis.json
+
+genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
+
+timestamp: 2024-04-24T16:26:28Z
+
+creator: Donny Gillson
+
+organization: That's Edutainment, LLC
+
+protocol: VALOR-AI Genesis
+
+valorchain_node: GENESIS-BLOCK-001
+
+evidence_lock:https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST
+
+license: VALOR Open Justice License
+
+
