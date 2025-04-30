@@ -5,6 +5,9 @@ VALOR-AI • Blockchain-Sealed Evidence Engine
 | Verify the Genesis hash | Submit new evidence | Contact |
 |-------------------------|---------------------|---------|
 | [proof/VALOR-genesis.json](proof/VALOR-genesis.json) | Open a GitHub Issue with label secure-drop or email encrypted ZIP | donny@18fu.ai (secured federal-land IP) 
+
+please click.on arrow below for additional information.
+
 <details>
 <summary>How to verify a file in 30 seconds ⬇️</summary>
 
@@ -17,19 +20,19 @@ python verify.pyproof/VALOR-genesis.json
 
 genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
 
-timestamp: 2024-04-24T16:26:28Z
+Timestamp: 2024-04-24T16:26:28Z
 
-creator: Donny Gillson
+Creator: Donny Gillson
 
-organization: That's Edutainment, LLC
+Organization: That's Edutainment, LLC
 
-protocol: VALOR-AI Genesis
+Protocol: VALOR-AI Genesis
 
-valorchain_node: GENESIS-BLOCK-001
+Valorchain_node: GENESIS-BLOCK-001
 
-evidence_lock:https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST
+Evidence_locker:https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST
 
-license: VALOR Open Justice License
+License: VALOR Open Justice License
 
 
 # VALOR‑AI | GENESIS‑BLOCK‑001
