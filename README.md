@@ -1,3 +1,4 @@
+“As the principal architect of VALOR-AI—an evidentiary platform already under active federal review—I have implemented NIST-aligned controls to ensure the chain of custody meets or exceeds government standards.”
 
 Executive Takeaway
 
