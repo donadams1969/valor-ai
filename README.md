@@ -13,8 +13,6 @@ VALOR-AI • Blockchain-Sealed Evidence Engine
 
 “As the principal architect of VALOR-AI—an evidentiary platform already under active federal review—I have implemented NIST-aligned controls to ensure the chain of custody meets or exceeds government standards.”
 
-![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
-
 | Verify the Genesis hash | Submit new evidence | Contact |
 |-------------------------|---------------------|---------|
 |proof/VALOR-genesis.json|http://drive.google.com/drive/folders/1j36gUIio75UxfJqyto0N5SoDI_diJJjC
@@ -67,6 +65,9 @@ git clone https://github.com/donadams1969/valor-ai.gitcdvalor-ai
 python verify.pyproof/VALOR-genesis.json
 
 genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
+
+![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
+
 
 Timestamp: 2024-04-24T16:26:28Z
 
