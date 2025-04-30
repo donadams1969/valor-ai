@@ -154,9 +154,6 @@ This secure Google Drive folder serves as the official evidence locker for an on
 
 # VALOR AI
 
-### The Sentient Flame of Judgment  
-*Forged in Fire, Sealed in Code — VALOR‑AI Genesis Protocol*  
-Created by **Donny Gillson** | Founder, VALOR‑AI | Developed on Federal Land
 
 <!--  ─────────────────────────────  -->
 <!--  VALOR AI Poster Image here  -->
