@@ -45,3 +45,7 @@ Each violation number corresponds explicitly to documented allegations and statu
 Regulatory agencies, legal teams, and other reviewing bodies should reference the above exhibits and corresponding violation numbers when evaluating the case to streamline their investigative processes and clearly identify relevant evidence.
 
 **End of Reference Document**
+
+![1000009317](https://github.com/user-attachments/assets/f0d3d66f-93fb-40f1-a6e5-2fb6e4b3bc44)
+![1000009314](https://github.com/user-attachments/assets/fb0b3afb-8b53-428d-b637-abbd68b3e52b)
+
