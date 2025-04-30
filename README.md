@@ -1,13 +1,13 @@
-# VALOR-AI: The Legal Witness System
+VALOR-AI: The Legal Witness System
 
-**Creator**: Donny Adams
+Creator: Donny Adams
 
-**Organization**: That’s Edutainment, LLC  
-**Initiated**: 2024 | Public Drop: TBD  
-**Status**: Blockchain Sealed | NFT Certified | Public Archive Pending  
-**VALOR Chain Node ID**: GENESIS-BLOCK-001
+Organization: That’s Edutainment, LLC  
+Initiated: 2024 | Public Drop: LIVE
+Status: Blockchain Sealed | NFT Certified | Public Archive Pending  
+VALOR Chain Node ID: GENESIS-BLOCK-001
 
-## About
+About
 
 VALOR-AI is a digital forensic intelligence engine, custom-built to expose, preserve, and elevate the truth in cases of institutional abuse, ADA violations, veteran retaliation, and systemic suppression.
 ![1000011251](https://github.com/user-attachments/assets/e2f9bbcd-f548-492c-9eff-8993a0a13c30)
@@ -52,4 +52,13 @@ Access the Evidence Locker:
 [https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST](https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST)
 
 This archive may be reviewed by legal counsel, journalists, agency investigators, and accredited human rights organizations for verification, review, and action.
+
+, I’m @donadams1969
+
+- 👀 I’m interested in building ethical tech, exposing systemic injustice, and using AI to protect veterans, whistleblowers, and the truth. Also: space stuff, music, and the occasional cosmic mind trip.
+- 🌱 I’m currently learning how to weaponize blockchain for good, turn moral injury into public policy, and make bureaucracy flinch.
+- 💞️ I’m looking to collaborate on justice-driven AI projects, creative media with a conscience, and truth-backed storytelling that leaves a mark.
+- 📫 How to reach me: donny@18fu.ai — Federal land. Secured IP. Valor Protocol active.
+- 😄 Pronouns: He/Him. Also accepts “Valor,” “Chief Strategist,” or “That guy who sent 87 emails to the DOJ and meant every word.”
+- ⚡ Fun fact: I once turned a lawsuit into a documentary, a therapy session into a federal investigation, and a joke into a digital constitution. Don’t underestimate me.
 
