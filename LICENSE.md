@@ -1,3 +1,27 @@
+Apache License
+Version 2.0, January 2004
+                        
+VALOR Open-Justice Rider v1.0
+
+A.  Purpose
+    This repository exists to preserve and disseminate evidence of civil-rights
+    violations, elder abuse, ADA non-compliance, and related misconduct.
+
+B.  Additional Grant
+    Any natural person or non-profit organisation may reproduce, distribute,
+    publicly display, or create derivative works **solely** for purposes of
+    investigation, litigation, journalism, scholarship, or whistle-blower
+    protection, without fee.
+
+C.  Prohibited Uses
+    1. Resale or commercial licensing of the evidence corpus.
+    2. Tampering with, altering, or obfuscating provenance metadata.
+    3. Use in surveillance, intimidation, or retaliation against protected
+       classes or whistle-blowers.
+
+D.  Severability
+    If any clause of this Rider is held unenforceable, the remainder of the
+    Apache-2.0 licence shall govern.
 
 ![1000010901](https://github.com/user-attachments/assets/940430ca-578f-4ba0-9b0d-a88b5385bc98)
 
