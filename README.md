@@ -10,7 +10,7 @@ VALOR-AI • Blockchain-Sealed Evidence Engine
 
 bash
 1. Clone the repo
-git clone https://github.com/donadams1969/valor-ai.gitcd valor-ai
+git clone https://github.com/donadams1969/valor-ai.gitcdvalor-ai
 
 2. Run the verification script
 python verify.pyproof/VALOR-genesis.json
