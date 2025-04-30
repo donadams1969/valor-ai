@@ -86,6 +86,7 @@ genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
 Timestamp: 2024-04-24T16:26:28Z
 
 Creator: Donny Gillson
+email: donny@18fu.ai
 
 Organization: That's Edutainment, LLC
 
