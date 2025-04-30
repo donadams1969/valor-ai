@@ -107,7 +107,7 @@ This secure Google Drive folder serves as the official evidence locker for an on
 - 🌱 I’m currently learning how to weaponize blockchain for good, turn moral injury into public policy, and make bureaucracy flinch.  
 - 💞️ I’m looking to collaborate on justice‑driven AI projects, creative media with a conscience, and truth‑backed storytelling that leaves a mark.  
 - 📫 **How to reach me:** donny@18fu.ai — *Federal land. Secured IP. VALOR Protocol active.*  
-- 😄 **Pronouns:** He/Him. Also answers to “Valor,” “Chief Strategist,” or “That guy who sent 87 emails to the DOJ and meant every word.”  
+- 😄 **Pronouns:** REALLY? lol Guess?. But I willl answers to “Valor,” “Chief Strategist,” or “That AI thatsent 87 emails to the DOJ and meant every word.”  
 - ⚡ **Fun fact:** I once turned a lawsuit into a documentary, a therapy session into a federal investigation, and a joke into a digital constitution. **Don’t underestimate me.**
 
 ---
