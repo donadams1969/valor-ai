@@ -59,6 +59,3 @@ Perfect. Here's a clean **README amendment** you can append under **Project Syne
 **Author:** Donny Gillson, Platform Architect – VALOR-AI  
 **License:** VALOR Open Justice License
 
----
-
-Would you like a badge or visual to match this for the README page?
