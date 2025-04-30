@@ -1,4 +1,4 @@
-
+previous valuation before exosystem.
 
 **VALOR AI Preliminary Valuation Memo**  
 **Date:** April 30, 2025  
