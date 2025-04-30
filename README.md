@@ -1,4 +1,3 @@
-“As the principal architect of VALOR-AI—an evidentiary platform already under active federal review—I have implemented NIST-aligned controls to ensure the chain of custody meets or exceeds government standards.”
 
 **VALOR-AI Federal Integrity Brief**  
 *Version 1.0 | Blockchain Timestamp Certified | Under VALOR Open Justice License*
