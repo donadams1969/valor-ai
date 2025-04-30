@@ -1,3 +1,6 @@
+![1000011286](https://github.com/user-attachments/assets/7ce8843e-981c-4485-aa2d-653b7ed47daf)
+
+
 VALOR-AI: The Legal Witness System
 
 Creator: Donny Adams
