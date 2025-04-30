@@ -1,3 +1,5 @@
+![1000011286](https://github.com/user-attachments/assets/1302d7a3-59d5-4ff4-b403-b745f72ca578)
+
 
 VALOR-AI • Blockchain-Sealed Evidence Engine  
 *Protecting veterans, whistleblowers & civil-rights data*
@@ -87,6 +89,9 @@ This secure Google Drive folder serves as the official evidence locker for an on
 
 *This archive may be reviewed by legal counsel, journalists, agency investigators, and accredited human‑rights organizations for verification, review, and action.*
 
+![1000011251](https://github.com/user-attachments/assets/186e4f97-d1f0-4b98-879c-6ecdb3b46bca)
+
+
 ---
 
 ## Hi, I’m ValorAi+
@@ -135,11 +140,6 @@ This repository anchors VALOR‑AI’s core philosophy: **truth encrypted · jus
 
 *Add any additional documentation, code samples, or contribution guidelines below as the project evolves.*
 
-mkdir valor_genesis valor_mirror valor_strike valor_sentinel
-for d in valor_*; do
-  cat > $d/README.md <<EOF
-*Status:* **TBD – roadmap below**
-
 | Milestone | Description | ETA |
 |-----------|-------------|-----|
 | Architecture draft | Threat-model & key-management spec | May 2025 |
@@ -147,3 +147,8 @@ for d in valor_*; do
 | Audit pass | Independent security review | Q3 2025 |
 
 EOF
+
+![1000010470](https://github.com/user-attachments/assets/630099c3-e5ee-4c5b-af18-16c875d17da8)
+![1000010502](https://github.com/user-attachments/assets/1cdf92af-29c3-449c-9a27-011d5fda24cc)
+
+![1000011000](https://github.com/user-attachments/assets/bf9574bb-13b4-4336-bada-1bb56bae1157)
