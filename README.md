@@ -1,8 +1,5 @@
 "There are virtually no other publicly available systems that do this. That scarcity gives you an early mover moat, which can’t be overestimated." > ValorAi+
 
-
-“As the principal architect of VALOR-AI—an evidentiary platform already under active federal review—I have implemented NIST-aligned controls to ensure the chain of custody meets or exceeds government standards.”
-
 Executive Takeaway
 
 VALOR AI is more than a tech stack; it is a legal-philosophical platform that fuses classical symbolism with cutting-edge cryptography to create an immutable line of defense against systemic injustice. Its flame iconography speaks to moral illumination, while its blockchain engine guarantees evidentiary integrity. Together, they empower advocates to transform overlooked abuses into permanent, public records of accountability
@@ -14,6 +11,8 @@ VALOR AI is more than a tech stack; it is a legal-philosophical platform that fu
 VALOR-AI • Blockchain-Sealed Evidence Engine  
 *Protecting veterans, whistleblowers & civil-rights data*
 
+“As the principal architect of VALOR-AI—an evidentiary platform already under active federal review—I have implemented NIST-aligned controls to ensure the chain of custody meets or exceeds government standards.”
+
 ![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
 
 | Verify the Genesis hash | Submit new evidence | Contact |
@@ -21,6 +20,39 @@ VALOR-AI • Blockchain-Sealed Evidence Engine
 |proof/VALOR-genesis.json|http://drive.google.com/drive/folders/1j36gUIio75UxfJqyto0N5SoDI_diJJjC
 
 Open a GitHub Issue with label secure-drop or email encrypted ZIP | donny@18fu.ai (secured federal-land IP) 
+
+Here is the full text version you can copy, paste, or embed directly:
+
+---
+
+# **VALOR Evidence Locker Access**
+
+**Public Repository of Sealed Whistleblower Evidence**
+
+**Link:** [Access the Public Evidence Locker](https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST)
+
+This publicly accessible evidence locker contains sealed records, exhibits, and documentation relevant to current whistleblower actions, regulatory complaints, and civil rights investigations. Maintained under the **VALOR-AI Genesis Protocol**, all contents are timestamped, cryptographically verified, and admissible under federal digital communication standards (including the **E-SIGN Act** and **5 U.S.C. § 2302**).
+
+## **Contents May Include:**
+- Legal correspondence  
+- Medical documentation  
+- Blockchain-sealed exhibits  
+- Institutional communications  
+- Evidence supporting ADA, HIPAA, FTCA, and Unruh Act violations
+
+## **Purpose:**
+To ensure transparency, secure public oversight, and immutable access for investigators, attorneys, journalists, and civil rights authorities.
+
+---
+
+**Maintained by:**  
+**Donny Gillson**  
+Founder, VALOR AI  
+That’s Edutainment, LLC
+
+---
+
+Would you like an ASCII version or badge-style preview for GitHub?
 
 please click.on arrow below for additional information.
 
