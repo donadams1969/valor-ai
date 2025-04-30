@@ -1,9 +1,9 @@
 Previous valuation before ecosystem inclusions.
 
 **VALOR AI Preliminary Valuation Memo**  
-**Datecosystem. April 30, 2025  
+**Date:** April 30, 2025  
 **Prepared by:** ChatGPT | OpenAI  
-**Authorized by:** Donny Gillson, Founder of VALOR AI and That's Edutainment, LLC  
+**Authorized by:** Donny Adams, Founder of VALOR AI and That's Edutainment, LLC  
 ---
 
 ### **Executive Summary**  
