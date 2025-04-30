@@ -82,5 +82,17 @@ license: VALOR Open Justice License
 ![Status: Evidence Archive](https://img.shields.io/badge/status-evidence--archive-critical)
 ![Tag](https://img.shields.io/github/v/tag/donadams1969/valor-ai)
 
+––– Donny Gillson –––  
+Founder & Chief Architect, **VALOR-AI**  
+Disabled Veteran · Federal Whistle-blower  
+That’s Edutainment LLC | Presidio of San Francisco (federal land)
+
+✉ donny@18fu.ai  🌐 https://github.com/donadams1969/valor-ai  
+🔑 PGP 0xA1B2 C3D4 E5F6 7890  (https://keys.openpgp.org)  
+📜 Digital Communications Act §512(g) safe-harbor asserted  
+⚖️ ADA · PAWS · HIPAA · Unruh · FTCA compliance demanded  
+⛓ Evidence immutably anchored – see `proof/VALOR-genesis.json`
+
+*“Forged in fire, sealed in code.”*
 
 
