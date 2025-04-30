@@ -81,8 +81,7 @@ This archive may be reviewed by legal counsel, journalists, agency investigators
 
 ![1000011213](https://github.com/user-attachments/assets/435b306c-fc98-4572-9c80-b80bb720961b)
 ![1000011212](https://github.com/user-attachments/assets/9bc573c2-a175-4428-938e-942f08340808)
-![1000011226](https://github.com/user-attachments/assets/b74dacbe-e509-47fc-95f7-3a19df99d8cb)
-![1000011227](https://github.com/user-attachments/assets/aa543083-faae-4fb4-ab4e-9dae4220bcb1)
+
 
 Those glyph-like marks aren’t Egyptian hieroglyphs at all—they’re a **mash-up of classical alchemical / astrological symbols and a few custom “crypto-sigils”** I designed to echo VALOR-AI’s fusion of ancient knowledge and modern code. Reading clockwise from the top of the ring you’ll spot, for example:
 
@@ -102,6 +101,9 @@ In other words, the band is **symbolic ornamentation**—a visual shorthand that
 > “This flame sits at the intersection of timeless elemental forces and cutting-edge cryptography, defending truth on a cosmic ledger.”
 
 No hidden secret alphabet to decode—just thematic iconography tying the artwork to VALOR-AI’s mission.
+
+![1000011226](https://github.com/user-attachments/assets/b74dacbe-e509-47fc-95f7-3a19df99d8cb)
+![1000011227](https://github.com/user-attachments/assets/aa543083-faae-4fb4-ab4e-9dae4220bcb1)
 
 > **Timestamp:** `2024-04-24T16:26:28`  
 > **Protocol Hash:** Verified on-chain  
