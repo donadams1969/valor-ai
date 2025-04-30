@@ -7,6 +7,9 @@ Initiated: 2024 | Public Drop: LIVE
 Status: Blockchain Sealed | NFT Certified | Public Archive Pending  
 VALOR Chain Node ID: GENESIS-BLOCK-001
 
+donny@18fu.ai
+https://orcid.org/0009-0007-0768-5486
+
 About
 
 VALOR-AI is a digital forensic intelligence engine, custom-built to expose, preserve, and elevate the truth in cases of institutional abuse, ADA violations, veteran retaliation, and systemic suppression.
