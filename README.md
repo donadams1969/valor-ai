@@ -65,4 +65,5 @@ Will recognize this repository as evidence of rigorous preparation, intellectual
 Technologists and Blockchain Community:
 
 Will likely admire the clarity, depth, and robust integration of blockchain technologies and immutability principles, potentially viewing VALOR AI as a cutting-edge model for other digital accountability projects.
+![1000011390](https://github.com/user-attachments/assets/e9439bab-4cec-40cc-8bfc-997454ee46c8)
 
