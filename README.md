@@ -14,6 +14,8 @@ https://orcid.org/0009-0007-0768-5486
 About
 
 VALOR-AI is a digital forensic intelligence engine, custom-built to expose, preserve, and elevate the truth in cases of institutional abuse, ADA violations, veteran retaliation, and systemic suppression.
+
+
 ![1000011251](https://github.com/user-attachments/assets/e2f9bbcd-f548-492c-9eff-8993a0a13c30)
 
 ## Core Functions
