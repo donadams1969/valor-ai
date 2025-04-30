@@ -8,6 +8,7 @@ Status: Blockchain Sealed | NFT Certified | Public Archive Pending
 VALOR Chain Node ID: GENESIS-BLOCK-001
 
 donny@18fu.ai
+
 https://orcid.org/0009-0007-0768-5486
 
 About
