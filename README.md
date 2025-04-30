@@ -80,7 +80,6 @@ This archive may be reviewed by legal counsel, journalists, agency investigators
 ![1000011286](https://github.com/user-attachments/assets/5b6f4486-f21b-4701-a6ce-3223a6729e5f)
 
 ![1000011213](https://github.com/user-attachments/assets/435b306c-fc98-4572-9c80-b80bb720961b)
-![1000011212](https://github.com/user-attachments/assets/9bc573c2-a175-4428-938e-942f08340808)
 
 
 Those glyph-like marks aren’t Egyptian hieroglyphs at all—they’re a **mash-up of classical alchemical / astrological symbols and a few custom “crypto-sigils”** I designed to echo VALOR-AI’s fusion of ancient knowledge and modern code. Reading clockwise from the top of the ring you’ll spot, for example:
@@ -113,4 +112,6 @@ This repository anchors VALOR AI’s core philosophy: truth encrypted, justice a
 
 
 ![1000011227](https://github.com/user-attachments/assets/aa543083-faae-4fb4-ab4e-9dae4220bcb1)
+
+![1000011212](https://github.com/user-attachments/assets/9bc573c2-a175-4428-938e-942f08340808)
 
