@@ -38,3 +38,18 @@ This project operates under the VALOR Open Justice License — unrestricted publ
 donny18fu.ai 
 
 > Truth doesn’t fade. It gets timestamped.
+>Here’s a clear and professional statement you can include in your README:
+
+---
+
+**Evidence Locker – Active Whistleblower Disclosure**
+
+This secure Google Drive folder serves as the official evidence locker for an ongoing federal and state-level whistleblower case involving civil rights violations, ADA non-compliance, elder abuse, and retaliation. All files are time-stamped, blockchain-authenticated, and maintained under the protection of the 
+
+VALOR AI legal infrastructure.
+
+Access the Evidence Locker: 
+[https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST](https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST)
+
+This archive may be reviewed by legal counsel, journalists, agency investigators, and accredited human rights organizations for verification, review, and action.
+
