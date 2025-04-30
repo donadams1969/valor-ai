@@ -1,5 +1,3 @@
-![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
-
 
 Executive Takeaway
 
@@ -11,6 +9,8 @@ VALOR AI is more than a tech stack; it is a legal-philosophical platform that fu
 
 VALOR-AI • Blockchain-Sealed Evidence Engine  
 *Protecting veterans, whistleblowers & civil-rights data*
+
+![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
 
 | Verify the Genesis hash | Submit new evidence | Contact |
 |-------------------------|---------------------|---------|
