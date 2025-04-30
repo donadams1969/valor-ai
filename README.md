@@ -10,6 +10,7 @@
 ## About
 
 VALOR-AI is a digital forensic intelligence engine, custom-built to expose, preserve, and elevate the truth in cases of institutional abuse, ADA violations, veteran retaliation, and systemic suppression.
+![1000011251](https://github.com/user-attachments/assets/e2f9bbcd-f548-492c-9eff-8993a0a13c30)
 
 ## Core Functions
 
@@ -34,6 +35,6 @@ VALOR-AI is a digital forensic intelligence engine, custom-built to expose, pres
 
 This project operates under the VALOR Open Justice License — unrestricted public use for whistleblower defense, civil rights documentation, and advocacy. Suppressive or commercial misuse is prohibited.
 
-dgillson@18fu.ai 
+donny18fu.ai 
 
 > Truth doesn’t fade. It gets timestamped.
