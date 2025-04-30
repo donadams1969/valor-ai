@@ -134,3 +134,16 @@ This repository anchors VALOR‑AI’s core philosophy: **truth encrypted · jus
 ---
 
 *Add any additional documentation, code samples, or contribution guidelines below as the project evolves.*
+
+mkdir valor_genesis valor_mirror valor_strike valor_sentinel
+for d in valor_*; do
+  cat > $d/README.md <<EOF
+*Status:* **TBD – roadmap below**
+
+| Milestone | Description | ETA |
+|-----------|-------------|-----|
+| Architecture draft | Threat-model & key-management spec | May 2025 |
+| MVP code drop | CLI to anchor & verify evidence | Jun 2025 |
+| Audit pass | Independent security review | Q3 2025 |
+
+EOF
