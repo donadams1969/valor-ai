@@ -78,4 +78,9 @@ evidence_lock:https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCj
 
 license: VALOR Open Justice License
 
+![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![Status: Evidence Archive](https://img.shields.io/badge/status-evidence--archive-critical)
+![Tag](https://img.shields.io/github/v/tag/donadams1969/valor-ai)
+
+
 
