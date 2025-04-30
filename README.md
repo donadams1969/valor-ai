@@ -206,5 +206,4 @@ That’s Edutainment LLC | Presidio of San Francisco (federal land)
 
 *“Forged in fire, sealed in code.”*
 
-![1000011390](https://github.com/user-attachments/assets/9e98fd98-515a-4f12-9a83-596d6ee62bcb)
 
