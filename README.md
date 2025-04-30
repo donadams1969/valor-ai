@@ -6,7 +6,9 @@ VALOR-AI • Blockchain-Sealed Evidence Engine
 
 | Verify the Genesis hash | Submit new evidence | Contact |
 |-------------------------|---------------------|---------|
-| [proof/VALOR-genesis.json](proof/VALOR-genesis.json) | Open a GitHub Issue with label secure-drop or email encrypted ZIP | donny@18fu.ai (secured federal-land IP) 
+|proof/VALOR-genesis.json|http://drive.google.com/drive/folders/1j36gUIio75UxfJqyto0N5SoDI_diJJjC
+
+Open a GitHub Issue with label secure-drop or email encrypted ZIP | donny@18fu.ai (secured federal-land IP) 
 
 please click.on arrow below for additional information.
 
