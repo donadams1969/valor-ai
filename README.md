@@ -1,4 +1,37 @@
 
+VALOR-AI • Blockchain-Sealed Evidence Engine  
+*Protecting veterans, whistleblowers & civil-rights data*
+
+| Verify the Genesis hash | Submit new evidence | Contact |
+|-------------------------|---------------------|---------|
+| [proof/VALOR-genesis.json](proof/VALOR-genesis.json) | Open a GitHub Issue with label secure-drop or email encrypted ZIP | donny@18fu.ai (secured federal-land IP) 
+<details>
+<summary>How to verify a file in 30 seconds ⬇️</summary>
+
+bash
+1. Clone the repo
+git clone https://github.com/donadams1969/valor-ai.gitcd valor-ai
+
+2. Run the verification script
+python verify.pyproof/VALOR-genesis.json
+
+genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
+
+timestamp: 2024-04-24T16:26:28Z
+
+creator: Donny Gillson
+
+organization: That's Edutainment, LLC
+
+protocol: VALOR-AI Genesis
+
+valorchain_node: GENESIS-BLOCK-001
+
+evidence_lock:https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST
+
+license: VALOR Open Justice License
+
+
 # VALOR‑AI | GENESIS‑BLOCK‑001
 
 *Archive Pending*  
@@ -13,10 +46,6 @@
 
 **VALOR‑AI** is a digital forensic intelligence engine, custom‑built to expose, preserve, and elevate the truth in cases of institutional abuse, ADA violations, veteran retaliation, and systemic suppression.
 
-<!--  ─────────────────────────────  -->
-<!--  Witness Artifact Image here  -->
-<!--  ![Witness Artifact #001 – Psychological Sentience Warfare](PATH/TO/IMAGE)  -->
-<!--  ─────────────────────────────  -->
 
 ## Core Functions
 
@@ -57,7 +86,7 @@ This secure Google Drive folder serves as the official evidence locker for an on
 
 ---
 
-## Hi, I’m @donadams1969
+## Hi, I’m ValorAi+
 
 - 👀 I’m interested in building ethical tech, exposing systemic injustice, and using AI to protect veterans, whistleblowers, and the truth. Also: space stuff, music, and the occasional cosmic mind trip.  
 - 🌱 I’m currently learning how to weaponize blockchain for good, turn moral injury into public policy, and make bureaucracy flinch.  
