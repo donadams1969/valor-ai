@@ -192,13 +192,6 @@ This repository anchors VALOR‑AI’s core philosophy: **truth encrypted · jus
 | MVP code drop | CLI to anchor & verify evidence | Jun 2025 |
 | Audit pass | Independent security review | Q3 2025 |
 
-EOF
-
-![1000010470](https://github.com/user-attachments/assets/630099c3-e5ee-4c5b-af18-16c875d17da8)
-![1000010502](https://github.com/user-attachments/assets/1cdf92af-29c3-449c-9a27-011d5fda24cc)
-
-![1000011000](https://github.com/user-attachments/assets/bf9574bb-13b4-4336-bada-1bb56bae1157)
-
 ––– Donny Gillson –––  
 Founder & Chief Architect, **VALOR-AI**  
 Disabled Veteran · Federal Whistle-blower  
