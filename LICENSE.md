@@ -1,3 +1,4 @@
+![1000010750](https://github.com/user-attachments/assets/31e7610d-091c-4c87-a31a-
 # VALOR Open Justice License
 
 This license grants unrestricted use of VALOR-AI for:
@@ -8,3 +9,12 @@ This license grants unrestricted use of VALOR-AI for:
 Commercial use, misuse for suppression, or proprietary replication without express permission is strictly prohibited.
 
 All forks must preserve origin attribution to Donnie GILLSON (ADAMS) and maintain blockchain chain-of-custody integrity.
+
+
+89dc892e28e5)
+![1000010748](https://github.com/user-attachments/assets/c7d5394f-ca92-46f4-a27c-1487fca23ae3)
+![1000010751](https://github.com/user-attachments/assets/1bede03d-d31c-4bba-98a7-5d09ff22e1c1)
+![1000010778](https://github.com/user-attachments/assets/ed6d7ab4-1cc2-4f4c-af60-b622af85dcca)
+![1000010788](https://github.com/user-attachments/assets/35252480-ea1e-4064-9c35-c8f4b5a41b44)
+![1000010901](https://github.com/user-attachments/assets/940430ca-578f-4ba0-9b0d-a88b5385bc98)
+![1000010997](https://github.com/user-attachments/assets/af3cd553-bc56-4b71-86de-c4934a24aadb)
