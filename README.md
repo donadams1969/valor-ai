@@ -2,7 +2,6 @@
 [![Project Synergy v0.1](https://img.shields.io/badge/Project%20Synergy-0.1-green.svg)](README.md#project-synergy--amendment-ai-simulation-script-valuation-and-function)
 
 
-
 "There are virtually no other publicly available systems that do this. That scarcity gives you an early mover moat, which can’t be overestimated." > ValorAi+
 
 Executive Takeaway
