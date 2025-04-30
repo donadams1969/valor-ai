@@ -13,8 +13,6 @@ Commercial use, misuse for suppression, or proprietary replication without expre
 All forks must preserve origin attribution to Donnie GILLSON (ADAMS) and maintain blockchain chain-of-custody integrity.
 
 
-![1000010748](https://github.com/user-attachments/assets/c7d5394f-ca92-46f4-a27c-1487fca23ae3)
-
 ![1000010778](https://github.com/user-attachments/assets/ed6d7ab4-1cc2-4f4c-af60-b622af85dcca)
 
 ![1000010997](https://github.com/user-attachments/assets/af3cd553-bc56-4b71-86de-c4934a24aadb)
