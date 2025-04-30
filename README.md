@@ -1,3 +1,5 @@
+
+[![Codecov](https://codecov.io/gh/donadams1969/valor-ai/branch/main/graph/badge.svg)](https://app.codecov.io/gh/donadams1969/valor-ai)
 ![1000011286](https://github.com/user-attachments/assets/1302d7a3-59d5-4ff4-b403-b745f72ca578)
 
 
