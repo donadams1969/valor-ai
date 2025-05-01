@@ -1,3 +1,7 @@
+![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
+![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
+
+
 VALOR field theory? = “Wait—he’s merging symbolic logic, ethics, and system design?”
 
 Conclusion:
