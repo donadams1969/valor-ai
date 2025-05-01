@@ -58,7 +58,8 @@ To ensure transparency, secure public oversight, and immutable access for invest
 ---
 
 **Maintained by:**  
-**Donny Gillson**  
+**Donny Adams**
+donny@18fu.ai 
 Founder, VALOR AI  
 That’s Edutainment, LLC
 
