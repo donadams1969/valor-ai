@@ -25,7 +25,7 @@ from datetime import datetime, timezone
 
 
 def sha256(path: Path) -> str:
-    """Compute SHA-256 digest of a file."""
+    Compute SHA-256 digest of a file.
     hasher = hashlib.sha256()
     with path.open('rb') as file:
         while chunk := file.read(8192):
@@ -34,7 +34,7 @@ def sha256(path: Path) -> str:
 
 
 def load_manifest(manifest_path: Path) -> dict:
-    """Load and parse the JSON manifest file."""
+    Load and parse the JSON manifest file.
     try:
         return json.loads(manifest_path.read_text(encoding='utf-8'))
     except json.JSONDecodeError as err:
@@ -44,7 +44,7 @@ def load_manifest(manifest_path: Path) -> dict:
 
 
 def validate_timestamp(ts: str) -> None:
-    """Validate RFC3339 timestamp; issue warnings if timestamp is invalid or in the future."""
+    Validate RFC3339 timestamp; issue warnings if timestamp is invalid or in the future.
     try:
         timestamp = datetime.fromisoformat(ts.replace('Z', '+00:00'))
         if timestamp > datetime.now(timezone.utc):
@@ -54,7 +54,7 @@ def validate_timestamp(ts: str) -> None:
 
 
 def verify_files(manifest: dict, targets: list[Path]) -> bool:
-    """Verify file hashes based on the provided manifest."""
+    Verify file hashes based on the provided manifest.
     all_valid = True
     manifest_files = {Path(entry['path']): entry['sha256'] for entry in manifest.get('files', [])}
 
@@ -81,7 +81,7 @@ def verify_files(manifest: dict, targets: list[Path]) -> bool:
 
 
 def verify_manifest_integrity(manifest: dict, manifest_path: Path) -> bool:
-    """Check if manifest's recorded hash matches its actual SHA-256 digest."""
+    Check if manifest's recorded hash matches its actual SHA-256 digest.
     recorded_hash = manifest.get('genesis_hash', '').removeprefix('sha256:')
     actual_hash = sha256(manifest_path)
 
