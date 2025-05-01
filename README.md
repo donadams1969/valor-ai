@@ -5,15 +5,15 @@
 """
 verify.py – VALOR AI evidence-hash verifier
 
-CLI utility that reads a `VALOR-genesis.json` (or any similarly
+CLI utility that reads a `VALOR-genesis.json` (or similarly
 formatted manifest) and verifies that every file listed in the manifest
-is present on disk **and** matches its recorded SHA-256 digest.
+is present on disk and matches its recorded SHA-256 digest.
 
 Usage:
-    valor-verify proof/VALOR-genesis.json         # verify all files
-    valor-verify proof/VALOR-genesis.json README.md  # subset
+    ./verify.py proof/VALOR-genesis.json              # verify all files
+    ./verify.py proof/VALOR-genesis.json README.md    # verify specific files
 
-Exit status 0 when all checks pass, 1 otherwise.
+Exit status: 0 when all checks pass, 1 otherwise.
 """
 
 import argparse
@@ -26,87 +26,88 @@ from datetime import datetime, timezone
 
 def sha256(path: Path) -> str:
     """Compute SHA-256 digest of a file."""
-    h = hashlib.sha256()
-    with path.open('rb') as f:
-        for chunk in iter(lambda: f.read(8192), b''):
-            h.update(chunk)
-    return h.hexdigest()
+    hasher = hashlib.sha256()
+    with path.open('rb') as file:
+        while chunk := file.read(8192):
+            hasher.update(chunk)
+    return hasher.hexdigest()
 
 
-def load_manifest(path: Path) -> dict:
-    """Load and parse the JSON manifest."""
+def load_manifest(manifest_path: Path) -> dict:
+    """Load and parse the JSON manifest file."""
     try:
-        return json.loads(path.read_text(encoding='utf-8'))
-    except Exception as e:
-        sys.exit(f"[FATAL] Unable to load manifest {path}: {e}")
+        return json.loads(manifest_path.read_text(encoding='utf-8'))
+    except json.JSONDecodeError as err:
+        sys.exit(f"[FATAL] JSON decoding error in {manifest_path}: {err}")
+    except OSError as err:
+        sys.exit(f"[FATAL] Error reading manifest {manifest_path}: {err}")
 
 
-def check_timestamp(ts: str) -> None:
-    """Validate RFC3339 timestamp; warn if future or malformed."""
+def validate_timestamp(ts: str) -> None:
+    """Validate RFC3339 timestamp; issue warnings if timestamp is invalid or in the future."""
     try:
-        dt = datetime.fromisoformat(ts.replace('Z', '+00:00'))
-        if dt > datetime.now(timezone.utc):
-            print(f"[WARN] Manifest timestamp is in the future: {ts}")
-    except Exception:
+        timestamp = datetime.fromisoformat(ts.replace('Z', '+00:00'))
+        if timestamp > datetime.now(timezone.utc):
+            print(f"[WARN] Manifest timestamp {ts} is in the future.")
+    except ValueError:
         print(f"[WARN] Invalid timestamp format: {ts}")
 
 
-def verify_manifest(manifest: Path, targets: list[Path]) -> bool:
-    data = load_manifest(manifest)
+def verify_files(manifest: dict, targets: list[Path]) -> bool:
+    """Verify file hashes based on the provided manifest."""
+    all_valid = True
+    manifest_files = {Path(entry['path']): entry['sha256'] for entry in manifest.get('files', [])}
 
-    # Self-integrity check
-    raw_hash = data.get('genesis_hash', '')
-    if raw_hash.startswith('sha256:'):
-        expected = raw_hash.split(':',1)[1]
-        actual = sha256(manifest)
-        if expected != actual:
-            print(f"[FAIL] Manifest hash mismatch!\n  expected {expected}\n  actual   {actual}")
-            return False
-
-    # Timestamp
-    if ts := data.get('timestamp'):
-        check_timestamp(ts)
-
-    # Build map of declared files
-    file_map = {Path(entry['path']): entry['sha256'] for entry in data.get('files', [])}
-
-    # Determine targets
-    check_paths = targets or list(file_map.keys())
-    all_ok = True
-
-    for p in check_paths:
-        if p not in file_map:
-            print(f"[WARN] '{p}' not in manifest; skipping.")
+    for path in targets or manifest_files.keys():
+        if path not in manifest_files:
+            print(f"[WARN] File '{path}' not listed in manifest; skipping.")
             continue
-        if not p.exists():
-            print(f"[FAIL] Missing: {p}")
-            all_ok = False
+
+        if not path.exists():
+            print(f"[FAIL] Missing file: {path}")
+            all_valid = False
             continue
-        expect = file_map[p]
-        actual = sha256(p)
-        if expect != actual:
-            print(f"[FAIL] {p} hash mismatch!\n  expected {expect}\n  actual   {actual}")
-            all_ok = False
+
+        expected_hash = manifest_files[path]
+        actual_hash = sha256(path)
+
+        if actual_hash != expected_hash:
+            print(f"[FAIL] Hash mismatch for {path}:\n  expected {expected_hash}\n  actual   {actual_hash}")
+            all_valid = False
         else:
-            print(f"[OK]   {p}")
-    return all_ok
+            print(f"[OK] Verified {path}")
+
+    return all_valid
+
+
+def verify_manifest_integrity(manifest: dict, manifest_path: Path) -> bool:
+    """Check if manifest's recorded hash matches its actual SHA-256 digest."""
+    recorded_hash = manifest.get('genesis_hash', '').removeprefix('sha256:')
+    actual_hash = sha256(manifest_path)
+
+    if recorded_hash and recorded_hash != actual_hash:
+        print(f"[FAIL] Manifest hash mismatch:\n  expected {recorded_hash}\n  actual   {actual_hash}")
+        return False
+
+    return True
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        prog='valor-verify',
-        description='Verify VALOR-AI evidence hashes via manifest.'
-    )
-    parser.add_argument('manifest', type=Path, help='Path to JSON manifest')
-    parser.add_argument('paths', nargs='*', type=Path, help='Specific file paths to check')
+    parser = argparse.ArgumentParser(description="Verify VALOR-AI evidence hashes.")
+    parser.add_argument('manifest', type=Path, help="Path to the VALOR-genesis.json manifest.")
+    parser.add_argument('paths', nargs='*', type=Path, help="Specific file paths to verify.")
     args = parser.parse_args()
 
-    success = verify_manifest(args.manifest, args.paths)
-    sys.exit(0 if success else 1)
+    manifest_data = load_manifest(args.manifest)
+    validate_timestamp(manifest_data.get('timestamp', ''))
+
+    manifest_ok = verify_manifest_integrity(manifest_data, args.manifest)
+    files_ok = verify_files(manifest_data, args.paths)
+
+    if not manifest_ok or not files_ok:
+        sys.exit(1)
+    sys.exit(0)
 
 
 if __name__ == '__main__':
     main()
-
-
-    
