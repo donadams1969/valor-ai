@@ -1,21 +1,16 @@
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
-#!/usr/bin/env python3
-"""
 VALOR AI Evidence Hash Verifier
 
 This CLI utility reads a `VALOR-genesis.json` manifest (or similarly structured manifest file),
 verifies that each file listed is present locally, and confirms each file matches its recorded SHA-256 hash.
 
 Usage:
-    ./verify.py proof/VALOR-genesis.json                # Verify all listed files
-    ./verify.py proof/VALOR-genesis.json README.md      # Verify specific files
-
+    ./verify.py proof/VALOR-genesis.json               
 Exit Codes:
     0 – All checks pass
     1 – Verification failed
-"""
 
 import argparse
 import hashlib
@@ -26,7 +21,7 @@ from datetime import datetime, timezone
 
 
 def compute_sha256(filepath: Path) -> str:
-    """Calculate and return SHA-256 hash of a given file."""
+    Calculate and return SHA-256 hash of a given file.
     hash_sha256 = hashlib.sha256()
     try:
         with filepath.open('rb') as file:
@@ -36,9 +31,8 @@ def compute_sha256(filepath: Path) -> str:
         sys.exit(f"[FATAL] Error reading {filepath}: {err}")
     return hash_sha256.hexdigest()
 
-
 def parse_manifest(manifest_file: Path) -> dict:
-    """Parse and load JSON data from the manifest file."""
+    Parse and load JSON data from the manifest file.
     try:
         return json.loads(manifest_file.read_text(encoding='utf-8'))
     except (json.JSONDecodeError, OSError) as err:
@@ -46,7 +40,7 @@ def parse_manifest(manifest_file: Path) -> dict:
 
 
 def check_timestamp(timestamp_str: str):
-    """Validate RFC3339 timestamp and warn if invalid or future-dated."""
+    Validate RFC3339 timestamp and warn if invalid or future-dated.
     try:
         parsed_timestamp = datetime.fromisoformat(timestamp_str.rstrip('Z')).replace(tzinfo=timezone.utc)
         if parsed_timestamp > datetime.now(timezone.utc):
@@ -54,9 +48,8 @@ def check_timestamp(timestamp_str: str):
     except ValueError:
         print(f"[WARN] Invalid timestamp format detected: {timestamp_str}")
 
-
 def verify_manifest_hash(manifest: dict, manifest_path: Path) -> bool:
-    """Ensure manifest's recorded hash matches its current SHA-256 hash."""
+    Ensure manifest's recorded hash matches its current SHA-256 hash.
     recorded_hash = manifest.get('genesis_hash', '').replace('sha256:', '')
     current_hash = compute_sha256(manifest_path)
 
@@ -67,9 +60,8 @@ def verify_manifest_hash(manifest: dict, manifest_path: Path) -> bool:
     print("[OK] Manifest hash verified.")
     return True
 
-
 def verify_files(manifest: dict, file_paths: list[Path]) -> bool:
-    """Check the SHA-256 hash for each listed file against the manifest."""
+    Check the SHA-256 hash for each listed file against the manifest.
     all_verified = True
     file_hashes = {Path(item['path']): item['sha256'] for item in manifest.get('files', [])}
 
@@ -95,7 +87,6 @@ def verify_files(manifest: dict, file_paths: list[Path]) -> bool:
             all_verified = False
 
     return all_verified
-
 
 def main():
     parser = argparse.ArgumentParser(description="VALOR AI Manifest File Hash Verifier")
