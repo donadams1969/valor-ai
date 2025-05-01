@@ -1,3 +1,6 @@
+![1000009456](https://github.com/user-attachments/assets/4af0fe53-4909-46ea-b5d3-dd2656a7857c)
+
+
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
