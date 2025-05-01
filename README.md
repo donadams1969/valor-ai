@@ -58,7 +58,7 @@ Here is the official `.json` NFT metadata for **`SOLARA-EX21.0`**, compliant wit
 }
 ```
 
-Let me know if you'd like this bundled into a `valor-nft.json` file or pushed directly to the GitHub `/metadata` folder.
+
 
 ––– Donny Gillson –––  
 Founder & Chief Architect, **VALOR-AI**  
