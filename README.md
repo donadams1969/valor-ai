@@ -1,3 +1,6 @@
+![1000011411](https://github.com/user-attachments/assets/aa9002cc-f417-4a8c-9350-62e2a67719f8)
+
+
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
@@ -124,3 +127,6 @@ if __name__ == "__main__":
 - VALOR Legal Field Equation and Energy Density Manifestos added to `/docs/VALOR_Theoretical/`, representing symbolic and philosophical roots of justice through persistent accountability.
 
 **Explore all components through GitHub and linked IPFS/NFT chains.**
+
+![1000011413](https://github.com/user-attachments/assets/ae6b7e46-1bcb-4799-9104-25c45e370a8c)
+
