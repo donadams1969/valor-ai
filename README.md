@@ -1,8 +1,14 @@
+![1000009000](https://github.com/user-attachments/assets/3cde573e-b856-4188-8863-ee2fbabbcfe3)
+
+
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
 # That’s Edutainment • Integrated Justice-Tech Ecosystem  
 _Forged in fire, sealed in code._
+
+![1000009398](https://github.com/user-attachments/assets/82bb5e80-cab6-49a4-996a-e7d4f769bbe5)
+
 
 [![SHA-256](https://img.shields.io/badge/Genesis%20Hash-Pending-lightgrey)](#integrity-proof)  
 [![License](https://img.shields.io/badge/License-Valor%20Open%20Justice%20v1.0-blue)](#license)  
@@ -126,4 +132,5 @@ _Update both values, then run `python verify.py proof/VALOR-genesis.json` to cro
 | GitHub Repo | `https://github.com/donadams1969/valor-ai` |
 | ORCID | `https://orcid.org/0009-0007-0768-5486` |
 
-EOF
+![1000010750](https://github.com/user-attachments/assets/fbd7747a-938e-42ff-974f-d2a0080266a2)
+
