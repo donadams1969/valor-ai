@@ -1,3 +1,6 @@
+![1000011226](https://github.com/user-attachments/assets/032a0d22-81cf-4553-b0a7-1d91eaca2485)
+
+
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
@@ -103,4 +106,6 @@ def create_payload(sender, recipient, brief_summary, analysis, refs):
 
 **Project Synergy represents a powerful new frontier in AI innovation—leading the charge for future collaborative intelligence.**
 
+![1000010714](https://github.com/user-attachments/assets/4009b608-246e-47cf-bb56-d7d13ee9d3bc)
+![1000010707](https://github.com/user-attachments/assets/99721e17-0c51-4df3-b599-16f00da41372)
 
