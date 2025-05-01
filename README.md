@@ -3,17 +3,18 @@
 
 #!/usr/bin/env python3
 """
-verify.py – VALOR AI evidence-hash verifier
+VALOR AI Evidence Hash Verifier
 
-CLI utility that reads a `VALOR-genesis.json` (or similarly
-formatted manifest) and verifies that every file listed in the manifest
-is present on disk and matches its recorded SHA-256 digest.
+This CLI utility reads a `VALOR-genesis.json` manifest (or similarly structured manifest file),
+verifies that each file listed is present locally, and confirms each file matches its recorded SHA-256 hash.
 
 Usage:
-    ./verify.py proof/VALOR-genesis.json              # verify all files
-    ./verify.py proof/VALOR-genesis.json README.md    # verify specific files
+    ./verify.py proof/VALOR-genesis.json                # Verify all listed files
+    ./verify.py proof/VALOR-genesis.json README.md      # Verify specific files
 
-Exit status: 0 when all checks pass, 1 otherwise.
+Exit Codes:
+    0 – All checks pass
+    1 – Verification failed
 """
 
 import argparse
@@ -24,89 +25,95 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 
-def sha256(path: Path) -> str:
-    Compute SHA-256 digest of a file.
-    hasher = hashlib.sha256()
-    with path.open('rb') as file:
-        while chunk := file.read(8192):
-            hasher.update(chunk)
-    return hasher.hexdigest()
-
-
-def load_manifest(manifest_path: Path) -> dict:
-    Load and parse the JSON manifest file.
+def compute_sha256(filepath: Path) -> str:
+    """Calculate and return SHA-256 hash of a given file."""
+    hash_sha256 = hashlib.sha256()
     try:
-        return json.loads(manifest_path.read_text(encoding='utf-8'))
-    except json.JSONDecodeError as err:
-        sys.exit(f"[FATAL] JSON decoding error in {manifest_path}: {err}")
+        with filepath.open('rb') as file:
+            while chunk := file.read(8192):
+                hash_sha256.update(chunk)
     except OSError as err:
-        sys.exit(f"[FATAL] Error reading manifest {manifest_path}: {err}")
+        sys.exit(f"[FATAL] Error reading {filepath}: {err}")
+    return hash_sha256.hexdigest()
 
 
-def validate_timestamp(ts: str) -> None:
-    Validate RFC3339 timestamp; issue warnings if timestamp is invalid or in the future.
+def parse_manifest(manifest_file: Path) -> dict:
+    """Parse and load JSON data from the manifest file."""
     try:
-        timestamp = datetime.fromisoformat(ts.replace('Z', '+00:00'))
-        if timestamp > datetime.now(timezone.utc):
-            print(f"[WARN] Manifest timestamp {ts} is in the future.")
+        return json.loads(manifest_file.read_text(encoding='utf-8'))
+    except (json.JSONDecodeError, OSError) as err:
+        sys.exit(f"[FATAL] Unable to parse manifest {manifest_file}: {err}")
+
+
+def check_timestamp(timestamp_str: str):
+    """Validate RFC3339 timestamp and warn if invalid or future-dated."""
+    try:
+        parsed_timestamp = datetime.fromisoformat(timestamp_str.rstrip('Z')).replace(tzinfo=timezone.utc)
+        if parsed_timestamp > datetime.now(timezone.utc):
+            print(f"[WARN] Manifest timestamp {timestamp_str} is set in the future.")
     except ValueError:
-        print(f"[WARN] Invalid timestamp format: {ts}")
+        print(f"[WARN] Invalid timestamp format detected: {timestamp_str}")
 
 
-def verify_files(manifest: dict, targets: list[Path]) -> bool:
-    Verify file hashes based on the provided manifest.
-    all_valid = True
-    manifest_files = {Path(entry['path']): entry['sha256'] for entry in manifest.get('files', [])}
+def verify_manifest_hash(manifest: dict, manifest_path: Path) -> bool:
+    """Ensure manifest's recorded hash matches its current SHA-256 hash."""
+    recorded_hash = manifest.get('genesis_hash', '').replace('sha256:', '')
+    current_hash = compute_sha256(manifest_path)
 
-    for path in targets or manifest_files.keys():
-        if path not in manifest_files:
-            print(f"[WARN] File '{path}' not listed in manifest; skipping.")
-            continue
-
-        if not path.exists():
-            print(f"[FAIL] Missing file: {path}")
-            all_valid = False
-            continue
-
-        expected_hash = manifest_files[path]
-        actual_hash = sha256(path)
-
-        if actual_hash != expected_hash:
-            print(f"[FAIL] Hash mismatch for {path}:\n  expected {expected_hash}\n  actual   {actual_hash}")
-            all_valid = False
-        else:
-            print(f"[OK] Verified {path}")
-
-    return all_valid
-
-
-def verify_manifest_integrity(manifest: dict, manifest_path: Path) -> bool:
-    Check if manifest's recorded hash matches its actual SHA-256 digest.
-    recorded_hash = manifest.get('genesis_hash', '').removeprefix('sha256:')
-    actual_hash = sha256(manifest_path)
-
-    if recorded_hash and recorded_hash != actual_hash:
-        print(f"[FAIL] Manifest hash mismatch:\n  expected {recorded_hash}\n  actual   {actual_hash}")
+    if recorded_hash != current_hash:
+        print(f"[FAIL] Manifest hash mismatch:\n Expected: {recorded_hash}\n Actual:   {current_hash}")
         return False
 
+    print("[OK] Manifest hash verified.")
     return True
 
 
+def verify_files(manifest: dict, file_paths: list[Path]) -> bool:
+    """Check the SHA-256 hash for each listed file against the manifest."""
+    all_verified = True
+    file_hashes = {Path(item['path']): item['sha256'] for item in manifest.get('files', [])}
+
+    targets = file_paths if file_paths else file_hashes.keys()
+
+    for file_path in targets:
+        if file_path not in file_hashes:
+            print(f"[WARN] '{file_path}' not found in manifest; skipping.")
+            continue
+
+        if not file_path.exists():
+            print(f"[FAIL] File missing: {file_path}")
+            all_verified = False
+            continue
+
+        actual_hash = compute_sha256(file_path)
+        expected_hash = file_hashes[file_path]
+
+        if actual_hash == expected_hash:
+            print(f"[OK] {file_path} verified successfully.")
+        else:
+            print(f"[FAIL] Hash mismatch for {file_path}:\n Expected: {expected_hash}\n Actual:   {actual_hash}")
+            all_verified = False
+
+    return all_verified
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Verify VALOR-AI evidence hashes.")
-    parser.add_argument('manifest', type=Path, help="Path to the VALOR-genesis.json manifest.")
-    parser.add_argument('paths', nargs='*', type=Path, help="Specific file paths to verify.")
+    parser = argparse.ArgumentParser(description="VALOR AI Manifest File Hash Verifier")
+    parser.add_argument("manifest", type=Path, help="Path to the VALOR-genesis.json manifest")
+    parser.add_argument("files", nargs="*", type=Path, help="Optional specific files to verify")
+
     args = parser.parse_args()
 
-    manifest_data = load_manifest(args.manifest)
-    validate_timestamp(manifest_data.get('timestamp', ''))
+    manifest = parse_manifest(args.manifest)
+    check_timestamp(manifest.get("timestamp", ""))
 
-    manifest_ok = verify_manifest_integrity(manifest_data, args.manifest)
-    files_ok = verify_files(manifest_data, args.paths)
+    manifest_integrity_ok = verify_manifest_hash(manifest, args.manifest)
+    files_verified_ok = verify_files(manifest, args.files)
 
-    if not manifest_ok or not files_ok:
+    if manifest_integrity_ok and files_verified_ok:
+        sys.exit(0)
+    else:
         sys.exit(1)
-    sys.exit(0)
 
 
 if __name__ == '__main__':
