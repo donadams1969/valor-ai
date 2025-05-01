@@ -1,3 +1,6 @@
+![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
+![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
+
 ![1000011286](https://github.com/user-attachments/assets/f5311b98-52fd-4ae1-b750-a90e417c18e0)
 
 The VALOR AI image is strategically designed to project authority, immutability, and compelling psychological impact through sophisticated symbolism and deliberate visual messaging:
