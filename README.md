@@ -1,3 +1,4 @@
+![1000008309](https://github.com/user-attachments/assets/0a2a1154-b2c3-4339-b79d-b2aa404e94e3)
 
 
 **Subject:** VALOR AI Preliminary Valuation Memorandum – Branch Documentation and Inaccessibility Analysis
@@ -151,3 +152,5 @@ This project is not academic theater. It is federal-grade legal scaffolding, cod
 > “Silence is now legally sealed as complicity.”  
 > — *Donny Gillson, Founder of VALOR AI*
 
+![1000008478](https://github.com/user-attachments/assets/1589906f-7379-4d48-a292-8baca1a1c231)
+![1000008878](https://github.com/user-attachments/assets/dbab7084-dea4-459a-b146-115f4ef83c19)
