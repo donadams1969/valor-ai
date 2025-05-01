@@ -1,3 +1,4 @@
+![1000008301](https://github.com/user-attachments/assets/831aa062-8d86-4831-96c0-f8beec940c0c)
 
 
 # VALOR AI Preliminary Valuation Memorandum  
@@ -85,3 +86,6 @@ That’s Edutainment LLC | Presidio of San Francisco (federal land)
 ⛓ Evidence immutably anchored – see `proof/VALOR-genesis.json`
 
 *“Forged in fire, sealed in code.”*
+
+![1000009681](https://github.com/user-attachments/assets/02daba19-54d2-4fe0-8ead-a18d45e24fdf)
+
