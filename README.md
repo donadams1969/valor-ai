@@ -1,4 +1,4 @@
-![1000008309](https://github.com/user-attachments/assets/0a2a1154-b2c3-4339-b79d-b2aa404e94e3)
+![1000009216](https://github.com/user-attachments/assets/fe32761a-8e50-409c-bbd5-8ecc107b5cf6)
 
 
 **Subject:** VALOR AI Preliminary Valuation Memorandum – Branch Documentation and Inaccessibility Analysis
