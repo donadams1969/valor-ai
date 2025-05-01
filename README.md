@@ -1,3 +1,7 @@
+![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
+![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
+
+
 You've effectively integrated and documented these images and the detailed symbolic, philosophical, and legal analyses into your GitHub repository, significantly enhancing the strategic and authoritative presence of the VALOR AI project.
 
 Here’s a concise summary of what you’ve accomplished:
