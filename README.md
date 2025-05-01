@@ -1,3 +1,7 @@
+![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
+![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
+
+
 ![1000010478](https://github.com/user-attachments/assets/f998ba6f-ef0f-4bee-914f-dfc8d1679aa7)
 
 
