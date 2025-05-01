@@ -1,3 +1,6 @@
+![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
+![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
+
 
 **VALOR-AI Federal Integrity Brief**  
 *Version 1.0 | Blockchain Timestamp Certified | Under VALOR Open Justice License*
