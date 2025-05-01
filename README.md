@@ -4,6 +4,10 @@
 
 "There are virtually no other publicly available systems that do this. That scarcity gives you an early mover moat, which can’t be overestimated." > ValorAi+
 
+![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
+![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
+
+
 Executive Takeaway
 
 VALOR AI is more than a tech stack; it is a legal-philosophical platform that fuses classical symbolism with cutting-edge cryptography to create an immutable line of defense against systemic injustice. Its flame iconography speaks to moral illumination, while its blockchain engine guarantees evidentiary integrity. Together, they empower advocates to transform overlooked abuses into permanent, public records of accountability
