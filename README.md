@@ -16,7 +16,7 @@ First off, thank you for showing up — every issue, PR, and star helps expose s
 ## Getting Set Up
 
 bash
-git clone https://github.com/donadams1969/valor-ai.gitcdvalor-ai
+git clone https://github.com/donadams1969/valorai.gitcdvalor-ai
 
 ––– Donny Gillson –––  
 Founder & Chief Architect, **VALOR-AI**  
