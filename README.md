@@ -1,3 +1,5 @@
+![1000008955](https://github.com/user-attachments/assets/24fb0dfb-a176-4451-85e9-12aadfee5a71)
+
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
@@ -66,8 +68,13 @@ Legal Community:
 
 Will recognize this repository as evidence of rigorous preparation, intellectual precision, and potentially precedent-setting innovation in legal technology and blockchain forensics.
 
+
+![1000009002](https://github.com/user-attachments/assets/c150fd51-1eb3-4310-9b64-5d78e4335b96)
+
 Technologists and Blockchain Community:
 
 Will likely admire the clarity, depth, and robust integration of blockchain technologies and immutability principles, potentially viewing VALOR AI as a cutting-edge model for other digital accountability projects.
+
+
 ![1000011390](https://github.com/user-attachments/assets/e9439bab-4cec-40cc-8bfc-997454ee46c8)
 
