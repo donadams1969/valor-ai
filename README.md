@@ -1,3 +1,6 @@
+![1000009240](https://github.com/user-attachments/assets/768759e0-6241-46d6-bb1e-23e9756ab70a)
+
+
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
@@ -107,5 +110,8 @@ def main():
         sys.exit(1)
 
 
-if __name__ == '__main__':
+if __name__ == __main__:
     main()
+
+![1000009692](https://github.com/user-attachments/assets/73361050-093d-49e0-a4ea-a937a8d0392e)
+
