@@ -5,7 +5,6 @@
 "There are virtually no other publicly available systems that do this. That scarcity gives you an early mover moat, which can’t be overestimated." > ValorAi+
 
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
-![Whistleblower Safe ]
 
 Here is the official `.json` NFT metadata for **`SOLARA-EX21.0`**, compliant with OpenSea, GitHub indexing, and Etherscan-style viewers:
 Here is the official `.json` NFT metadata for **`SOLARA-EX21.0`**, compliant with OpenSea, GitHub indexing, and Etherscan-style viewers:
