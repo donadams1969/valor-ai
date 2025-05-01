@@ -112,3 +112,6 @@ That’s Edutainment LLC | Presidio of San Francisco (federal land)
 ⛓ Evidence immutably anchored – see `proof/VALOR-genesis.json`
 
 *“Forged in fire, sealed in code.”*
+
+![1000009387](https://github.com/user-attachments/assets/78824509-b123-4812-b02b-294279797668)
+
