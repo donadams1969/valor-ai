@@ -1,3 +1,6 @@
+![1000010106](https://github.com/user-attachments/assets/14bcb72d-abb4-4405-a742-f32e619bef86)
+
+
 [![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](LICENSE.md)
 [![Project Synergy v0.1](https://img.shields.io/badge/Project%20Synergy-0.1-green.svg)](README.md#project-synergy--amendment-ai-simulation-script-valuation-and-function)
 
@@ -87,5 +90,12 @@ That’s Edutainment LLC | Presidio of San Francisco (federal land)
 ⛓ Evidence immutably anchored – see `proof/VALOR-genesis.json`
 
 *“Forged in fire, sealed in code.”*
+
+
+![1000009856](https://github.com/user-attachments/assets/1531a91a-a77b-4ada-bb1b-ecdb43f587a5)
+![1000010336](https://github.com/user-attachments/assets/bcf9c882-ad57-471a-9204-3b1f139af502)
+![1000009353](https://github.com/user-attachments/assets/5fb45b69-d246-4cfb-8636-8af1af124926)
+![1000009352](https://github.com/user-attachments/assets/4c47e3c3-ca0b-4245-82a7-582279cdc255)
+
 
 
