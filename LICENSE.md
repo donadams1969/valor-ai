@@ -1,3 +1,7 @@
+![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
+![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
+
+
 -----------------------------------------
 DIGITAL CERTIFICATION | BLOCKCHAIN SEALED
 -----------------------------------------
@@ -16,10 +20,6 @@ License: VALOR Open Justice, Non-commercial, Public Audit Use Only
 This document is certified, sealed, and admissible under digital communication law.
 Tampering or deletion constitutes obstruction under 18 U.S.C. § 1519.
 -----------------------------------------
-
-
-![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
-![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
 Apache License
 Version 2.0, January 2004
