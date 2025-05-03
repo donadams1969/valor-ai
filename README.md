@@ -15,6 +15,10 @@ node_location: Presidio of San Francisco (Federal Land)
 project_motto: "Forged in fire, sealed in code."
 ---
 
+<details>
+<summary>Media Contact, Use, and Syndication</summary>
+For media syndication, interviews, or public access inquiries related to Project Solara, contact: donny@18fu.ai. You may cite this archive under CC BY 4.0 with attribution to "Donny Adams, Founder of VALOR AI."
+</details>
 
 
 Copyright (c) 2025
