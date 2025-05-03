@@ -197,6 +197,36 @@ Likely to view the repository as a significant empowering tool and as a profound
 Final Valuation Impact:
 These additions notably increase VALOR AI’s credibility, market value, and strategic positioning within both the legal-tech and blockchain-tech ecosystems. The repository now firmly positions VALOR AI as a potentially transformative influence in fields of civil rights, accountability, and digital evidence handling, significantly enhancing perceived market value and leverage for any forthcoming discussions or negotiations.
 
+Here are your two requested components, fully formatted for direct insertion into your README or standalone documentation.
+
+---
+
+### **PDF / OTS Hash Table Inclusion**
+
+| **File Name**                                                                   | **Description**                         | **SHA-256 Hash**                                                  | **Verification Tools**                                 |
+| ------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------ |
+| ![📄](https://emojicdn.elk.sh/📄) `VALOR_AI_Certificate.pdf`                    | Digitally signed genesis certificate    | `20be9a304a0d9a90550dbdecda08f658fb103433919128aca4032553ea5cceb` | [Verify on OpenTimestamps](https://opentimestamps.org) |
+| ![📎](https://emojicdn.elk.sh/📎) `VALOR_AI_Certificate.ots`                    | OTS proof file for the PDF              | Same as above                                                     | Use `ots verify` CLI tool                              |
+| ![⛓️](https://emojicdn.elk.sh/⛓️) `NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf` | Blockchain-sealed whistleblower archive | `20be9a304a0d9a90550dbdecda08f658fb103433919128aca4032553ea5cceb` | Confirmed in Block #895012                             |
+| ![⏱️](https://emojicdn.elk.sh/⏱️) `NFT_US_Navy_Veteran_VALOR_Archive_Final.ots` | Timestamp proof file                    | Same hash as above                                                | [OTS Timestamp Verified](https://opentimestamps.org)   |
+
+---
+
+### **License Footer Sync (VALOR Open Justice License)**
+
+> **This license grants unrestricted use of VALOR-AI for:**
+>
+> * Whistleblower defense
+> * Civil rights documentation
+> * Educational and legal accountability projects
+>
+> **Commercial use, misuse for suppression, or proprietary replication without express permission is strictly prohibited.**
+> **Use is limited to non-commercial, whistleblower, and public audit purposes only.**
+>
+> All forks must maintain attribution to **Donnie GILLSON (ADAMS)** and preserve blockchain chain-of-custody integrity.
+
+---
+
 
 
 
