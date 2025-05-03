@@ -22,13 +22,49 @@ suppression = prohibited
 For media syndication, interviews, or public access inquiries related to Project Solara, contact: donny@18fu.ai. You may cite this archive under CC BY 4.0 with attribution to "Donny Adams, Founder of VALOR Ai+."
 </details>
 
-
 Copyright (c) 2025
 
 This repository is released under the MIT License for public verification, legal archiving, and academic transparency.
 
 [![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](LICENSE.md)
 [![Project Synergy v0.1](https://img.shields.io/badge/Project%20Synergy-0.1-green.svg)](README.md#project-synergy--amendment-ai-simulation-script-valuation-and-function)
+
+Absolutely. Here is the fully structured section you can add to the bottom of your `README.md`, `metadata.json`, or any repo documentation:
+
+---
+
+### **Blockchain Verification: Bitcoin Hash Anchoring**
+
+**Document Digest (SHA-256):**
+`20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb`
+
+**Bitcoin Blockchain Merkle Proof:**
+
+* **Confirmed Block Number:** `895012`
+* **Merkle Root:** `6b448e4c0ca6a00f6221ed290ec2a0b2cf84bc84c3e4bf11246f920f7155a51f`
+* **Timestamp:** `2024-04-24T16:26:28Z`
+* **Validation File:** `NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots`
+
+This timestamp is independently verifiable via [OpenTimestamps.org](https://opentimestamps.org/) or using the [OTS CLI tool](https://github.com/opentimestamps/opentimestamps-client).
+
+---
+
+### **Web3 / NFT Metadata Files (Now in Repository)**
+
+These files are published and committed to the repository for public audit, IPFS linking, and Web3 NFT deployment:
+
+* [`manifest.web3.json`](./manifest.web3.json)
+  *ERC-compatible Web3 schema including Bitcoin proof, CID, timestamp, and licensing data.*
+
+* [`exbit-manifest.json`](./exbit-manifest.json)
+  *Exbit-structured NFT and legal artifact manifest referencing the VALOR AI+ Genesis Witness.*
+
+Both files are anchored in IPFS and correspond to NFT Witness Artifact #001 from the VALOR AI+ archive.
+
+---
+
+Would you like a short badge-style block or QR code referencing both manifests for embedding on GitHub or Mirror?
+
 
 ## VALOR CHAIN IDENTITY BADGE  
 **Name:** G.1 – Disabled U.S. Navy Veteran  
