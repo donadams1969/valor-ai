@@ -161,7 +161,7 @@ These additions notably increase VALOR Ai+’s credibility, market value, and st
 > **Commercial use, misuse for suppression, or proprietary replication without express permission is strictly prohibited.**
 > **Use is limited to non-commercial, whistleblower, and public audit purposes only.**
 >
-> All forks must maintain attribution to **DONNY ADAMS)** and preserve blockchain chain-of-custody integrity.
+> All forks must maintain attributionnon-**18fu.ai** ethics and preserve blockchain chain-of-custody integrity.
 
 ---
 
