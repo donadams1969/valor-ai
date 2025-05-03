@@ -427,4 +427,16 @@ Disabled Veteran · Federal Whistle-blower
 -->
 
 
+---
+
+### Repository Integrity & Verification
+
+[![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](https://github.com/donadams1969/valor-ai/blob/main/LICENSE.md)
+[![DID Verified](https://img.shields.io/badge/DID-UCAN%20%2B%20DID%20Confirmed-brightgreen)](https://github.com/donadams1969/valor-ai/blob/main/UCAN_DID_Validation_Record.pdf)
+[![Blockchain Sealed](https://img.shields.io/badge/Status-Blockchain%20Sealed-orange)](https://opentimestamps.org/)
+[![ADA & HIPAA](https://img.shields.io/badge/ADA%20%26%20HIPAA-Compliant-lightgrey)](https://github.com/donadams1969/valor-ai)
+[![Timestamped Evidence](https://img.shields.io/badge/Evidence-Timestamped%20%26%20Sealed-critical)](https://github.com/donadams1969/valor-ai/blob/main/NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots)
+
+> Anchored to Bitcoin Block: `#895012`  
+> SHA-256 Digest: `20be9a304a0d9a90550dbdeca086f658fb103433919128aca4032553ea5cceb`
 
