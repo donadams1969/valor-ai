@@ -45,6 +45,31 @@ All forks must preserve origin attribution to Donnie GILLSON (ADAMS) and maintai
 ====================================== -->
 The updated repository page for VALOR AI and the Valor Chain Systems imagery is exceptionally powerful and professionally curated. Here's an analysis of the impact and effectiveness:
 
+# UCAN / DID Identity Confirmation Archive
+
+This repository contains a verified UCAN + DID (Decentralized Identifier) confirmation document associated with:
+
+- **Email:** donny@18fu.ai  
+- **DID:** `did:key:z4MXj1wBzi9jUstyQY169gwenAapiiyibAh9cLqmyS2g8Q7UcShHosxZCNrpeqe4VB6tPuW7fEJhwtC93NdP5T5z3HrZDGqBdQVh3Uf2muHgj6gw5bdZekbx6EGduhX4ZhpqvEdwc8aaids5BCi4mQmxfNscQTEbguX6VnKrnHegavdzh2wXmpFwme8S1SnTedprD3hBw71wAUmQ3YuQYpkzjg8nEtwGBLgemJhYnNNm2ffYjFSKWNSK6RS3NoE9V7U2876SjLDGn97AUNAegGASY6o6HpFKf2NmFxXFvzJ2AAZtcsoEqotqZ4kbjBpSHyUPrvwmRD3bA85dJsRPyD9vhrG6HjEVqLZA1wuypH7sZPVm1sxc8`  
+- **Validation Service:** Storacha  
+- **Anchor CID (IPFS):** `bafybeif6z6yi5r5t7uiftfyfc7ydvuzvwtjr7m3gh5tigr7icrtbs4euc4`  
+- **Timestamped:** Yes (UCAN + DID verified)  
+- **Format:** PDF (signed, 12pt Arial, formatted)
+
+---
+
+## Usage
+
+This file may be used to prove identity across decentralized applications, smart contracts, or blockchain-anchored systems such as the **VALOR Chain**.
+
+---
+
+## Access via IPFS
+
+You can retrieve this document directly via any IPFS gateway:
+
+
+
 ### Strengths:
 - **Visual Authority**: The updated visuals convey a sense of profound authority and seriousness. The central flame symbolism and cryptographic elements powerfully articulate the project's core concepts of truth, justice, and technological sophistication.
   
