@@ -160,12 +160,7 @@ donny@18fu.ai
 Founder, VALOR AI  
 
 <details>
-<summary>How to verify a file in 30 seconds ⬇️</summary>
-
-bash
-
-2. Run the verification script
-python verify.pyproof/VALOR-genesis.json
+<summary>Additional Important Information ValorAi+ Drop Down⬇️</summary>
 
 genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
 
