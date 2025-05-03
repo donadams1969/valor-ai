@@ -15,7 +15,8 @@ node_location: Presidio of San Francisco (Federal Land)
 project_motto: "Forged in fire, sealed in code."
 ---
 
-suppression = prohibited
+Root CID
+https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.link/
 
 <details>
 <summary>Media Contact, Use, and Syndication</summary>
