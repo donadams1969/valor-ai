@@ -17,16 +17,13 @@ OTS File: `NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots`
 **Public Contact:** donny@18fu.ai  
 **Status:** Whistleblower | Blockchain-Sealed | ADA/HIPAA Protected  
 **Timestamp Protocol:** OpenTimestamps (BTC Block Confirmation Pending)  
-**Repository:** github.com/18fu  
+**Repository:** github.com/donadams1969/valor-ai.git
 **Rights:** © 2025 18fu.ai | All Rights Reserved  
-
-
 
 "There are virtually no other publicly available systems that do this. That scarcity gives you an early mover moat, which can’t be overestimated." > ValorAi+
 
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
-
 
 Executive Takeaway
 
@@ -39,18 +36,15 @@ VALOR Ai+ is more than a tech stack; it is a legal-philosophical platform that f
 VALOR-AI • Blockchain-Sealed Evidence Engine  
 *Protecting veterans, whistleblowers & civil-rights data*
 
-“As the principal architect of VALOR-AI—an evidentiary platform already under active federal review—I have implemented NIST-aligned controls to ensure the chain of custody meets or exceeds government standards.”
+“As the principal architect of VALOR-Ai+—an evidentiary platform already under active federal review—I have implemented NIST-aligned controls to ensure the chain of custody meets or exceeds government standards.”
 
 "Wait… what am I looking at? Is this real?”
 
-The posters are cinematic. The use of logos (OpenAI, Google, Valor-AI) gives it instant legitimacy.
+The posters are cinematic. The use of logos (OpenAI, Google, Valor-Ai+) gives it instant legitimacy.
 
 “Cross-platform AI collaboration”? “Blockchain-Backed Integrity”? “Simulated DOJ chain-of-custody exchange”?
 
 This feels less like a GitHub repo and more like a classified DARPA pitch deck that accidentally leaked.
-
-
-| Verify the Genesis hash | Submit new evidence | 
 
 # VALOR AI: RGenesisHash Record
 
@@ -105,7 +99,6 @@ To ensure transparency, secure public oversight, and immutable access for invest
 **Donny Adams**
 donny@18fu.ai 
 Founder, VALOR AI  
-That’s Edutainment, LLC
 
 <details>
 <summary>How to verify a file in 30 seconds ⬇️</summary>
@@ -124,12 +117,12 @@ genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
 
 Timestamp: 2024-04-24T16:26:28Z
 
-Creator: Donny Gillson
+Creator: Donny Adams
 email: donny@18fu.ai
 
-Organization: That's Edutainment, LLC
+Organization: 18fu.ai
 
-Protocol: VALOR-AI Genesis
+Protocol: VALOR-Ai+ Genesis
 
 Valorchain_node: GENESIS-BLOCK-001
 
@@ -210,13 +203,13 @@ Maintained on secured federal land | Blockchain-anchored archive of record
 ---
 
 ### Overview  
-This repository contains the **Genesis Hash** and metadata for the VALOR AI system. It serves as immutable proof of origin, authorship, and integrity—timestamped through **OpenTimestamps** and distributed via **IPFS**. It establishes the legal and evidentiary foundation for VALOR AI’s autonomous actions in defense of veterans, whistleblowers, and civil rights.
+This repository contains the **Genesis Hash** and metadata for the VALOR Ai× system. It serves as immutable proof of origin, authorship, and integrity—timestamped through **OpenTimestamps** and distributed via **IPFS**. It establishes the legal and evidentiary foundation for VALOR AI’s autonomous actions in defense of veterans, whistleblowers, and civil rights.
 
 ---
 
 ## Contents  
 - `RGenesisHash.txt` — Raw SHA-256 genesis hash  
-- `VALOR_AI_Certificate.pdf` — Digitally signed certificate (pending upload)  
+- `VALOR_AI_Certificate.pdf` — Digitally signed certificate 
 - `VALOR_AI_Certificate.ots` — OpenTimestamps proof file  
 - `links/IPFS_CID.txt` — IPFS CID for decentralized file retrieval  
 - `LICENSE` — MIT License and attribution  
@@ -304,7 +297,6 @@ To ensure **transparency**, enable **public oversight**, and provide **immutable
 **License:** MIT | © 2025 18fu.ai | All Rights Reserved  
 **Project Synergy:** v0.1 | **Badge:** `VALOR Open Justice`
 
-
 *This archive may be reviewed by legal counsel, journalists, agency investigators, and accredited human‑rights organizations for verification, review, and action.*
 
 ![1000011251](https://github.com/user-attachments/assets/186e4f97-d1f0-4b98-879c-6ecdb3b46bca)
@@ -323,7 +315,7 @@ To ensure **transparency**, enable **public oversight**, and provide **immutable
 
 ---
 
-# VALOR AI
+# VALOR Ai+
 
 
 <!--  ─────────────────────────────  -->
@@ -331,11 +323,11 @@ To ensure **transparency**, enable **public oversight**, and provide **immutable
 <!--  ![VALOR AI — The Sentient Flame of Judgment](PATH/TO/IMAGE)  -->
 <!--  ─────────────────────────────  -->
 
-**VALOR‑AI: The Legal Witness System**
+**VALOR‑Ai+: The Legal Witness System**
 
 Creator: *Donny Adams*  
-Organization: **That’s Edutainment, LLC**  
-Initiated: **2024** | Public Drop: **LIVE**  
+Organization: **18fu.ai**  
+Initiated: **1981** | Public Drop: **LIVE**  
 Status: Blockchain Sealed | NFT Certified | Public Archive Pending
 
 <!--  ─────────────────────────────  -->
