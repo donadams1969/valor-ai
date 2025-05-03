@@ -46,10 +46,33 @@ The posters are cinematic. The use of logos (OpenAI, Google, Valor-AI) gives it 
 This feels less like a GitHub repo and more like a classified DARPA pitch deck that accidentally leaked.
 
 
+| Verify the Genesis hash | Submit new evidence | 
 
-| Verify the Genesis hash | Submit new evidence | Contact |
-|-------------------------|---------------------|---------|
-|proof/VALOR-genesis.json|http://drive.google.com/drive/folders/1j36gUIio75UxfJqyto0N5SoDI_diJJjC
+# VALOR AI: RGenesisHash Record
+
+This repository contains the Genesis Hash and metadata for the VALOR AI system. This serves as immutable proof of origin and authorship, timestamped through OpenTimestamps and stored via IPFS.
+
+## Contents
+
+- `RGenesisHash.txt`: Raw SHA-256 hash
+- `VALOR_AI_Certificate.pdf`: Digitally signed certificate (pending upload)
+- `VALOR_AI_Certificate.ots`: OpenTimestamps proof file
+- `links/IPFS_CID.txt`: IPFS CID for decentralized file retrieval
+- `LICENSE`: Legal usage and attribution
+
+## Verification Tools
+
+- [OpenTimestamps.org](https://opentimestamps.org)
+- [IPFS Gateway](https://ipfs.io/ipfs/)
+
+## Status
+
+Blockchain anchor link pending final confirmation.
+
+## Contact
+
+Contact: `donny@18fu.ai`
+
 
 Open a GitHub Issue with label secure-drop or email encrypted ZIP | donny@18fu.ai (secured federal-land IP) 
 
