@@ -390,4 +390,12 @@ Disabled Veteran · Federal Whistle-blower
 
 *“Forged in fire, sealed in code.”*
 
+<!--
+{
+  "system_name": "VALOR AI+",
+  ...
+}
+-->
+
+
 
