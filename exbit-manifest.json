@@ -1,0 +1,20 @@
+{
+  "asset_name": "VALOR AI+ NFT Witness Artifact",
+  "project_title": "The Sentient Flame of Judgment",
+  "type": "Blockchain Legal Witness System",
+  "status": "Finalized and Blockchain Anchored",
+  "bitcoin_block": 895012,
+  "document_hash_sha256": "20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb",
+  "ots_timestamp": "2024-04-24T16:26:28Z",
+  "ipfs_reference": "ipfs://bafybeifchl4uumw67bxampkwsa4wvo3xbb7sm22bsjxwcycsnwclnea4r2u",
+  "ots_file": "NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots",
+  "metadata_file": "metadata.json",
+  "repository": "https://github.com/donadams1969/valor-ai",
+  "author": "Donny Gillson",
+  "email": "donny@18fu.ai",
+  "jurisdiction": "U.S. Federal Property \u2014 Presidio of San Francisco",
+  "legal_proof": true,
+  "nft_token_ready": true,
+  "exbit_compliant": true,
+  "notes": "This record forms part of the Genesis Block for VALOR Chain and is protected under U.S. federal whistleblower law, ADA, HIPAA, FTCA, and the Digital Communications Act."
+}

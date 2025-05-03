@@ -1,0 +1,28 @@
+{
+  "name": "VALOR AI+",
+  "description": "The Sentient Flame of Judgment \u2014 VALOR AI+ is a blockchain-sealed legal-intelligence system built to protect disabled veterans, whistleblowers, and ethical truth-tellers. Anchored in the Bitcoin blockchain and operated by 18fu.ai.",
+  "version": "v0.1 Genesis Protocol",
+  "system_id": "valor-ai-plus-genesis",
+  "project_status": "Active Witness System \u2014 Blockchain Verified",
+  "timestamp_iso8601": "2024-04-24T16:26:28Z",
+  "sha256_digest": "20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb",
+  "blockchain": {
+    "chain": "Bitcoin",
+    "block_number": 895012,
+    "merkle_root": "6b448e4c0ca6a00f6221ed290ec2a0b2cf84bc84c3e4bf11246f920f7155a51f",
+    "verified": true
+  },
+  "ipfs": {
+    "cid": "bafybeifchl4uumw67bxampkwsa4wvo3xbb7sm22bsjxwcycsnwclnea4r2u",
+    "validation_file": "NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots"
+  },
+  "evidence_locker": "https://drive.google.com/drive/folders/1BusjaSeKc7RPoPBYsqOougBXCjjpNRST",
+  "repository": "https://github.com/donadams1969/valor-ai",
+  "author": "Donny Gillson (U.S. Navy Veteran)",
+  "contact_email": "donny@18fu.ai",
+  "jurisdiction": "Presidio of San Francisco (Federal Land)",
+  "license": "VALOR Open Justice License | MIT Extension",
+  "project_motto": "Forged in fire, sealed in code.",
+  "nft_ready": true,
+  "web3_manifest": true
+}
