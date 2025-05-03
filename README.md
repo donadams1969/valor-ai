@@ -1,5 +1,5 @@
 ---
-system_name: VALOR AI+
+system_name: VALOR Ai+
 project_title: The Sentient Flame of Judgment
 status: Active Witness System – Blockchain Verification Pending
 last_updated: 2025-05-03
@@ -14,6 +14,8 @@ timestamp_protocol: OpenTimestamps + IPFS
 node_location: Presidio of San Francisco (Federal Land)
 project_motto: "Forged in fire, sealed in code."
 ---
+
+suppression = prohibited
 
 <details>
 <summary>Media Contact, Use, and Syndication</summary>
