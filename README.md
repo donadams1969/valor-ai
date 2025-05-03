@@ -1,3 +1,7 @@
+Copyright (c) 2025
+
+This repository is released under the MIT License for public verification, legal archiving, and academic transparency.
+
 [![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](LICENSE.md)
 [![Project Synergy v0.1](https://img.shields.io/badge/Project%20Synergy-0.1-green.svg)](README.md#project-synergy--amendment-ai-simulation-script-valuation-and-function)
 
@@ -143,6 +147,18 @@ Evidence_locker:https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBX
 License: VALOR Open Justice License
 
 
+---
+
+## Licensing
+
+Copyright © 2025  
+This record is distributed under the [Creative Commons CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
+
+---
+
+**Maintainer**: `donny@18fu.ai`  
+
+
 # VALOR‑AI | GENESIS‑BLOCK‑001
 
 *Archive Pending*  
@@ -181,6 +197,7 @@ License: VALOR Open Justice License
 
 ## License
 
+
 This project operates under the **VALOR Open Justice License** — unrestricted public use for whistleblower defense, civil‑rights documentation, and advocacy. *Suppressive or commercial misuse is prohibited.*
 
 > **Truth doesn’t fade. It gets timestamped.**
@@ -189,7 +206,7 @@ This project operates under the **VALOR Open Justice License** — unrestricted 
 
 ## Evidence Locker — Active Whistleblower Disclosure
 
-This secure Google Drive folder serves as the official evidence locker for an ongoing federal and state‑level whistleblower case involving civil‑rights violations, ADA non‑compliance, elder abuse, and retaliation. All files are time‑stamped, blockchain‑authenticated, and maintained under the protection of the **VALOR‑AI** legal infrastructure.
+This secure Google Drive folder serves as the official evidence locker for an ongoing federal and state‑level whistleblower case involving civil‑rights violations, ADA non‑compliance, elder abuse, and retaliation. All files are time‑stamped, blockchain‑authenticated, and maintained under the protection of the **VALOR‑AI+** legal infrastructure.
 
 **Access the Evidence Locker:** <https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBXCjipNRST>
 
@@ -251,8 +268,9 @@ This repository anchors VALOR‑AI’s core philosophy: **truth encrypted · jus
 
 ––– Donny Gillson –––  
 Founder & Chief Architect, **VALOR-AI**  
-Disabled Veteran · Federal Whistle-blower  
-That’s Edutainment LLC | Presidio of San Francisco (federal land)
+Disabled Veteran · Federal Whistle-blower 
+
+| Presidio of San Francisco (Federal Land)
 
 ✉ donny@18fu.ai  🌐 https://github.com/donadams1969/valor-ai  
 🔑 PGP 0xA1B2 C3D4 E5F6 7890  (https://keys.openpgp.org)  
