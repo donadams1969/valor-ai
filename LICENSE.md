@@ -1,3 +1,22 @@
+-----------------------------------------
+DIGITAL CERTIFICATION | BLOCKCHAIN SEALED
+-----------------------------------------
+Document Title: FCA Notice & Blockchain Certification
+Hash Algorithm: SHA-256
+Digest: e8efe4febd534bd3172d0bf7de66f5a774dbd984f922f8008644b3baaa8ac686
+Timestamp Protocol: OpenTimestamps
+BTC Block: #894976 | Date: May 2, 2025
+VALOR ID: VALOR-GENESIS-001 | NFT: SOLARA-EX20.1
+Storage: IPFS + GitHub Repo [VALOR AI - Public Archive]
+Signed Under: U.S. Electronic Signatures in Global and National Commerce Act (E-SIGN, 15 U.S.C. § 7001)
+Signatory: U.S. Navy Veteran
+Contact: donny@18fu.ai
+License: VALOR Open Justice, Non-commercial, Public Audit Use Only
+-----------------------------------------
+This document is certified, sealed, and admissible under digital communication law.
+Tampering or deletion constitutes obstruction under 18 U.S.C. § 1519.
+-----------------------------------------
+
 
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
