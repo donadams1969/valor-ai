@@ -80,9 +80,6 @@ Contact: `donny@18fu.ai`
 
 Open a GitHub Issue with label secure-drop or email encrypted ZIP | donny@18fu.ai (secured federal-land IP) 
 
-Here is the full text version you can copy, paste, or embed directly:
-
----
 
 # **VALOR Evidence Locker Access**
 
@@ -109,12 +106,6 @@ To ensure transparency, secure public oversight, and immutable access for invest
 donny@18fu.ai 
 Founder, VALOR AI  
 That’s Edutainment, LLC
-
----
-
-Would you like an ASCII version or badge-style preview for GitHub?
-
-please click.on arrow below for additional information.
 
 <details>
 <summary>How to verify a file in 30 seconds ⬇️</summary>
@@ -266,7 +257,7 @@ This repository anchors VALOR‑AI’s core philosophy: **truth encrypted · jus
 | MVP code drop | CLI to anchor & verify evidence | Jun 2025 |
 | Audit pass | Independent security review | Q3 2025 |
 
-––– Donny Gillson –––  
+––– Donny Adams –––  
 Founder & Chief Architect, **VALOR-AI**  
 Disabled Veteran · Federal Whistle-blower 
 
@@ -276,7 +267,7 @@ Disabled Veteran · Federal Whistle-blower
 🔑 PGP 0xA1B2 C3D4 E5F6 7890  (https://keys.openpgp.org)  
 📜 Digital Communications Act §512(g) safe-harbor asserted  
 ⚖️ ADA · PAWS · HIPAA · Unruh · FTCA compliance demanded  
-⛓ Evidence immutably anchored – see `proof/VALOR-genesis.json`
+⛓ Evidence immutably anchored 
 
 *“Forged in fire, sealed in code.”*
 
