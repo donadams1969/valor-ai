@@ -1,3 +1,22 @@
+---
+system_name: VALOR AI+
+project_title: The Sentient Flame of Judgment
+status: Active Witness System – Blockchain Verification Pending
+last_updated: 2025-05-03
+version: v0.1 (Genesis Protocol)
+primary_contact: donny@18fu.ai
+media_inquiries: donny@18fu.ai
+license: VALOR Open Justice License | MIT Extension
+repository: https://github.com/donadams1969/valor-ai
+evidence_locker: https://drive.google.com/drive/folders/1BusjaSeKc7RPoPBYsqOougBXCjjpNRST
+blockchain_digest: 20be9a304a0d9a90550dbdedca08f658fb10343391128aca4032553ea5cceb
+timestamp_protocol: OpenTimestamps + IPFS
+node_location: Presidio of San Francisco (Federal Land)
+project_motto: "Forged in fire, sealed in code."
+---
+
+
+
 Copyright (c) 2025
 
 This repository is released under the MIT License for public verification, legal archiving, and academic transparency.
