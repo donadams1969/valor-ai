@@ -22,7 +22,7 @@ This project is also protected under the **VALOR Open Justice License**, created
 - **Credit Required**: All forks or derivative works must include attribution:  
   `Built upon the VALOR A.i.+™ system by Donny Adams | 18fu.ai`
 
-Full license terms available in [`LICENSE.md`](./LICENSE.md)
+Full license terms available in [`LICENSE.md`](./LICENSE(1).md)
 
 ---
 
