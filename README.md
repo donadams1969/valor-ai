@@ -789,3 +789,5 @@ Disabled Veteran · Federal Whistle-blower
 donny@18fu.ai 
 Founder, VALOR AI  
 </details>
+
+![1000011883](https://github.com/user-attachments/assets/bd7dd679-58ca-4e77-a5cc-42637e518dda)
