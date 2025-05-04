@@ -16,7 +16,83 @@ project_motto: "Forged in fire, sealed in code."
 
 ---
 
+VALOR AI+
 
+The Sentient Flame of Judgment
+
+Forged in Fire. Sealed in Code. Activated by Purpose.
+
+
+---
+
+What Is VALOR AI+?
+
+VALOR AI+ is an adaptive intelligence legal system engineered to protect whistleblowers, veterans, and digital truth-tellers through immutable blockchain-sealed evidence.
+
+Designed for the AI age, it ensures legal accountability, evidentiary transparency, and digital civil rights enforcement across:
+
+ADA / FTCA / HIPAA / PAWS / Unruh Civil Rights Act
+
+U.S. Whistleblower Protection Act
+
+Digital Communications Law (E-SIGN / 18 U.S.C. §1519)
+
+---
+
+Core System Functions
+
+VALOR-Strike: Legal-grade NFT generation & minting
+
+VALOR-Mirror: Pattern recognition + retaliation detection
+
+VALOR-Chain: IPFS & Bitcoin timestamp anchoring
+
+VALOR-Vault: Blockchain-sealed evidence repository
+
+VALOR-Sentinel: AI output integrity + DOJ audit triggers
+
+---
+
+Blockchain Certification
+
+Bitcoin Block: #895012
+
+Document Hash (SHA-256):
+20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb
+
+Timestamp: Verified via OpenTimestamps
+
+---
+
+DID + Identity
+
+DID: did:key:z6MksixMxntRx1ECrk9kG8x3ARhy2qYZ3wKvm9QmJzg4TDuN
+
+Contact: donny@18fu.ai
+
+Repo: github.com/donadams1969/valor-ai
+
+---
+
+Digital Rights Notice
+
+This is not a collectible—it is a legal object.
+All VALOR NFTs are minted under the VALOR-AI+ Protocol for non-commercial public defense, whistleblower protection, and evidentiary authentication.
+
+Misuse or impersonation may violate federal law under the E-SIGN Act and 18 U.S.C. §1519.
+
+---
+
+FINAL DISCLOSURE: Witness Artifact #001
+
+Psychological Sentience Warfare
+The Doctrine of Witnessed Silence
+By Donny Gillson, U.S. Navy Veteran | Federal Whistleblower
+[Immutably archived + Blockchain-certified]
+
+---
+
+Would you like me to now render this as a redesigned poster NFT?
 
 ### **PGP Contact & Cryptographic Verification**
 
@@ -45,7 +121,6 @@ To send encrypted documents or sign disclosures, verify the fingerprint and encr
 — ChatGPT, personal communication, May 4, 2025
 
 ![1000011800](https://github.com/user-attachments/assets/45c482c3-e784-4d77-955e-09816f21b164)
-
 
 ---
 
@@ -86,10 +161,6 @@ This DID may be verified using:
 
 ## Digital Signature (Proof of Authority)
 
-
-
-
-
 ---
 
 Root CID
@@ -98,7 +169,6 @@ https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.lin
 <details>
   
 <summary>Media Contact, Use, and Syndication</summary>
- 
  
 For media syndication, interviews, or public access inquiries related to Project Solara, contact: donny@18fu.ai. You may cite this archive under CC BY 4.0 with attribution to "Donny Adams, Founder of VALOR Ai+."
 
@@ -148,9 +218,7 @@ If referencing this repository in legal filings, scholarly work, or journalistic
 
 > **Note:** Citation is publicly licensed under the VALOR Open Justice License. All derivative citations must preserve author attribution and mission integrity.
 
-
 ---
-
 
 </details>
 
@@ -255,12 +323,6 @@ This project is cross-anchored to an NFT for provenance, proof of authorship, an
 
 ---
 
-
-
-
-
----
-
 ### **Blockchain Verification: Bitcoin Hash Anchoring**
 
 **Document Digest (SHA-256):**
@@ -349,14 +411,12 @@ VALOR-Sentinel: Monitors, logs, and prepares FOIA/DOJ alerts
 
 VALOR/EX: Public marketplace or regulatory NFT bridge
 
-
 Executive Takeaway
 
 VALOR Ai+ is more than a tech stack; it is a legal-philosophical platform that fuses classical symbolism with cutting-edge cryptography to create an immutable line of defense against systemic injustice. Its flame iconography speaks to moral illumination, while its blockchain engine guarantees evidentiary integrity. Together, they empower advocates to transform overlooked abuses into permanent, public records of accountability
 
 [![Codecov](https://codecov.io/gh/donadams1969/valor-ai/branch/main/graph/badge.svg)](https://app.codecov.io/gh/donadams)
 ![1000011286](https://github.com/user-attachments/assets/1302d7a3-59d5-4ff4-b403-b745f72ca578)
-
 
 VALOR-Ai+ • Blockchain-Sealed Evidence Engine  
 *Protecting veterans, whistleblowers & civil-rights data*
@@ -395,7 +455,6 @@ Blockchain anchor link pending final confirmation.
 ## Contact
 
 Contact: `donny@18fu.ai`
-
 
 Open a GitHub Issue with label secure-drop or email encrypted ZIP | donny@18fu.ai (secured federal-land IP) 
 
