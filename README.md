@@ -20,6 +20,7 @@ https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.lin
 
 <details>
 <summary>Media Contact, Use, and Syndication</summary>
+ 
 For media syndication, interviews, or public access inquiries related to Project Solara, contact: donny@18fu.ai. You may cite this archive under CC BY 4.0 with attribution to "Donny Adams, Founder of VALOR Ai+."
 
 Copyright (c) 2025
