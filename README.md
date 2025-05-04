@@ -40,9 +40,6 @@ To send encrypted documents or sign disclosures, verify the fingerprint and encr
 
 ---
 
-Would you like to continue with **Step 4: Chain-of-Custody Table (Visual + Text)** or prefer a quick PGP `.asc` file I can generate next?
-
-
 Root CID
 https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.link
 
@@ -50,7 +47,9 @@ https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.lin
 
 
 <details>
+  
 <summary>Media Contact, Use, and Syndication</summary>
+ 
  
 For media syndication, interviews, or public access inquiries related to Project Solara, contact: donny@18fu.ai. You may cite this archive under CC BY 4.0 with attribution to "Donny Adams, Founder of VALOR Ai+."
 
@@ -58,7 +57,27 @@ Copyright (c) 2025
 
 This repository is released under the MIT License for public verification, legal archiving, and academic transparency.
 
-ValorAi+. (2025). VALOR Ai+: Blockchain-Sealed Legal Defense Engine for Veterans & Whistleblowers [Source code]. GitHub. https://github.com/donadams1969/valor-ai
+ValorAi+. (2025). VALOR Ai+: Blockchain-Sealed Legal Defense Engine for Veterans & Whistleblower Protection 
+
+### **Academic Archiving & DOI Integration**
+
+To ensure permanence, citation integrity, and legal admissibility across institutional domains, this project is being cross-published to the following open research repositories:
+
+| **Repository**              | **Status**     | **Persistent Link / DOI**                                                                          |
+| --------------------------- | -------------- | -------------------------------------------------------------------------------------------------- |
+| **Zenodo** (EU CERN-backed) | Pending Upload | `DOI: to be assigned – [Zenodo Archive]()`                                                         |
+| **Open Science Framework**  | In Process     | `OSF Archive: https://osf.io/xxxxxx`                                                               |
+| **VALOR GitHub Main**       | Active         | [`https://github.com/donadams1969/valor-ai`](https://github.com/donadams1969/valor-ai)             |
+| **IPFS Web3 Gateway**       | Active         | [`bafybeie6zy5...`](https://ipfs.io/ipfs/bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4) |
+
+> Once assigned, the DOI and related metadata will be automatically indexed by Google Scholar, CrossRef, and institutional academic databases.
+
+This record may be cited in legal, journalistic, or scholarly work as:
+
+> **Adams, D.** (2025). *VALOR AI: Blockchain-Sealed Legal Defense Engine*. Zenodo. DOI forthcoming.
+
+---
+
 
 </details>
 
