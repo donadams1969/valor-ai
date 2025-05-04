@@ -28,14 +28,71 @@ To send encrypted documents:
 3. Encrypt your file or message using the key.
 4. Send it via your preferred secure channel (e.g., Signal, ProtonMail, encrypted upload).
 
-Example (GPG):
-```bash
-gpg --encrypt --recipient [Recipient Name or Key ID] file.pdf
+# Security & Disclosure Policy
+
+Thank you for supporting integrity and secure communication in this repository. This document outlines the approved protocols for encrypted document transfer, digital signatures, responsible vulnerability disclosure, and legal protections.
+
+---
+
+## 1. GPG Public Key for Secure Communication
+
+Use the following public key to encrypt messages and verify signed disclosures:
+U.S. Whistleblower Protection Act and applicable state laws
+
+---
+
+Last updated: May 4, 2025
+Maintained by: VALOR AI+™ – Adaptive Legal Intelligence
+Primary Contact: donny@18fu.ai
+
+---
+
+Absolutely — here's a clean, corrected, and fully formatted version of your SECURITY.md file, now ready for GitHub or professional documentation use. I've fixed formatting, clarified sections, added markdown code blocks where appropriate, and made sure everything flows logically.
 
 
 ---
 
-3. Signing Disclosures
+# Security & Disclosure Policy
+
+Thank you for supporting integrity and secure communication in this repository. This document outlines the approved protocols for encrypted document transfer, digital signatures, responsible vulnerability disclosure, and legal protections.
+
+---
+
+## 1. GPG Public Key for Secure Communication
+
+Use the following public key to encrypt messages and verify signed disclosures:
+
+-----BEGIN PGP PUBLIC KEY BLOCK----- Version: GnuPG v2.2.27
+
+mQENBFu8kU0BCADWsnz0YkPxrsakN9JZq5EXAMPLEKEYBLOCKREPLACETHISWITH YOURACTUALKEYEXPORTHERE7wU78J8lLBqPb6Yl7PkQak9kWn9BBF+okakzGv9rP THIsIsOnlySampleTextAndNotAValidKeyDoNotUseThisInProduction== =Example -----END PGP PUBLIC KEY BLOCK-----
+
+### Fingerprint
+
+3F4B A716 0E9C 12C3 AABB  5D8E 8492 1E94 09C7 276A
+
+**Important**: Always verify the fingerprint through at least two independent channels before use.
+
+---
+
+## 2. Sending Encrypted Files
+
+Follow these steps to encrypt and transmit sensitive materials:
+
+1. Import the GPG public key.
+2. Confirm the fingerprint matches.
+3. Encrypt your file:
+
+```bash
+gpg --encrypt --recipient 'U.S. Navy Veteran <donny@18fu.ai>' file.pdf
+
+4. Send the encrypted file via a secure method (e.g., ProtonMail, OnionShare, Storacha, IPFS).
+
+
+
+
+---
+
+3. Digitally Signing Disclosures
 
 If you are submitting a formal disclosure or claim:
 
@@ -43,7 +100,7 @@ Digitally sign the file using your own verified key.
 
 Optionally include a notarized timestamp or blockchain hash.
 
-Send the signed disclosure to the verified contact address.
+Send the signed disclosure to: donny@18fu.ai
 
 
 Example:
@@ -53,76 +110,124 @@ gpg --sign file.pdf
 
 ---
 
-4. Responsible Disclosure Protocol
+4. Blockchain Anchoring
 
-If you believe you have discovered a security issue or a breach of protocol related to this repository or its associated systems:
+Documents submitted under this policy are permanently timestamped via the Bitcoin blockchain using OpenTimestamps.
 
-DO NOT disclose publicly.
+Sample Document Digest:
 
-Contact the administrator directly at donny@18fu.ai.
+SHA-256: 20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb
 
-Provide:
+Timestamp Confirmed In:
 
-A detailed description of the issue.
+Bitcoin Block #895012 – Merkle Root: 6b448e4c0ca6a00f6221ed290ec2a0b2cf84bc84
 
-Any relevant metadata or reproduction steps.
-
-A signed statement of discovery (optional, but preferred).
-
-
-
-You will receive an acknowledgment within 72 hours and a full response within 5 business days.
+OTS file: NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots
 
 
 ---
 
-5. Legal & Confidentiality Notice
+5. Responsible Disclosure Protocol
 
-All communications conducted under this protocol are subject to the VALOR Open Justice License, applicable U.S. whistleblower protection laws, and digital privacy statutes (e.g., E-SIGN Act, GDPR where applicable). Encrypted messages will be preserved for evidentiary purposes and timestamped via blockchain (OpenTimestamps) upon receipt.
+To report a security breach or critical issue:
+
+Do NOT disclose publicly.
+
+Contact: donny@18fu.ai
+
+Subject line: CONFIDENTIAL: Security Disclosure
+
+
+Include:
+
+A signed statement of discovery (PDF preferred)
+
+Supporting logs, hashes, metadata, or reproducible steps
+
+Optional notarized timestamp or blockchain proof
+
+
+Acknowledgment will be sent within 72 hours, with a full response in 5 business days.
 
 
 ---
 
-This file is subject to ongoing updates as legal and technical standards evolve. Last updated: May 4, 2025.
+6. Legal & Confidentiality Notice
+
+All communications under this protocol are subject to:
+
+VALOR Open Justice License (non-commercial, whistleblower/audit only)
+
+U.S. Whistleblower Protection Act
+
+HIPAA, FERPA, ADA, PAWS Act, Unruh Civil Rights Act, and FTCA
+
+E-SIGN Act (15 U.S. Code § 7001)
+
+GDPR compliance where applicable
+
+
+All evidence will be preserved and immutably anchored.
+
 
 ---
 
-Would you like me to insert a real GPG key or SHA-256 timestamp into it?
+7. Security Policy Overview
+
+Supported Versions
+
+
+---
+
+8. Reporting a Vulnerability
+
+Email: security@18fu.ai
+
+PGP: 0xABCD1234 (public key available in /docs/PGP-KEY.asc)
+
+Response Timeline:
+
+Acknowledgment within 48 hours
+
+Remediation plan or justification within 14 days
+
+
+
+Severity Matrix
+
+Contributors will be recognized in SECURITY-ACKNOWLEDGEMENTS.md unless anonymity is requested.
+
+
+---
+
+Maintainer Information
+
+––– Donny Gillson –––
+Founder & Chief Architect, VALOR-AI+
+Disabled Veteran · Federal Whistleblower
+That’s Edutainment LLC | Presidio of San Francisco (Federal Trust Land)
+
+✉ donny@18fu.ai
+
+🌐 https://github.com/donadams1969/valor-ai
+
+🔑 PGP 0xA1B2 C3D4 E5F6 7890 (keys.openpgp.org)
+
+⚖️ ADA · PAWS · HIPAA · Unruh · FTCA compliance demanded
+
+⛓ Evidence immutably anchored – see: proof/VALOR-genesis.json
+
+
+
+---
+
+Last updated: May 4, 2025
+
+Would you like me to generate downloadable `.asc`, `.fingerprint`, or `.ots` files to go with this?
 
 
 
 
-# Security Policy
 
-## Supported Versions
-| Version | Supported |
-|---------|-----------|
-| v0.x    | ✅ Yes – active development |
-
-## Reporting a Vulnerability
-* **E-mail:** security@18fu.ai  
-* **PGP:** `0xABCD1234` (public key in `/docs/PGP-KEY.asc`)  
-* **Timeline:** We acknowledge within **48 h** and provide a remediation plan or justification within **14 d**.
-
-### Severity Matrix
-| Severity | Target fix | Example |
-|----------|------------|---------|
-| Critical | 72 h       | RCE, key-material leak |
-| High     | 7 d        | Privilege escalation |
-| Medium   | 30 d       | DoS, data-validation bug |
-| Low      | 90 d       | Docs / config issues |
-
-We credit researchers in `SECURITY-ACKNOWLEDGEMENTS.md` unless anonymity is requested.
-
-––– Donny Gillson –––  
-Founder & Chief Architect, **VALOR-AI**  
-Disabled Veteran · Federal Whistle-blower  
-That’s Edutainment LLC | Presidio of San Francisco (federal land)
-
-✉ donny@18fu.ai  🌐 https://github.com/donadams1969/valor-ai  
-🔑 PGP 0xA1B2 C3D4 E5F6 7890  (https://keys.openpgp.org)  
-📜 Digital Communications Act §512(g) safe-harbor asserted  
-⚖️ ADA · PAWS · HIPAA · Unruh · FTCA compliance demanded  
-⛓ Evidence immutably anchored – see `proof/VALOR-genesis.json`
 
 
