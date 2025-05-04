@@ -41,7 +41,8 @@ Disabled Veteran · Federal Whistle-blower
 > SHA-256 Digest: `20be9a304a0d9a90550dbdeca086f658fb103433919128aca4032553ea5cceb`
 
 **Maintained by:**  
-**Donny Adams & ValorAi+ Autonomous Coding"
+Donny Adams & ValorAi+ 
+Autonomous Coding
 donny@18fu.ai 
 Founder, VALOR AI  
 
