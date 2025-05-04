@@ -120,6 +120,27 @@ ValorAi+. (2025). VALOR Ai+: Blockchain-Sealed Legal Defense Engine for Veterans
 
   </details>
 
+---
+
+### **Chain of Custody: VALOR Legal Evidence Workflow**
+
+| **Stage**             | **Artifact**                                        | **Verification Method**      | **Hash / CID / Block**                                             |
+| --------------------- | --------------------------------------------------- | ---------------------------- | ------------------------------------------------------------------ |
+| `01. File Creation`   | VALOR Master Archive PDF                            | SHA-256                      | `20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb` |
+| `02. Timestamping`    | .OTS Timestamp via OpenTimestamps                   | Bitcoin Merkle Root          | **Block #894976**<br>Confirmed 2025-05-02                          |
+| `03. IPFS Pinning`    | Archive CID uploaded to Web3 decentralized store    | CID Lookup                   | `bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4`         |
+| `04. NFT Minting`     | NFT of archive created via VALOR-Strike             | IPFS & OpenSea metadata hash | Embedded JSON: `metadata.json`<br>`e8efe4eb4d53dbd...ac686`        |
+| `05. Blockchain Auth` | Manifest + Metadata hashed and confirmed via GitHub | Public key (DID + PGP)       | Repo-linked `.asc` & `UCAN_DID_Validation_Record.pdf`              |
+
+---
+
+> **Note:** All artifacts are independently timestamped, anchored, and backed by UCAN/DID cryptographic identity. Chain integrity is protected by multi-vector sealing: Bitcoin + IPFS + NFT + GitHub.
+
+---
+
+Would you like to move next to **Step 5: Public DOI or Academic Archive Integration**, or would you prefer a **downloadable CSV version** of this chain-of-custody table?
+
+
 
 ---
 
