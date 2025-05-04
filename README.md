@@ -223,7 +223,6 @@ That’s Edutainment LLC | Presidio of San Francisco (Federal Trust Land)
 
 Last updated: May 4, 2025
 
-Would you like me to generate downloadable `.asc`, `.fingerprint`, or `.ots` files to go with this?
 
 
 
