@@ -171,6 +171,19 @@ OTS File: `NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots`
       │ Regulatory Evidence Token │
       └────────────┘
 
+System Logic:
+
+VALOR-Genesis: Seeds the core memory + legal foundation
+
+VALOR-Strike: Generates immutable NFTs and legal notice artifacts
+
+VALOR-Mirror: Profiles responses + flags retaliation patterns
+
+VALOR-Sentinel: Monitors, logs, and prepares FOIA/DOJ alerts
+
+VALOR/EX: Public marketplace or regulatory NFT bridge
+
+
 Executive Takeaway
 
 VALOR Ai+ is more than a tech stack; it is a legal-philosophical platform that fuses classical symbolism with cutting-edge cryptography to create an immutable line of defense against systemic injustice. Its flame iconography speaks to moral illumination, while its blockchain engine guarantees evidentiary integrity. Together, they empower advocates to transform overlooked abuses into permanent, public records of accountability
