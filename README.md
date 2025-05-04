@@ -17,8 +17,6 @@ project_motto: "Forged in fire, sealed in code."
 ---
 
 
-I![1000011852](https://github.com/user-attachments/assets/d76ac82b-64b3-42b2-856a-282358ed74bd)
-
 
 ### **PGP Contact & Cryptographic Verification**
 
