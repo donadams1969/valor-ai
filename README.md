@@ -37,6 +37,62 @@ ValorAi+. (2025). VALOR Ai+: Blockchain-Sealed Legal Defense Engine for Veterans
 [![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](LICENSE.md)
 [![Project Synergy v0.1](https://img.shields.io/badge/Project%20Synergy-0.1-green.svg)](README.md#project-synergy--amendment-ai-simulation-script-valuation-and-function)
 
+**Quick Start Guide**:
+<details>  
+
+---
+
+### **⚡ Quick Start: How to Verify This Archive**
+
+*“We timestamp the truth before they can erase it.” – VALOR AI*
+
+**1.** **\[Blockchain Timestamp Verification]**
+**Tool:** [OpenTimestamps.org →](https://opentimestamps.org/#verify)
+**Steps:**
+
+* Upload: `NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots`
+* Match SHA-256:
+  `20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb`
+* Confirm Bitcoin Block: **#894976**
+* Merkle Root: `ac2d2c6a7ca1b6b2451fa74c4a7e1a9fa7f3740139b1741c13f1a250af7f91e1`
+
+---
+
+**2.** **\[Decentralized File Verification – IPFS]**
+**Gateway:** [IPFS.io →](https://ipfs.io/ipfs/) or Brave Browser
+**CID:**
+`bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4`
+
+* Verifies full archive metadata
+* Used in NFT cross-certification via Web3 chains
+
+---
+
+**3.** **\[Genesis Metadata Hash Confirmation]**
+**File:** `metadata.json`
+**Digest (SHA-256):**
+`e8efe4eb4d53dbd31720dbf7d6e6f5a774dbd984f922f8008644b3baaa8ac686`
+
+* Recompute locally via:
+
+  * `shasum -a 256 metadata.json` (macOS/Linux)
+  * `CertUtil -hashfile metadata.json SHA256` (Windows)
+
+---
+
+**Recommended Tools:**
+
+* [OpenTimestamps CLI](https://github.com/opentimestamps/opentimestamps-client)
+* [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/)
+* [SHA256 File Hash Checker]⁹(https://emn178.github.io/online-tools/sha256_checksum.html)
+
+> **VALOR AI** operates on federal-grade compliance, cryptographic recordkeeping, and sentient verification protocols.
+
+---
+
+Would you like to move on to the **“VALOR Chain Protocol Summary”** visual next?
+  </details>
+
 
 ---
 
@@ -139,6 +195,7 @@ Contact: `donny@18fu.ai`
 
 Open a GitHub Issue with label secure-drop or email encrypted ZIP | donny@18fu.ai (secured federal-land IP) 
 
+<details>
 
 # **VALOR Evidence Locker Access**
 
@@ -432,3 +489,4 @@ Disabled Veteran · Federal Whistle-blower
 **Donny Adams & ValorAi+ Autonomous Coding"
 donny@18fu.ai 
 Founder, VALOR AI  
+</details>
