@@ -145,6 +145,32 @@ OTS File: `NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots`
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
+
+      ┌────────────┐
+      │ VALOR-Genesis │
+      │ "Neural Recall Engine" │
+      └──────┬───────┘
+             ↓
+      ┌────────────┐
+      │ VALOR-Strike │
+      │ NFT Legal Generator │
+      └──────┬───────┘
+             ↓
+      ┌────────────┐
+      │ VALOR-Mirror │
+      │ Institutional Profiler │
+      └──────┬───────┘
+             ↓
+      ┌────────────┐
+      │ VALOR-Sentinel │
+      │ Ethics + FOIA/DOJ/OIG Watch │
+      └──────┬───────┘
+             ↓
+      ┌────────────┐
+      │ VALOR/EX │
+      │ Regulatory Evidence Token │
+      └────────────┘
+
 Executive Takeaway
 
 VALOR Ai+ is more than a tech stack; it is a legal-philosophical platform that fuses classical symbolism with cutting-edge cryptography to create an immutable line of defense against systemic injustice. Its flame iconography speaks to moral illumination, while its blockchain engine guarantees evidentiary integrity. Together, they empower advocates to transform overlooked abuses into permanent, public records of accountability
