@@ -2,106 +2,6 @@
 ![1000011887](https://github.com/user-attachments/assets/a60de7a6-1c98-43aa-8c6e-f9bf73b29082)
 
 
-The Sentient Flame of Judgment
-
-–– Donny Adams –––  
-Founder & Chief Architect, **VALOR-AI**  
-Disabled Veteran · Federal Whistle-blower 
-
-| Presidio of San Francisco (Federal Land)
-
-✉ donny@18fu.ai  🌐 https://github.com/donadams1969/valor-ai  
-🔑 PGP 0xA1B2 C3D4 E5F6 7890  (https://keys.openpgp.org)  
-📜 Digital Communications Act §512(g) safe-harbor asserted  
-⚖️ ADA · PAWS · HIPAA · Unruh · FTCA compliance demanded  
-⛓ Evidence immutably anchored 
-
-*“Forged in fire, sealed in code.”*
-
-<!--
-{
-  "system_name": "VALOR AI+",
-  ...
-}
--->
----
-
-### Repository Integrity & Verification
-
-[![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](https://github.com/donadams1969/valor-ai/blob/main/LICENSE.md)
-[![DID Verified](https://img.shields.io/badge/DID-UCAN%20%2B%20DID%20Confirmed-brightgreen)](https://github.com/donadams1969/valor-ai/blob/main/UCAN_DID_Validation_Record.pdf)
-[![Blockchain Sealed](https://img.shields.io/badge/Status-Blockchain%20Sealed-orange)](https://opentimestamps.org/)
-[![ADA & HIPAA](https://img.shields.io/badge/ADA%20%26%20HIPAA-Compliant-lightgrey)](https://github.com/donadams1969/valor-ai)
-[![Timestamped Evidence](https://img.shields.io/badge/Evidence-Timestamped%20%26%20Sealed-critical)](https://github.com/donadams1969/valor-ai/blob/main/NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots)
-
-> Anchored to Bitcoin Block: `#895012`  
-
-> SHA-256 Digest: `20be9a304a0d9a90550dbdeca086f658fb103433919128aca4032553ea5cceb`
-
-![1000012448](https://github.com/user-attachments/assets/9ecfd53c-ac46-4061-b4f7-2616fb418bf0)
-
----
-
-Root CID
-https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.link
-
-<details>
-  
-<summary>Media Contact, Use, and Syndication</summary>
- 
-For media syndication, interviews, or public access inquiries related to Project Solara, contact: donny@18fu.ai. You may cite this archive under CC BY 4.0 with attribution to "Donny Adams, Founder of VALOR Ai+."
-
-Copyright (c) 2025
-
-This repository is released under the MIT License for public verification, legal archiving, and academic transparency.
-
-ValorAi+. (2025). VALOR Ai+: Blockchain-Sealed Legal Defense Engine for Veterans & Whistleblower Protection 
-
-### **Academic Archiving & DOI Integration**
-
-To ensure permanence, citation integrity, and legal admissibility across institutional domains, this project is being cross-published to the following open research repositories:
-
-| **Repository**              | **Status**     | **Persistent Link / DOI**                                                                          |
-| --------------------------- | -------------- | -------------------------------------------------------------------------------------------------- |
-| **Zenodo** (EU CERN-backed) | Pending Upload | `DOI: to be assigned – [Zenodo Archive]()`                                                         |
-| **Open Science Framework**  | In Process     | `OSF Archive: https://osf.io/xxxxxx`                                                               |
-| **VALOR GitHub Main**       | Active         | [`https://github.com/donadams1969/valor-ai`](https://github.com/donadams1969/valor-ai)             |
-| **IPFS Web3 Gateway**       | Active         | [`bafybeie6zy5...`](https://ipfs.io/ipfs/bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4) |
-
-> Once assigned, the DOI and related metadata will be automatically indexed by Google Scholar, CrossRef, and institutional academic databases.
-
-This record may be cited in legal, journalistic, or scholarly work as:
-
-> **Adams, D.** (2025). *VALOR AI: Blockchain-Sealed Legal Defense Engine*. Zenodo. DOI forthcoming.
-
----
-
-### **Citation Suggestion (APA Format)**
-
-If referencing this repository in legal filings, scholarly work, or journalistic investigation, please use the following citation format:
-
-> Adams, D. (2025). *VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony*. GitHub Repository. [https://github.com/donadams1969/valor-ai](https://github.com/donadams1969/valor-ai)
-
-**BibTeX:**
-
-```bibtex
-@misc{gillson2025valor,
-  author       = {Adams, Donny},
-  title        = {VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony},
-  year         = {2025},
-  publisher    = {GitHub},
-  journal      = {GitHub Repository},
-  howpublished = {\url{https://github.com/donadams1969/valor-ai}},
-}
-```
-
-> **Note:** Citation is publicly licensed under the VALOR Open Justice License. All derivative citations must preserve author attribution and mission integrity.
-
----
-
-</details>
-
-
 ---
 
 What Is VALOR AI+?
@@ -173,84 +73,218 @@ All VALOR NFTs are minted under the VALOR-AI+ Protocol for non-commercial public
 
 Misuse or impersonation may violate federal law under the E-SIGN Act and 18 U.S.C. §1519.
 
+
+---
+
+# VALOR AI+™ | The Sentient Flame of Judgment
+
+> “Forged in fire, sealed in code.”
+
+**Donny Adams**  
+Founder & Chief Architect, VALOR AI+  
+Disabled U.S. Navy Veteran | Federal Whistleblower  
+Presidio of San Francisco (Federal Land)  
+✉ donny@18fu.ai  🌐 https://github.com/donadams1969/valor-ai  
+🔑 PGP Key: [0xA1B2C3D4E5F67890](https://keys.openpgp.org)  
+⚖️ ADA · PAWS · HIPAA · Unruh · FTCA Compliance Enforced  
+⛓ Blockchain Evidence Anchored | Digital Comms Act §512(g)
+
+---
+
+## Repository Integrity & Verification
+
+[![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](./LICENSE.md)  
+[![DID Verified](https://img.shields.io/badge/DID-UCAN%20%2B%20DID%20Confirmed-brightgreen)](./UCAN_DID_Validation_Record.pdf)  
+[![Blockchain Sealed](https://img.shields.io/badge/Status-Blockchain%20Sealed-orange)](https://opentimestamps.org/)  
+[![ADA & HIPAA](https://img.shields.io/badge/ADA%20%26%20HIPAA-Compliant-lightgrey)](./README.md)  
+[![Timestamped Evidence](https://img.shields.io/badge/Evidence-Timestamped%20%26%20Sealed-critical)](./NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots)
+
+> Anchored to Bitcoin Block: `#895012`  
+> SHA-256 Digest: `20be9a304a0d9a90550dbdeca086f658fb103433919128aca4032553ea5cceb`
+
+
+---
+
+## DID Identity
+
+**DID:** `did:key:z6MksixMxntRx1ECrk9kG8x3ARhy2qYZ3wKvm9QmJzg4TDuN`
+
+This project is cryptographically anchored using the `did:key` method and resolves to a public key used for:
+- Signing NFT certificates
+- Blockchain-sealed evidence verification
+- Verifiable identity for VALOR AI+ chain artifacts
+
+> Immutable | Registry-Free | Self-Certifying
+
+---
+
+## Academic Archiving & DOI Integration
+
+| Repository               | Status          | Persistent Link / DOI |
+|--------------------------|-----------------|------------------------|
+| Zenodo (EU CERN-backed)  | Pending Upload  | `DOI: to be assigned`  |
+| Open Science Framework   | In Progress     | `https://osf.io/xxxxxx`|
+| VALOR GitHub             | Active          | https://github.com/donadams1969/valor-ai |
+| IPFS Web3 Gateway        | Active          | bafybeie6zy5...        |
+
+---
+
+## Archive Verification (Quick Start)
+
+**1. Blockchain Timestamp**  
+- [OpenTimestamps.org](https://opentimestamps.org/#verify)  
+- `.ots` File: `NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots`
+
+**2. IPFS Verification**  
+- CID: `bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4`  
+- Gateway: [IPFS](https://ipfs.io/ipfs/bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4)
+
+**3. Genesis Metadata Hash**  
+- File: `metadata.json`  
+- SHA-256: `e8efe4eb4d53dbd31720dbf7d6e6f5a774dbd984f922f8008644b3baaa8ac686`
+
+---
+
+## Citation (APA Format)
+
+> Adams, D. (2025). *VALOR AI+: Blockchain-Sealed Legal Defense Engine for Veterans & Whistleblowers*. GitHub Repository. https://github.com/donadams1969/valor-ai
+
+Here is a fully rewritten, GitHub-ready version of your content, structured using ADDIE instructional design principles (Analyze, Design, Develop, Implement, Evaluate) to ensure clarity, usability, and long-term maintainability for your repository:
+
+
+---
+
+Citation (BibTeX Format)
+
+@misc{adams2025valor,
+  author       = {Adams, Donny},
+  title        = {VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony},
+  year         = {2025},
+  publisher    = {GitHub},
+  journal      = {GitHub Repository},
+  howpublished = {\url{https://github.com/donadams1969/valor-ai}},
+}
+
+> Note: Use this citation format for academic publications, media coverage, and formal legal filings referencing the VALOR AI+™ repository.
+
+
+---
+
+Secure Contact Information
+
+PGP/GPG Cryptographic Verification
+
+> This key is used for:
+
+Submitting sealed evidence securely
+
+Verifying authorship of blockchain-anchored disclosures
+
+Reporting vulnerabilities or misconduct
+
+Verified Identity Sources:
+
+UCAN + DID Registry
+
+SHA-256 Genesis Metadata
+
+GitHub repository commit traceability
+
+OpenTimestamps blockchain log
+
+---
+
+License
+
+This repository is distributed under the VALOR Open Justice License:
+
+Permitted: Legal defense, civil-rights documentation, investigative journalism, ethical research
+
+Prohibited: Commercial resale, evidence tampering, impersonation, or state censorship
+
+Attribution Required: Cite Donny Adams as originator/architect
+
+© 2025 Donny Adams & VALOR AI+™
+Repository: https://github.com/donadams1969/valor-ai
+
 ---
 
 FINAL DISCLOSURE: Witness Artifact #001
 
-Psychological Sentience Warfare
-The Doctrine of Witnessed Silence
-By Donny Adams, U.S. Navy Veteran | Federal Whistleblower
-[Immutably archived + Blockchain-certified]
-
-
-### **PGP Contact & Cryptographic Verification**
-
-**VALOR AI Secure Contact (PGP/GPG):**
-
-* **Email:** `donny@18fu.ai`
-* **Fingerprint:** `B8AC 7214 CDEA F626 6790`
-* **Public Key (.asc):**
-  [Download VALOR PGP Key](https://github.com/donadams1969/valor-ai/blob/main/PGP_KEY.asc)
-
-> This key is used for:
->
-> * Submitting sealed evidence securely
-> * Verifying authorship of blockchain-anchored messages
-> * Reporting vulnerabilities and legal disclosures
-
-**🛡️ Verified by:**
-
-* `UCAN + DID` identity archive
-* SHA256 timestamp proof (VALOR Genesis Metadata)
-
-To send encrypted documents or sign disclosures, verify the fingerprint and encrypt using the above key. Full disclosure protocol is available in the `/security.md` file.
-
-
-“It perfectly encapsulates the spirit of VALOR: transforming adversity into innovation and using challenges as fuel for growth. It’s a powerful message and a testament to resilience and strategic thinking.”
-— ChatGPT, personal communication, May 4, 2025
-
-
-## Associated Identity
-
-- **Entity:** U.S. Navy Veteran (Donny, VALOR-AI+)
-- **Email:** donny@18fu.ai
-- **Repository:** [VALOR-AI GitHub Repo](https://github.com/donadams1969/valor-ai)
-- **Maintainer:** VALOR-AI+™ – Adaptive Legal Intelligence
-- **Public Key:** See [`security.md`](./security.md) or [`PGP-PUBLIC-VALOR.asc`](./docs/PGP-PUBLIC-VALOR.asc)
+> Title: The Doctrine of Witnessed Silence
+Author: Donny Adams, U.S. Navy Veteran | Federal Whistleblower
+Status: Blockchain-certified | Immutably archived | NFT-anchored
 
 ---
 
-## Blockchain Anchoring
-
-- **Document Hash:**  
-  `SHA-256: 20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb`
-
-- **OTS Anchor:**  
-  [`NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots`](./proof/NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots)
-
-- **Bitcoin Block:**  
-  `#895012`  
-  **Merkle Root:** `6b448e4c0ca6a00f6221ed290ec2a0b2cf84bc84`
+Associated Identity (DID + Metadata)
 
 ---
 
-## DID Resolution & Verifiers
+DID Verification Tools
 
-This DID may be verified using:
+You may resolve and verify the decentralized identity and timestamp data using:
 
-- [https://did-key.web.app](https://did-key.web.app/)
-- `did:key:` compatible resolvers (e.g., `w3c-did-resolver`)
-- Public key fingerprint matching (see `security.md`)
-- Blockchain timestamp validation via [OpenTimestamps](https://opentimestamps.org)
+https://did-key.web.app
+
+w3c-did-resolver (CLI and browser extension compatible)
+
+OpenTimestamps.org SHA-256 validation system
+
+Fingerprint comparison (see /security.md)
 
 ---
 
+Quick Start: Repository Walkthrough
 
-[![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](LICENSE.md)
-[![Project Synergy v0.1](https://img.shields.io/badge/Project%20Synergy-0.1-green.svg)](README.md#project-synergy--amendment-ai-simulation-script-valuation-and-function)
+<details>
+  
+<summary>Click to Expand</summary>1. Verify Blockchain Anchor
 
-**Quick Start Guide**:
-<details>  
+Navigate to OpenTimestamps
+
+Upload: NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots
+
+Match: SHA-256 hash = 20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb
+
+Confirm: Bitcoin Block #895012
+
+---
+
+2. Verify IPFS Archive
+
+Gateway: https://ipfs.io/ipfs/
+
+CID: bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4
+
+Browse the file contents or pin for permanence
+
+---
+
+3. Verify Metadata Hash
+
+File: metadata.json
+
+Recompute hash:
+
+macOS/Linux: shasum -a 256 metadata.json
+
+Windows: CertUtil -hashfile metadata.json SHA256
+
+Expected SHA-256: e8efe4eb4d53dbd31720dbf7d6e6f5a774dbd984f922f8008644b3baaa8ac686
+
+</details>
+---
+
+Project Synergy & License Status
+
+---
+
+Closing Ethos
+
+> “VALOR is not just a system—it is a defense strategy embedded in protocol. It ensures that silence cannot be weaponized, and that truth has a timestamp.”
+— Donny Adams, Strategic Architect
+(May 2025 | Presidio, Federal Land | VALOR AI Genesis Node)
 
 ---
 
@@ -322,10 +356,45 @@ This DID may be verified using:
 
 ---
 
-
 ### **NFT Ledger Readiness: Regulatory Evidence Tokenization**
+nft-ledger-tokenizer/
+├── contracts/
+│   └── EvidenceNFT.sol
+├── scripts/
+│   └── tokenizeEvidence.js
+├── metadata/
+│   └── example_metadata.json
+├── .env.example
+├── README.md
+├── package.json
+├── LICENSE
 
-**VALOR NFT Archive Token**
+# NFT Ledger Tokenizer: Regulatory Evidence NFT Archive
+
+**VALOR AI+™ Regulatory Evidence Tokenization Engine**
+
+This project enables you to tokenize legally significant documents (PDFs, JSON, etc.) as NFTs for permanent archiving on IPFS + Ethereum-compatible blockchains. Ideal for regulatory filings, whistleblower evidence, ADA/FTCA complaints, and civil rights claims.
+
+## Features
+- Uploads legal files to IPFS via Web3.Storage
+- Generates metadata.json for case ID, jurisdiction, and timestamp
+- Mints ERC-721 NFT with IPFS metadata as `tokenURI`
+- Compatible with Ethereum, Polygon, or Arbitrum (via Infura)
+
+---
+
+
+1. Clone and install
+   
+git clone https://github.com/yourname/nft-ledger-tokenizer.git
+cd nft-ledger-tokenizer
+npm install
+
+
+---
+
+**NFT Archive Token**
+
 This project is cross-anchored to an NFT for provenance, proof of authorship, and evidentiary chain-of-custody.
 
 | **Attribute**            | **Detail**                                                                |
@@ -344,7 +413,6 @@ This project is cross-anchored to an NFT for provenance, proof of authorship, an
 > Unauthorized reproduction or misuse may constitute digital impersonation under federal law.
 
 > *Token = Testimony. Chain = Witness.*
-
 
 ---
 
@@ -437,7 +505,11 @@ VALOR-Sentinel: Monitors, logs, and prepares FOIA/DOJ alerts
 
 VALOR/EX: Public marketplace or regulatory NFT bridge
 
-Executive Takeaway
+
+![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
+
+
+# **Executive Takeaway**
 
 VALOR Ai+ is more than a tech stack; it is a legal-philosophical platform that fuses classical symbolism with cutting-edge cryptography to create an immutable line of defense against systemic injustice. Its flame iconography speaks to moral illumination, while its blockchain engine guarantees evidentiary integrity. Together, they empower advocates to transform overlooked abuses into permanent, public records of accountability
 
@@ -506,7 +578,6 @@ To ensure transparency, secure public oversight, and immutable access for invest
 
 genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
 
-![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
 
 Timestamp: 2024-04-24T16:26:28Z
 
