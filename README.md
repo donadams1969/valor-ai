@@ -82,13 +82,13 @@ This record may be cited in legal, journalistic, or scholarly work as:
 
 If referencing this repository in legal filings, scholarly work, or journalistic investigation, please use the following citation format:
 
-> Gillson, D. (2025). *VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony*. GitHub Repository. [https://github.com/donadams1969/valor-ai](https://github.com/donadams1969/valor-ai)
+> Adams, D. (2025). *VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony*. GitHub Repository. [https://github.com/donadams1969/valor-ai](https://github.com/donadams1969/valor-ai)
 
 **BibTeX:**
 
 ```bibtex
 @misc{gillson2025valor,
-  author       = {Gillson, Donny},
+  author       = {Adams, Donny},
   title        = {VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony},
   year         = {2025},
   publisher    = {GitHub},
