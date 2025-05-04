@@ -1,0 +1,13 @@
+{
+  "id": "VALOR-NFT-001",
+  "issuer": "did:key:z6MksixMxntRx1ECrk9kG8x3ARhy2qYZ3wKvm9QmJzg4TDuN",
+  "type": "LegalProofAnchor",
+  "issued": "2025-05-04T00:00:00Z",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2025-05-04T00:00:00Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MksixMxntRx1ECrk9kG8x3ARhy2qYZ3wKvm9QmJzg4TDuN#z6MksixMxntRx1ECrk9kG8x3ARhy2qYZ3wKvm9QmJzg4TDuN",
+    "jws": "eyJ...<signature>"
+  }
+}
