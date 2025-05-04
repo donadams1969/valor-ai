@@ -18,7 +18,8 @@ Cross-Platform AI Evidence Collaboration Framework
 ---
 
 <details>
-<summary><strong>1. Analysis</strong></summary>Interoperability gaps between AI systems
+<summary><strong>1. Analysis</strong></summary> Interoperability gaps between AI systems
+
 
 Legal testimony often lacks verified, tamper-proof digital origin
 
@@ -161,7 +162,7 @@ Contact
 
 Email: donny@18fu.ai
 
-Web: 18fu.ai
+Web: http://www.18fu.ai
 
 GitHub: donadams1969/valor-ai
 
