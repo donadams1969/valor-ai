@@ -772,7 +772,7 @@ Disabled Veteran · Federal Whistle-blower
 
 ---
 
-/evidence/ coming soon 
+/evidence/ 
 
 Used for hashed, timestamped, or NFT-encoded legal disclosures.
 
@@ -784,7 +784,7 @@ Used for hashed, timestamped, or NFT-encoded legal disclosures.
 
 ---
 
-/docs/ coming soon
+/docs/
 
 For legal standards, templates, and explanation of protocols.
 
@@ -796,7 +796,7 @@ For legal standards, templates, and explanation of protocols.
 
 ---
 
-/ai/ coming soon
+/ai/ 
 
 For VALOR AI+ intelligence logic, service models, or transformer rulesets. 
 
@@ -807,7 +807,7 @@ For VALOR AI+ intelligence logic, service models, or transformer rulesets.
 
 ---
 
-/nft/ coming soon
+/nft/ 
 
 Holds metadata, minting records, and token structure for legal NFTs.
 
@@ -819,7 +819,7 @@ Holds metadata, minting records, and token structure for legal NFTs.
 
 ---
 
-/tools/ coming soon
+/tools/ 
 
 For command-line or scripted tools to automate legal workflows.
 
