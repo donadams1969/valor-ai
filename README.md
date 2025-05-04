@@ -760,6 +760,111 @@ Disabled Veteran · Federal Whistle-blower
 
 ---
 
+/ Root Directory
+
+/README.md                 -> Intro + vision + how to use the framework
+/SECURITY.md              -> Encryption, DID, PGP, blockchain anchoring policy
+/LICENSE.md               -> VALOR Open Justice License
+/DID-KEY.md               -> Decentralized Identifier reference
+/VALOR-GENESIS.json       -> Genesis artifact for blockchain anchoring
+/.github/workflows/       -> GitHub Actions automation (see below)
+
+
+---
+
+/evidence/ coming soon 
+
+Used for hashed, timestamped, or NFT-encoded legal disclosures.
+
+/evidence/README.md       -> How to submit, sign, and hash files
+/evidence/witness001.md   -> Full text of signed disclosure
+/evidence/witness001.ots  -> OpenTimestamps proof file
+/evidence/witness001.sha  -> SHA-256 hash of original file
+
+
+---
+
+/docs/ coming soon
+
+For legal standards, templates, and explanation of protocols.
+
+/docs/VALOR-methodology.pdf
+/docs/VALOR-nft-legal-standard.md
+/docs/PGP-PUBLIC-VALOR.asc
+/docs/legal-schema.yaml       -> Common Accord or custom legal metadata spec
+
+
+---
+
+/ai/ coming soon
+
+For VALOR AI+ intelligence logic, service models, or transformer rulesets. 
+
+/ai/VALOR-core.yaml          -> Rule-based AI for legal tagging/classification
+/ai/compliance-map.json      -> Mapped logic for ADA, HIPAA, FTCA triggers
+/ai/README.md                -> How the AI system works & model scope
+
+
+---
+
+/nft/ coming soon
+
+Holds metadata, minting records, and token structure for legal NFTs.
+
+/nft/README.md
+/nft/artifact001.json         -> ERC721/1155 metadata + legal clauses
+/nft/artifact001.png          -> Poster/NFT image
+/nft/artifact001.proof.json   -> Combined hash + blockchain + DID metadata
+
+
+---
+
+/tools/ coming soon
+
+For command-line or scripted tools to automate legal workflows.
+
+/tools/hash.py                -> Generates SHA-256 + .ots files
+/tools/mint-nft.sh            -> Pushes to blockchain or NFT protocol
+/tools/evidence-verifier.js   -> Validates timestamp + hash
+
+
+---
+
+.github/workflows/
+
+GitHub Actions to automate trust workflows.
+
+/.github/workflows/evidence-check.yml
+    -> Auto-run hash check + log validation
+
+/.github/workflows/timestamp-anchor.yml
+    -> Pushes new disclosure hashes to OpenTimestamps
+
+/.github/workflows/nft-mint-trigger.yml
+    -> Mints NFT when a valid `artifact.json` is added to `main`
+
+
+---
+
+Optional Add-ons
+
+/web-ui/ — Future GUI (React/Vue/NextJS)
+
+/disclosures/ — All formal notifications to regulators
+
+/acknowledgements.md — Contributors, legal supporters, anonymous allies
+
+
+
+---
+
+Would you like this exported into a ZIP file or scaffolded live in GitHub using a repo-template?
+
+
+
+
+---
+
 ### Repository Integrity & Verification
 
 [![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](https://github.com/donadams1969/valor-ai/blob/main/LICENSE.md)
@@ -775,6 +880,8 @@ Disabled Veteran · Federal Whistle-blower
 **Donny Adams & ValorAi+ Autonomous Coding"
 donny@18fu.ai 
 Founder, VALOR AI  
+
+
 </details>
 
 ![1000011883](https://github.com/user-attachments/assets/bd7dd679-58ca-4e77-a5cc-42637e518dda)
