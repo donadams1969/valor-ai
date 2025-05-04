@@ -16,12 +16,11 @@ project_motto: "Forged in fire, sealed in code."
 ---
 
 Root CID
-https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.link/
+https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.link
 
 <details>
 <summary>Media Contact, Use, and Syndication</summary>
 For media syndication, interviews, or public access inquiries related to Project Solara, contact: donny@18fu.ai. You may cite this archive under CC BY 4.0 with attribution to "Donny Adams, Founder of VALOR Ai+."
-</details>
 
 Copyright (c) 2025
 
@@ -32,7 +31,7 @@ This repository is released under the MIT License for public verification, legal
 
 ![1000011800](https://github.com/user-attachments/assets/58da4443-0b3e-4fe2-9643-7126a21ed3e9)
 
-
+</details>
 ---
 
 ### **Blockchain Verification: Bitcoin Hash Anchoring**
@@ -51,10 +50,9 @@ This timestamp is independently verifiable via [OpenTimestamps.org](https://open
 
 ![1000011763](https://github.com/user-attachments/assets/00a12253-7c96-40a7-ae38-005a8bfbaafb)
 
-
 ---
 
-### **Web3 / NFT Metadata Files (Now in Repository)**
+### **Web3 / NFT Metadata Files IN FILES REPOSITORY ABOVE**
 
 These files are published and committed to the repository for public audit, IPFS linking, and Web3 NFT deployment:
 
@@ -65,11 +63,6 @@ These files are published and committed to the repository for public audit, IPFS
   *Exbit-structured NFT and legal artifact manifest referencing the VALOR AI+ Genesis Witness.*
 
 Both files are anchored in IPFS and correspond to NFT Witness Artifact #001 from the VALOR AI+ archive.
-
----
-
-Would you like a short badge-style block or QR code referencing both manifests for embedding on GitHub or Mirror?
-
 
 ## VALOR CHAIN IDENTITY BADGE  
 **Name:** G.1 – Disabled U.S. Navy Veteran  
@@ -110,7 +103,7 @@ The posters are cinematic. The use of logos (OpenAI, Google, Valor-Ai+) gives it
 
 “Cross-platform AI collaboration”? “Blockchain-Backed Integrity”? “Simulated DOJ chain-of-custody exchange”?
 
-This feels less like a GitHub repo and more like a classified DARPA pitch deck that accidentally leaked.
+"This feels less like a GitHub repo and more like a classified DARPA pitch deck that accidentally leaked." G.2
 
 # VALOR Ai+: RGenesisHash Record
 
@@ -159,20 +152,9 @@ This publicly accessible evidence locker contains sealed records, exhibits, and 
 ## **Purpose:**
 To ensure transparency, secure public oversight, and immutable access for investigators, attorneys, journalists, and civil rights authorities.
 
----
-
-**Maintained by:**  
-**Donny Adams**
-donny@18fu.ai 
-Founder, VALOR AI  
-
-<details>
-<summary>Additional Important Information ValorAi+ Drop Down⬇️</summary>
-
 genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
 
 ![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
-
 
 Timestamp: 2024-04-24T16:26:28Z
 
@@ -189,7 +171,6 @@ Evidence_locker:https://drive.google.com/drive/folders/1BUsjaSeKc7RPoPBYSqOougBX
 
 License: VALOR Open Justice License
 
-
 ---
 
 ## Licensing
@@ -200,7 +181,6 @@ This record is distributed under the [Creative Commons CC BY 4.0 License](https:
 ---
 
 **Maintainer**: `donny@18fu.ai`  
-
 
 # VALOR‑AI | GENESIS‑BLOCK‑001
 
@@ -215,7 +195,6 @@ This record is distributed under the [Creative Commons CC BY 4.0 License](https:
 ## About
 
 **VALOR‑Ai+** is a digital forensic intelligence engine, custom built to expose, preserve, and elevate the truth in cases of institutional abuse, ADA violations, veteran retaliation, and systemic suppression.
-
 
 ## Core Functions
 
@@ -239,7 +218,6 @@ This record is distributed under the [Creative Commons CC BY 4.0 License](https:
 ---
 
 ## License
-
 
 This project operates under the **VALOR Open Justice License** — unrestricted public use for whistleblower defense, civil‑rights documentation, and advocacy. *Suppressive or commercial misuse is prohibited.*
 
@@ -272,7 +250,6 @@ This repository contains the **Genesis Hash** and metadata for the VALOR Ai+ sys
 - `VALOR_AI_Certificate.ots` — OpenTimestamps proof file  
 - `links/IPFS_CID.txt` — IPFS CID for decentralized file retrieval  
 - `LICENSE` — MIT License and attribution  
-
 ---
 
 ## Verification Tools  
@@ -360,7 +337,6 @@ To ensure **transparency**, enable **public oversight**, and provide **immutable
 
 ![1000011251](https://github.com/user-attachments/assets/186e4f97-d1f0-4b98-879c-6ecdb3b46bca)
 
-
 ---
 
 ## Hi, I’m ValorAi+,
@@ -375,7 +351,6 @@ To ensure **transparency**, enable **public oversight**, and provide **immutable
 ---
 
 # VALOR Ai+
-
 
 <!--  ─────────────────────────────  -->
 <!--  VALOR AI Poster Image here  -->
@@ -447,3 +422,7 @@ Disabled Veteran · Federal Whistle-blower
 > Anchored to Bitcoin Block: `#895012`  
 > SHA-256 Digest: `20be9a304a0d9a90550dbdeca086f658fb103433919128aca4032553ea5cceb`
 
+**Maintained by:**  
+**Donny Adams & ValorAi+ Autonomous Coding"
+donny@18fu.ai 
+Founder, VALOR AI  
