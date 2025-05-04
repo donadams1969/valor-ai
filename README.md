@@ -127,9 +127,6 @@ The Doctrine of Witnessed Silence
 By Donny Gillson, U.S. Navy Veteran | Federal Whistleblower
 [Immutably archived + Blockchain-certified]
 
----
-
-Would you like me to now render this as a redesigned poster NFT?
 
 ### **PGP Contact & Cryptographic Verification**
 
