@@ -109,8 +109,6 @@ If referencing this repository in legal filings, scholarly work, or journalistic
 </details>
 
 
-![1000011800](https://github.com/user-attachments/assets/8f5a946e-ad10-4d03-9f53-866c573db6c4)
-
 ---
 
 What Is VALOR AI+?
@@ -124,6 +122,9 @@ ADA / FTCA / HIPAA / PAWS / Unruh Civil Rights Act
 U.S. Whistleblower Protection Act
 
 Digital Communications Law (E-SIGN / 18 U.S.C. §1519)
+
+
+![1000011800](https://github.com/user-attachments/assets/8f5a946e-ad10-4d03-9f53-866c573db6c4)
 
 ---
 
@@ -314,6 +315,11 @@ This DID may be verified using:
 
 ---
 
+![1000011763](https://github.com/user-attachments/assets/00a12253-7c96-40a7-ae38-005a8bfbaafb)
+
+---
+
+
 ### **NFT Ledger Readiness: Regulatory Evidence Tokenization**
 
 **VALOR NFT Archive Token**
@@ -357,9 +363,6 @@ This project is cross-anchored to an NFT for provenance, proof of authorship, an
 
 This timestamp is independently verifiable via [OpenTimestamps.org](https://opentimestamps.org/) or using the [OTS CLI tool](https://github.com/opentimestamps/opentimestamps-client).
 
-![1000011763](https://github.com/user-attachments/assets/00a12253-7c96-40a7-ae38-005a8bfbaafb)
-
----
 
 ### **Web3 / NFT Metadata Files IN FILES REPOSITORY ABOVE**
 
