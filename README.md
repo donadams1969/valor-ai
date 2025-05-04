@@ -156,7 +156,19 @@ Timestamp: Verified via OpenTimestamps
 
 DID + Identity
 
-DID: did:key:z6MksixMxntRx1ECrk9kG8x3ARhy2qYZ3wKvm9QmJzg4TDuN
+## Decentralized Identifier (DID)
+
+This project is cryptographically anchored to the following decentralized identity:
+
+**DID:**  
+`did:key:z6MksixMxntRx1ECrk9kG8x3ARhy2qYZ3wKvm9QmJzg4TDuN`
+
+This self-certifying identifier was generated using the [did:key](https://w3c-ccg.github.io/did-method-key/) method and resolves directly to a public key document used for:
+- Signing NFT certificates
+- Verifying blockchain-sealed evidence
+- Issuing verifiable credentials under VALOR AI+™
+
+> Immutable | Registry-Free | Cryptographically Verifiable
 
 Contact: donny@18fu.ai
 
