@@ -171,8 +171,8 @@ GitHub: donadams1969/valor-ai
 > “Secured in code. Sealed in chain. Powered by purpose.” — Project Synergy
 
 ---
-![1000012836](https://github.com/user-attachments/assets/2dd00125-9cdf-4111-bea5-0bcf75ca7987)
 
+![1000012838](https://github.com/user-attachments/assets/ee928d59-d80f-41f4-9df9-ad5f764ebd03)
 
 
 
@@ -284,7 +284,9 @@ We engineered a dual-validation system for:
 * 📜 Publish SynergyAI v2.0 RFC
 * 📡 Create validator node network (VALOR Chain Gov Mode)
 
-![1000012832](https://github.com/user-attachments/assets/137eb437-e00e-4ecf-9c50-f7ca04eec6d3)
+![1000012836](https://github.com/user-attachments/assets/40b92a2a-4068-4a2c-9135-85fcf2c117d8)
+
+
 
 
 ---
