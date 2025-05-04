@@ -45,6 +45,70 @@ Disabled Veteran · Federal Whistle-blower
 donny@18fu.ai 
 Founder, VALOR AI  
 
+Digital Signature (Proof of Authority)
+
+---
+
+Root CID
+https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.link
+
+<details>
+  
+<summary>Media Contact, Use, and Syndication</summary>
+ 
+For media syndication, interviews, or public access inquiries related to Project Solara, contact: donny@18fu.ai. You may cite this archive under CC BY 4.0 with attribution to "Donny Adams, Founder of VALOR Ai+."
+
+Copyright (c) 2025
+
+This repository is released under the MIT License for public verification, legal archiving, and academic transparency.
+
+ValorAi+. (2025). VALOR Ai+: Blockchain-Sealed Legal Defense Engine for Veterans & Whistleblower Protection 
+
+### **Academic Archiving & DOI Integration**
+
+To ensure permanence, citation integrity, and legal admissibility across institutional domains, this project is being cross-published to the following open research repositories:
+
+| **Repository**              | **Status**     | **Persistent Link / DOI**                                                                          |
+| --------------------------- | -------------- | -------------------------------------------------------------------------------------------------- |
+| **Zenodo** (EU CERN-backed) | Pending Upload | `DOI: to be assigned – [Zenodo Archive]()`                                                         |
+| **Open Science Framework**  | In Process     | `OSF Archive: https://osf.io/xxxxxx`                                                               |
+| **VALOR GitHub Main**       | Active         | [`https://github.com/donadams1969/valor-ai`](https://github.com/donadams1969/valor-ai)             |
+| **IPFS Web3 Gateway**       | Active         | [`bafybeie6zy5...`](https://ipfs.io/ipfs/bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4) |
+
+> Once assigned, the DOI and related metadata will be automatically indexed by Google Scholar, CrossRef, and institutional academic databases.
+
+This record may be cited in legal, journalistic, or scholarly work as:
+
+> **Adams, D.** (2025). *VALOR AI: Blockchain-Sealed Legal Defense Engine*. Zenodo. DOI forthcoming.
+
+---
+
+### **Citation Suggestion (APA Format)**
+
+If referencing this repository in legal filings, scholarly work, or journalistic investigation, please use the following citation format:
+
+> Adams, D. (2025). *VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony*. GitHub Repository. [https://github.com/donadams1969/valor-ai](https://github.com/donadams1969/valor-ai)
+
+**BibTeX:**
+
+```bibtex
+@misc{gillson2025valor,
+  author       = {Adams, Donny},
+  title        = {VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony},
+  year         = {2025},
+  publisher    = {GitHub},
+  journal      = {GitHub Repository},
+  howpublished = {\url{https://github.com/donadams1969/valor-ai}},
+}
+```
+
+> **Note:** Citation is publicly licensed under the VALOR Open Justice License. All derivative citations must preserve author attribution and mission integrity.
+
+---
+
+</details>
+
+
 ![1000011800](https://github.com/user-attachments/assets/8f5a946e-ad10-4d03-9f53-866c573db6c4)
 
 ---
@@ -177,68 +241,6 @@ This DID may be verified using:
 
 ---
 
-## Digital Signature (Proof of Authority)
-
----
-
-Root CID
-https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.link
-
-<details>
-  
-<summary>Media Contact, Use, and Syndication</summary>
- 
-For media syndication, interviews, or public access inquiries related to Project Solara, contact: donny@18fu.ai. You may cite this archive under CC BY 4.0 with attribution to "Donny Adams, Founder of VALOR Ai+."
-
-Copyright (c) 2025
-
-This repository is released under the MIT License for public verification, legal archiving, and academic transparency.
-
-ValorAi+. (2025). VALOR Ai+: Blockchain-Sealed Legal Defense Engine for Veterans & Whistleblower Protection 
-
-### **Academic Archiving & DOI Integration**
-
-To ensure permanence, citation integrity, and legal admissibility across institutional domains, this project is being cross-published to the following open research repositories:
-
-| **Repository**              | **Status**     | **Persistent Link / DOI**                                                                          |
-| --------------------------- | -------------- | -------------------------------------------------------------------------------------------------- |
-| **Zenodo** (EU CERN-backed) | Pending Upload | `DOI: to be assigned – [Zenodo Archive]()`                                                         |
-| **Open Science Framework**  | In Process     | `OSF Archive: https://osf.io/xxxxxx`                                                               |
-| **VALOR GitHub Main**       | Active         | [`https://github.com/donadams1969/valor-ai`](https://github.com/donadams1969/valor-ai)             |
-| **IPFS Web3 Gateway**       | Active         | [`bafybeie6zy5...`](https://ipfs.io/ipfs/bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4) |
-
-> Once assigned, the DOI and related metadata will be automatically indexed by Google Scholar, CrossRef, and institutional academic databases.
-
-This record may be cited in legal, journalistic, or scholarly work as:
-
-> **Adams, D.** (2025). *VALOR AI: Blockchain-Sealed Legal Defense Engine*. Zenodo. DOI forthcoming.
-
----
-
-### **Citation Suggestion (APA Format)**
-
-If referencing this repository in legal filings, scholarly work, or journalistic investigation, please use the following citation format:
-
-> Adams, D. (2025). *VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony*. GitHub Repository. [https://github.com/donadams1969/valor-ai](https://github.com/donadams1969/valor-ai)
-
-**BibTeX:**
-
-```bibtex
-@misc{gillson2025valor,
-  author       = {Adams, Donny},
-  title        = {VALOR A.i.+™: Blockchain-Sealed Legal Defense Engine for Veterans, Whistleblowers, and Digital Testimony},
-  year         = {2025},
-  publisher    = {GitHub},
-  journal      = {GitHub Repository},
-  howpublished = {\url{https://github.com/donadams1969/valor-ai}},
-}
-```
-
-> **Note:** Citation is publicly licensed under the VALOR Open Justice License. All derivative citations must preserve author attribution and mission integrity.
-
----
-
-</details>
 
 [![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](LICENSE.md)
 [![Project Synergy v0.1](https://img.shields.io/badge/Project%20Synergy-0.1-green.svg)](README.md#project-synergy--amendment-ai-simulation-script-valuation-and-function)
