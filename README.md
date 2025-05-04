@@ -1,4 +1,4 @@
-![1000010733](https://github.com/user-attachments/assets/83beb8dd-4e92-4d55-8930-d340e6a5916b)
+
 
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
@@ -180,9 +180,6 @@ Founder, VALOR AI
 That's Edutainment, LLC  
 Whistleblower | Veteran | Strategic Technologist
 
-![1000010729](https://github.com/user-attachments/assets/4e6d880d-dfce-4d47-aab8-31a37f023e33)
-
-![1000010715](https://github.com/user-attachments/assets/d512dca8-ec37-4687-b056-1b94de604661)
 
 
 
