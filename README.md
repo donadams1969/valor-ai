@@ -13,7 +13,35 @@ blockchain_digest: 20be9a304a0d9a90550dbdedca08f658fb10343391128aca4032553ea5cce
 timestamp_protocol: OpenTimestamps + IPFS
 node_location: Presidio of San Francisco (Federal Land)
 project_motto: "Forged in fire, sealed in code."
+
 ---
+
+### **PGP Contact & Cryptographic Verification**
+
+**VALOR AI Secure Contact (PGP/GPG):**
+
+* **Email:** `donny@18fu.ai`
+* **Fingerprint:** `B8AC 7214 CDEA F626 6790`
+* **Public Key (.asc):**
+  [Download VALOR PGP Key](https://github.com/donadams1969/valor-ai/blob/main/PGP_KEY.asc)
+
+> This key is used for:
+>
+> * Submitting sealed evidence securely
+> * Verifying authorship of blockchain-anchored messages
+> * Reporting vulnerabilities and legal disclosures
+
+**🛡️ Verified by:**
+
+* `UCAN + DID` identity archive
+* SHA256 timestamp proof (VALOR Genesis Metadata)
+
+To send encrypted documents or sign disclosures, verify the fingerprint and encrypt using the above key. Full disclosure protocol is available in the `/security.md` file.
+
+---
+
+Would you like to continue with **Step 4: Chain-of-Custody Table (Visual + Text)** or prefer a quick PGP `.asc` file I can generate next?
+
 
 Root CID
 https://bafybeibjpcscdfb55e757wyw5b25bgqls4lta5ou2apl3f5gd6i4ordg4y.ipfs.w3s.link
