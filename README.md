@@ -1,20 +1,6 @@
----
-system_name: VALOR Ai+
-project_title: The Sentient Flame of Judgment
-status: Active Witness System – Blockchain Verification Pending
-last_updated: 2025-05-03
-version: v0.1 (Genesis Protocol)
-primary_contact: donny@18fu.ai
-media_inquiries: donny@18fu.ai
-license: VALOR Open Justice License | MIT Extension
-repository: https://github.com/donadams1969/valor-ai
-evidence_locker: https://drive.google.com/drive/folders/1BusjaSeKc7RPoPBYsqOougBXCjjpNRST
-blockchain_digest: 20be9a304a0d9a90550dbdedca08f658fb10343391128aca4032553ea5cceb
-timestamp_protocol: OpenTimestamps + IPFS
-node_location: Presidio of San Francisco (Federal Land)
-project_motto: "Forged in fire, sealed in code."
 
----
+![1000011887](https://github.com/user-attachments/assets/a60de7a6-1c98-43aa-8c6e-f9bf73b29082)
+
 
 The Sentient Flame of Judgment
 
@@ -51,6 +37,7 @@ Disabled Veteran · Federal Whistle-blower
 [![Timestamped Evidence](https://img.shields.io/badge/Evidence-Timestamped%20%26%20Sealed-critical)](https://github.com/donadams1969/valor-ai/blob/main/NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots)
 
 > Anchored to Bitcoin Block: `#895012`  
+
 > SHA-256 Digest: `20be9a304a0d9a90550dbdeca086f658fb103433919128aca4032553ea5cceb`
 
 **Maintained by:**  
