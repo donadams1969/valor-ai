@@ -1,3 +1,40 @@
+
+## License
+
+This repository is dual-licensed under the terms below:
+
+### **1. Apache License 2.0**
+You are free to use, modify, and distribute this code under the terms of the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). This includes:
+
+- Commercial and private use
+- Modification and distribution
+- Patent grant protection
+- License and notice inclusion requirement
+
+---
+
+### **2. VALOR Open Justice License (Supplemental)**
+This project is also protected under the **VALOR Open Justice License**, created by a U.S. Navy Veteran and whistleblower. It includes the following additional terms:
+
+- **Use Restrictions**: This repository is for legal advocacy, civil rights documentation, veteran support, academic research, and non-commercial use only.
+- **Accountability Clause**: Any use of this repository to suppress rights, alter legal records, or retaliate against whistleblowers is explicitly prohibited.
+- **AI/Blockchain Clause**: All contributions may be timestamped and sealed using decentralized technologies to ensure immutable public record.
+- **Credit Required**: All forks or derivative works must include attribution:  
+  `Built upon the VALOR A.i.+™ system by Donny Adams | 18fu.ai`
+
+Full license terms available in [`LICENSE.md`](./LICENSE.md)
+
+---
+
+© 2025 Donny Adams / VALOR A.i.+™  
+All rights reserved under international law and the Digital Communications Protection Act.
+
+
+
+
+
+
+
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
 ![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
