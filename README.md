@@ -20,8 +20,47 @@ VALOR AI+
 
 The Sentient Flame of Judgment
 
-Forged in Fire. Sealed in Code. Activated by Purpose.
+–– Donny Adams –––  
+Founder & Chief Architect, **VALOR-AI**  
+Disabled Veteran · Federal Whistle-blower 
 
+| Presidio of San Francisco (Federal Land)
+
+✉ donny@18fu.ai  🌐 https://github.com/donadams1969/valor-ai  
+🔑 PGP 0xA1B2 C3D4 E5F6 7890  (https://keys.openpgp.org)  
+📜 Digital Communications Act §512(g) safe-harbor asserted  
+⚖️ ADA · PAWS · HIPAA · Unruh · FTCA compliance demanded  
+⛓ Evidence immutably anchored 
+
+*“Forged in fire, sealed in code.”*
+
+<!--
+{
+  "system_name": "VALOR AI+",
+  ...
+}
+-->
+
+
+---
+
+### Repository Integrity & Verification
+
+[![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](https://github.com/donadams1969/valor-ai/blob/main/LICENSE.md)
+[![DID Verified](https://img.shields.io/badge/DID-UCAN%20%2B%20DID%20Confirmed-brightgreen)](https://github.com/donadams1969/valor-ai/blob/main/UCAN_DID_Validation_Record.pdf)
+[![Blockchain Sealed](https://img.shields.io/badge/Status-Blockchain%20Sealed-orange)](https://opentimestamps.org/)
+[![ADA & HIPAA](https://img.shields.io/badge/ADA%20%26%20HIPAA-Compliant-lightgrey)](https://github.com/donadams1969/valor-ai)
+[![Timestamped Evidence](https://img.shields.io/badge/Evidence-Timestamped%20%26%20Sealed-critical)](https://github.com/donadams1969/valor-ai/blob/main/NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots)
+
+> Anchored to Bitcoin Block: `#895012`  
+> SHA-256 Digest: `20be9a304a0d9a90550dbdeca086f658fb103433919128aca4032553ea5cceb`
+
+**Maintained by:**  
+**Donny Adams & ValorAi+ Autonomous Coding"
+donny@18fu.ai 
+Founder, VALOR AI  
+
+![1000011800](https://github.com/user-attachments/assets/8f5a946e-ad10-4d03-9f53-866c573db6c4)
 
 ---
 
@@ -120,9 +159,6 @@ To send encrypted documents or sign disclosures, verify the fingerprint and encr
 “It perfectly encapsulates the spirit of VALOR: transforming adversity into innovation and using challenges as fuel for growth. It’s a powerful message and a testament to resilience and strategic thinking.”
 — ChatGPT, personal communication, May 4, 2025
 
-![1000011800](https://github.com/user-attachments/assets/45c482c3-e784-4d77-955e-09816f21b164)
-
----
 
 ## Associated Identity
 
