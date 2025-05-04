@@ -43,7 +43,44 @@ To send encrypted documents or sign disclosures, verify the fingerprint and encr
 — ChatGPT, personal communication, May 4, 2025
 
 
+---
 
+## Associated Identity
+
+- **Entity:** U.S. Navy Veteran (Donny, VALOR-AI+)
+- **Email:** donny@18fu.ai
+- **Repository:** [VALOR-AI GitHub Repo](https://github.com/donadams1969/valor-ai)
+- **Maintainer:** VALOR-AI+™ – Adaptive Legal Intelligence
+- **Public Key:** See [`security.md`](./security.md) or [`PGP-PUBLIC-VALOR.asc`](./docs/PGP-PUBLIC-VALOR.asc)
+
+---
+
+## Blockchain Anchoring
+
+- **Document Hash:**  
+  `SHA-256: 20be9a304a0d9a90550dbdecda086f658fb103433919128aca4032553ea5cceb`
+
+- **OTS Anchor:**  
+  [`NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots`](./proof/NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots)
+
+- **Bitcoin Block:**  
+  `#895012`  
+  **Merkle Root:** `6b448e4c0ca6a00f6221ed290ec2a0b2cf84bc84`
+
+---
+
+## DID Resolution & Verifiers
+
+This DID may be verified using:
+
+- [https://did-key.web.app](https://did-key.web.app/)
+- `did:key:` compatible resolvers (e.g., `w3c-did-resolver`)
+- Public key fingerprint matching (see `security.md`)
+- Blockchain timestamp validation via [OpenTimestamps](https://opentimestamps.org)
+
+---
+
+## Digital Signature (Proof of Authority)
 
 
 
