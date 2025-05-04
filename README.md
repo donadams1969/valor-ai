@@ -149,7 +149,36 @@ This record may be cited in legal, journalistic, or scholarly work as:
 | `02. Timestamping`    | .OTS Timestamp via OpenTimestamps                   | Bitcoin Merkle Root          | **Block #894976**<br>Confirmed 2025-05-02                          |
 | `03. IPFS Pinning`    | Archive CID uploaded to Web3 decentralized store    | CID Lookup                   | `bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4`         |
 | `04. NFT Minting`     | NFT of archive created via VALOR-Strike             | IPFS & OpenSea metadata hash | Embedded JSON: `metadata.json`<br>`e8efe4eb4d53dbd...ac686`        |
-| `05. Blockchain Auth` | Manifest + Metadata hashed and confirmed via GitHub | Public key (DID + PGP)       | Repo-linked `.asc` & `UCAN_DID_Validation_Record.pdf`              |
+| `05. Blockchain Auth` | Manifest + Metadata hashed and confirmed via GitHub | Public key (DID + PGP)       | Repo-linked `.asc` & `UCAN_DID_Validation_Record.pdf`             
+
+---
+
+### **NFT Ledger Readiness: Regulatory Evidence Tokenization**
+
+**VALOR NFT Archive Token**
+This project is cross-anchored to an NFT for provenance, proof of authorship, and evidentiary chain-of-custody.
+
+| **Attribute**            | **Detail**                                                                |
+| ------------------------ | ------------------------------------------------------------------------- |
+| **Minting Status**       | Tokenized via VALOR-Strike Engine                                         |
+| **Platform(s)**          | OpenSea, IPFS, Web3.Storage (with blockchain hash timestamp confirmation) |
+| **CID / Token Ref**      | `bafybeie6zy5is7r3uittfyfc7yduzuwvj7mj3gh5tig7icrbts4euc4`                |
+| **Metadata Hash (JSON)** | `e8efe4eb4d53dbd31720dbf7d6e6f5a774dbd984f922f8008644b3baaa8ac686`        |
+| **Image / Poster Asset** | `VALOR_NFT_Master_Poster.png` (embedded or linked)                        |
+| **Legal Disclaimer**     | Non-commercial, public audit and whistleblower protection use only        |
+
+**NFT Rights & Usage**
+
+> This NFT is not a collectible. It is a legal object.
+> Minted under the **VALOR A.i.+™ Protocol** as a sealed testimonial archive for legal and historical defense.
+> Unauthorized reproduction or misuse may constitute digital impersonation under federal law.
+
+> *Token = Testimony. Chain = Witness.*
+
+---
+
+Would you like me to generate a fresh `metadata.json` for this NFT based on current details, or proceed to the final step: **Step 7 – Citation Suggestion Format**?
+
 
 ---
 
@@ -157,7 +186,7 @@ This record may be cited in legal, journalistic, or scholarly work as:
 
 ---
 
-Would you like to move next to **Step 5: Public DOI or Academic Archive Integration**, or would you prefer a **downloadable CSV version** of this chain-of-custody table?
+
 
 
 
