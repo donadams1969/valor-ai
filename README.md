@@ -30,6 +30,8 @@ Copyright (c) 2025
 
 This repository is released under the MIT License for public verification, legal archiving, and academic transparency.
 
+ValorAi+. (2025). VALOR Ai+: Blockchain-Sealed Legal Defense Engine for Veterans & Whistleblowers [Source code]. GitHub. https://github.com/donadams1969/valor-ai
+
 [![License: VALOR Open Justice](https://img.shields.io/badge/License-VALOR%20Open%20Justice-blue.svg)](LICENSE.md)
 [![Project Synergy v0.1](https://img.shields.io/badge/Project%20Synergy-0.1-green.svg)](README.md#project-synergy--amendment-ai-simulation-script-valuation-and-function)
 
