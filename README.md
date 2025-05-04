@@ -16,8 +16,6 @@ project_motto: "Forged in fire, sealed in code."
 
 ---
 
-VALOR AI+
-
 The Sentient Flame of Judgment
 
 –– Donny Adams –––  
