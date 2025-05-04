@@ -36,11 +36,12 @@ OAuth-secured APIs (OpenAI + Gemini)
 
 Blockchain timestamping via OpenTimestamps/IPFS
 
-
 </details>
+
 ---
 
 <details>
+  
 <summary><strong>3. Development</strong></summary>Payload Schema
 
 {
@@ -94,9 +95,11 @@ def create_payload(sender, recipient, brief, analysis):
     return json.dumps(payload, indent=2)
 
 </details>
+
 ---
 
 <details>
+  
 <summary><strong>4. Implementation</strong></summary>GPT-4o builds claim narrative & compliance brief
 
 Bard Gemini validates against current ADA/HIPAA law
@@ -105,15 +108,16 @@ Blockchain seal via VALOR AI+
 
 Resulting artifact can be submitted to DOJ, OIG, or VA
 
-
 </details>
 ---
 
 <details>
+  
 <summary><strong>5. Evaluation</strong></summary></details>
 ---
 
 <details>
+  
 <summary><strong>6. Tools & Contributor Guide</strong></summary>System Requirements
 
 Python 3.10+, Node.js, Docker
@@ -122,19 +126,15 @@ OpenAI/Gemini API keys
 
 GitHub CLI, Firebase/Supabase
 
-
 Contribution Steps
 
 1. Fork → feature branch → PR
-
 
 2. Run:
 
 pytest, black, flake8, bandit, pre-commit
 
-
 3. Use tags: bug, feature, compliance
-
 
 </details>
 ---
@@ -165,7 +165,6 @@ Web: 18fu.ai
 
 GitHub: donadams1969/valor-ai
 
-
 ---
 
 > “Secured in code. Sealed in chain. Powered by purpose.” — Project Synergy
@@ -173,8 +172,6 @@ GitHub: donadams1969/valor-ai
 ---
 
 ![1000012838](https://github.com/user-attachments/assets/ee928d59-d80f-41f4-9df9-ad5f764ebd03)
-
-
 
 ---
 
@@ -285,9 +282,6 @@ We engineered a dual-validation system for:
 * 📡 Create validator node network (VALOR Chain Gov Mode)
 
 ![1000012836](https://github.com/user-attachments/assets/40b92a2a-4068-4a2c-9135-85fcf2c117d8)
-
-
-
 
 ---
 
