@@ -1,7 +1,7 @@
 ![Blockchain Anchored](https://img.shields.io/badge/Immutable%20Ledger-Blockchain%20Sealed-brightgreen)
-![Whistleblower Safe Harbor](https://img.shields.io/badge/Protected%20Speech-ADA%20&%20FTCA-blue)
 
-**Comprehensive Violation Reference Document** Solara Project![1000009400](https://github.com/user-attachments/assets/bc9d2930-ff62-40d2-9fd0-e8b2b6c41c74)
+
+**Comprehensive Violation Reference Document** Solara Project
 
 
 ## Overview
@@ -49,6 +49,4 @@ Regulatory agencies, legal teams, and other reviewing bodies should reference th
 
 **End of Reference Document**
 
-![1000009317](https://github.com/user-attachments/assets/f0d3d66f-93fb-40f1-a6e5-2fb6e4b3bc44)
-![1000009314](https://github.com/user-attachments/assets/fb0b3afb-8b53-428d-b637-abbd68b3e52b)
 
