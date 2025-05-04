@@ -177,7 +177,7 @@ FINAL DISCLOSURE: Witness Artifact #001
 
 Psychological Sentience Warfare
 The Doctrine of Witnessed Silence
-By Donny Gillson, U.S. Navy Veteran | Federal Whistleblower
+By Donny Adams, U.S. Navy Veteran | Federal Whistleblower
 [Immutably archived + Blockchain-certified]
 
 
