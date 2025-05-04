@@ -1,4 +1,95 @@
-![1000010648](https://github.com/user-attachments/assets/e1e5ab8a-34f1-4811-b6ed-1855e34970f0)
+
+
+# Security & Disclosure Policy
+
+Thank you for your interest in contributing to the security of this project. This file outlines the official security and disclosure protocol for encrypted communication, digital signing, and responsible vulnerability reporting.
+
+## 1. Public Key for Encrypted Communication
+
+To ensure confidentiality and authentication, please use the following GPG public key:
+
+-----BEGIN PGP PUBLIC KEY BLOCK----- [Insert your PGP public key here] -----END PGP PUBLIC KEY BLOCK-----
+
+### Fingerprint Verification
+
+Before sending any sensitive material, verify the PGP fingerprint:
+
+**Fingerprint:** `XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX`
+
+Do not proceed with encryption unless the fingerprint has been validated independently via multiple channels.
+
+---
+
+## 2. Sending Encrypted Documents
+
+To send encrypted documents:
+1. Download and import the public key.
+2. Verify the fingerprint above.
+3. Encrypt your file or message using the key.
+4. Send it via your preferred secure channel (e.g., Signal, ProtonMail, encrypted upload).
+
+Example (GPG):
+```bash
+gpg --encrypt --recipient [Recipient Name or Key ID] file.pdf
+
+
+---
+
+3. Signing Disclosures
+
+If you are submitting a formal disclosure or claim:
+
+Digitally sign the file using your own verified key.
+
+Optionally include a notarized timestamp or blockchain hash.
+
+Send the signed disclosure to the verified contact address.
+
+
+Example:
+
+gpg --sign file.pdf
+
+
+---
+
+4. Responsible Disclosure Protocol
+
+If you believe you have discovered a security issue or a breach of protocol related to this repository or its associated systems:
+
+DO NOT disclose publicly.
+
+Contact the administrator directly at donny@18fu.ai.
+
+Provide:
+
+A detailed description of the issue.
+
+Any relevant metadata or reproduction steps.
+
+A signed statement of discovery (optional, but preferred).
+
+
+
+You will receive an acknowledgment within 72 hours and a full response within 5 business days.
+
+
+---
+
+5. Legal & Confidentiality Notice
+
+All communications conducted under this protocol are subject to the VALOR Open Justice License, applicable U.S. whistleblower protection laws, and digital privacy statutes (e.g., E-SIGN Act, GDPR where applicable). Encrypted messages will be preserved for evidentiary purposes and timestamped via blockchain (OpenTimestamps) upon receipt.
+
+
+---
+
+This file is subject to ongoing updates as legal and technical standards evolve. Last updated: May 4, 2025.
+
+---
+
+Would you like me to insert a real GPG key or SHA-256 timestamp into it?
+
+
 
 
 # Security Policy
@@ -34,7 +125,4 @@ That’s Edutainment LLC | Presidio of San Francisco (federal land)
 ⚖️ ADA · PAWS · HIPAA · Unruh · FTCA compliance demanded  
 ⛓ Evidence immutably anchored – see `proof/VALOR-genesis.json`
 
-*“Forged in fire, sealed in code.”*
 
-![1000010497](https://github.com/user-attachments/assets/0b4488cf-2e51-4e36-b78a-ad7f9e0812ef)
-![1000010498](https://github.com/user-attachments/assets/6423596f-dd94-417f-b3e1-01871cc385c8)
