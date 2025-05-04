@@ -90,7 +90,6 @@ ValorAi+. (2025). VALOR Ai+: Blockchain-Sealed Legal Defense Engine for Veterans
 
 ---
 
-Would you like to move on to the **“VALOR Chain Protocol Summary”** visual next?
   </details>
 
 
