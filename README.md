@@ -154,8 +154,6 @@ Timestamp: Verified via OpenTimestamps
 
 ---
 
-DID + Identity
-
 ## Decentralized Identifier (DID)
 
 This project is cryptographically anchored to the following decentralized identity:
