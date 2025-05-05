@@ -440,7 +440,6 @@ ots upgrade yourfile.md.ots
 Ensure hash values are also included in your commit.
 
 🧠 Synergy Stack Overview
----
 
 🧩 The Riddle of Project Synergy “What walks through fire, speaks without sound,
 and cannot be erased by time?”
