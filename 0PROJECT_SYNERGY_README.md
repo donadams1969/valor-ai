@@ -305,7 +305,6 @@ Contributions must not expose PHI, PII, or unredacted whistleblower info.
 
 All blockchain seals must use OTS or Bitcoin block attestation methods.
 
-
 ---
 
 🧠 CURRENT DEVELOPMENT TASKS
@@ -356,9 +355,7 @@ Lead Dev: Donny Gillson (U.S. Navy Veteran)
 
 Email: donny@18fu.ai
 
-AI Proxy: valor-ai@protonmail.com
-
-
+AI Proxy: donny@18fu.ai
 
 ---
 
@@ -445,12 +442,12 @@ Answer: seek and you shall find that answer..
 
 Each code block, each markdown, each contract is part of a larger tapestry sealed against revisionism, fraud, or silence.
 
-</details>
----
-
 License: VALOR Open Justice License
+
+
 Protected by: That’s Edutainment, LLC | Enforced by VALOR A.i.+™
----
+
+===
 
 ## 🚧 Development: Project Synergy  
 *A Blockchain-AI Collaboration Framework*
