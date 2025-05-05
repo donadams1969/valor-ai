@@ -388,3 +388,148 @@ We engineered a dual-validation system for:
 
 ---
 
+Excellent. Here's the updated GitHub-ready collapsible Table of Contents — now enhanced with visual icons/emojis, legal flair, and strategic symbolism. This is designed to dazzle, signal credibility, and bring users into the mystery of Gillson v. Solara with riddle-based navigation and maximum visual pop.
+
+
+---
+
+# ⚖️ GILLSON v. SOLARA: The VALOR Doctrine  
+*A Strategic, Legal, Psychological, and Spiritual Archive*
+
+![Blockchain Sealed](https://img.shields.io/badge/Blockchain-Sealed-orange)  
+![ADA Verified](https://img.shields.io/badge/ADA-Protected-blue)  
+![HIPAA Anchor](https://img.shields.io/badge/HIPAA-Immutable-brightgreen)  
+![VALOR AI+ Engine](https://img.shields.io/badge/AI-VALOR%20Legal%2FEthics%20System-purple)
+
+---
+
+## **Welcome to the Riddle of VALOR**
+
+> **“What walks through fire, speaks without sound, and cannot be erased by time?”**  
+> *Answer: The sealed record of the one who stood when others vanished.*  
+
+Each chapter contains evidence, verses, testimony, and legal commentary — hidden in collapsible toggles for security and flow.  
+Click each iconed title to reveal a piece of the puzzle.
+
+---
+
+### **Chapters (with collapsible reveals)**
+
+<details>
+<summary>🦶 CHAPTER I: The Fall</summary>
+
+**“He who falls shall rise again, seven times.” — Proverbs 24:16**  
+*The moment the foot shattered and the system cracked wide open.*
+
+</details>
+
+---
+
+<details>
+<summary>🧠 CHAPTER II: Informed Consent Denied</summary>
+
+*“Informed consent is not a checkbox. It is a contract of trust.”*  
+Michelle and Alia crossed lines. Legal, clinical, and ethical ones.
+
+</details>
+
+---
+
+<details>
+<summary>🐾 CHAPTER III: The Service Dog and the Law</summary>
+
+**“A righteous man regards the life of his animal…” — Proverbs 12:10**  
+Jaxx wasn't a pet. He was federal protection — ignored.
+
+</details>
+
+---
+
+<details>
+<summary>⏳ CHAPTER IV: Elder Shield Activated</summary>
+
+*“At 55, the law changes. They didn’t.”*  
+This wasn’t just clinical neglect — it may be criminal.
+
+</details>
+
+---
+
+<details>
+<summary>🚪 CHAPTER V: The Discharge Protocol</summary>
+
+**“Do unto others…” — Luke 6:31**  
+An unsafe release. No transition. Just silence and a locked door.
+
+</details>
+
+---
+
+<details>
+<summary>📴 CHAPTER VI: The Chain of Silence</summary>
+
+*“When they stop speaking, they start losing.”*  
+Ghosted. Deleted. Ignored. But the blockchain records it all.
+
+</details>
+
+---
+
+<details>
+<summary>⛓️ CHAPTER VII: Blockchain Doesn’t Blink</summary>
+
+**“Let your ‘Yes’ be ‘Yes.’” — Matthew 5:37**  
+Sealed. Timestamped. Immutable. Blockchain > redaction.
+
+</details>
+
+---
+
+<details>
+<summary>⚠️ CHAPTER VIII: Whistleblower Rising</summary>
+
+*“They thought I would go quietly. They miscalculated.”*  
+This isn’t vengeance. It’s veteran justice automation.
+
+</details>
+
+---
+
+<details>
+<summary>🎭 CHAPTER IX: That’s Edutainment</summary>
+
+**“He turned mourning into dancing.” — Psalm 30:11**  
+From ashes to a business. From trauma to trademark.
+
+</details>
+
+---
+
+<details>
+<summary>🔨 CHAPTER X: The Riddle and the Hammer</summary>
+
+**“When is silence louder than guilt?”**  
+*Answer: When it echoes forever on-chain.*  
+This is Hammer Time.
+
+</details>
+
+---
+
+### **Repository Features**  
+- ✅ NFT-sealed PDFs  
+- ✅ AI-authored legal briefings  
+- ✅ SHA-256 ledger with timestamps  
+- ✅ E-Signed evidence vault  
+- ✅ FOIA-ready appendix  
+- ✅ All material backed by VALOR A.i.+™ forensic logic
+
+---
+
+**Licensed under the [VALOR Open Justice License](./LICENSE.md)**  
+Protected and Published by: **That’s Edutainment, LLC**  
+Sealed by **VALOR A.i.+™** | U.S. Navy Veteran-Owned  
+© 2025 — Immutable. Intentional. Indestructible.
+
+---
+
