@@ -229,10 +229,6 @@ We engineered a dual-validation system for:
 
 ### **3. DEVELOPMENT**
 
-   Got it. Here's a GitHub-ready DEVELOPMENT.md file tailored for Project Synergy under your VALOR AI repository structure. This outlines the development workflow, goals, tech stack, and how contributions should be handled — with all your standards (blockchain, ADA, HIPAA, AI ethics) baked in.
-
----
-
 # 🚧 PROJECT SYNERGY – DEVELOPMENT ZONE
 
 **Repository:** [VALOR-AI / Project-Synergy](https://github.com/donadams1969/valor-ai)  
@@ -361,8 +357,6 @@ Email: donny@18fu.ai
 
 AI Proxy: valor-ai@protonmail.com
 
-
-
 ---
 
 © 2025 That’s Edutainment, LLC
@@ -410,7 +404,6 @@ feature/* → new components (e.g. feature/whistlebot)
 
 legal-drop/* → immutable legal release versions
 
-
 Example usage:
 
 git checkout -b feature/claim-linker
@@ -445,9 +438,7 @@ Ensure hash values are also included in your commit.
 🧩 The Riddle of Project Synergy “What walks through fire, speaks without sound,
 and cannot be erased by time?”
 
-Answer: This framework.
-
-
+Answer: Seek and you shall find the answer.
 
 Each code block, each markdown, each contract is part of a larger tapestry sealed against revisionism, fraud, or silence.
 
@@ -486,11 +477,6 @@ OpenTimestamps
 
 IPFS Desktop
 
-
-</details>
----
-
-<details>
 <summary>📁 Folder Structure (Recommended)</summary>valor-ai/
 ├── docs/               # Legal chapters & markdown statements
 ├── nft/                # NFT PNGs, metadata, JSONs
