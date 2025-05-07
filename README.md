@@ -56,10 +56,6 @@ Filed: May 7, 2025
 Summary of Work:
 - Formal complaint summary drafted and visually NFT-rendered
 - ADA, FERPA, Unruh, PAWS Act, HIPAA, and elder abuse statutes cited
-- Documents styled in APA format with VALOR AI+ branding
-- NFT visual confirmations and blockchain-sealed PDF versions created
-- Notification messages distributed to federal and state regulatory bodies
-- Planned follow-ups with ADA portals and the Federal Civil Rights Division (CDR)
 
 <details>
   
