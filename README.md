@@ -104,7 +104,6 @@ a **shield** wrapped in code and powered by courage.
 ## ✉️ CONTACT & LINKS
 
 - Email: [donny@18fu.ai](mailto:donny@18fu.ai)  
-- VA File #: **3461**  
 - Public NFT Certificate: _Coming Soon_  
 - GitHub Repo: [github.com/donnygillson/valor-ai-plus](#) *(replace with actual URL)*
 
