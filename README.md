@@ -257,3 +257,22 @@ if __name__ == "__main__":
 
 ![1000011413](https://github.com/user-attachments/assets/ae6b7e46-1bcb-4799-9104-25c45e370a8c)
 
+---
+
+## 🧱 SYNERGIA BADGE .
+
+A cryptographic badge system for validator tracking, developer role assignment, and audit visibility.
+
+| 🏷️ Badge | Name | Function | Role |
+|----------|------|----------|------|
+| 🧠 | GPT-4o Node | Drafts legal narratives | Author |
+| 📘 | Gemini Validator | Confirms law and citation | Compliance |
+| 🛰️ | Grok Scanner | Monitors retaliation | Threat Intel |
+| ⚖️ | VALOR Anchor | Blockchain evidence sealing | Chain Authority |
+| 🛡️ | Whistle Shield | Protects whistleblower data | Security |
+| 🗳️ | DAO Validator | Participates in case governance | Governance |
+
+> All badges are sealed under SHA-256 + IPFS and tied to the Synergia GitHub hash vault.
+
+
+
