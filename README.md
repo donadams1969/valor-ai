@@ -1,3 +1,12 @@
+### 📑 OSC Whistleblower Memo
+
+- **Document:** [OSC_Memo_Gillson_0516.pdf](./OSC_Memo_Gillson_0516.pdf)
+- **Date Submitted:** May 16, 2025
+- **Filed Under:** OSC Case Files DI-25-001534 & MA-25-004750
+- **Topics:** ADA Violation, Retaliatory Discharge, VA Suppression, Legal Misrepresentation
+- **Blockchain Record:** NFT SOLARA-EX20.1 | SHA256-anchored
+
+
 # 🛡️ VALORCHAIN: Tactical Silence Registry – Public Archive
 
 > **Registry ID:** VALOR-TRK-0502-0516-O  
