@@ -1,11 +1,3 @@
-### 📑 OSC Whistleblower Memo
-
-- **Document:** [OSC_Memo_Gillson_0516.pdf](./OSC_Memo_Gillson_0516.pdf)
-- **Date Submitted:** May 16, 2025
-- **Filed Under:** OSC Case Files DI-25-001534 & MA-25-004750
-- **Topics:** ADA Violation, Retaliatory Discharge, VA Suppression, Legal Misrepresentation
-- **Blockchain Record:** NFT SOLARA-EX20.1 | SHA256-anchored
-
 
 # 🛡️ VALORCHAIN: Tactical Silence Registry – Public Archive
 
@@ -16,6 +8,16 @@
 > **Blockchain Anchors:** SHA256 | Ethereum | IPFS  
 > **Status:** ✅ FORWARD MODE ENGAGED
 
+Use of this asset without attribution or DAO-licensed approval constitutes a violation of immutable intellectual property recorded under blockchain hash SOLARA-EX20.1
+
+### 📑 OSC Whistleblower Memo
+
+- **Document:**
+[OSC_Memo_Gillson_0516.pdf](./OSC_Memo_Gillson_0516.pdf)
+- **Date Submitted:** May 16, 2025
+- **Filed Under:** OSC Case Files DI-25-001534 & MA-25-004750
+- **Topics:** ADA Violation, Retaliatory Discharge, VA Suppression, Legal Misrepresentation
+- **Blockchain Record:** NFT SOLARA-EX20.1 | SHA256-anchored
 ---
 
 ## 🔒 LEGAL RECORDS INCLUDED
