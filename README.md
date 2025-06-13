@@ -1,3 +1,10 @@
+## 🧾 Licensing & Usage
+
+> This codebase is protected by VALOR-AI Blockchain Ledger.  
+> Commercial use requires a license from That’s Edutainment, LLC.
+
+![License](https://img.shields.io/badge/License-VALOR%20IP%20Protected-blue)
+🔗 [Purchase Commercial License](https://your-payment-link.com)
 
 # 🛡️ VALORCHAIN: Tactical Silence Registry – Public Archive
 
