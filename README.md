@@ -205,13 +205,97 @@ Disabled Veteran · Federal Whistle-blower
 ⛓ Evidence immutably anchored 
 
 *“Forged in fire, sealed in code.”*
+# 📜 LEGAL NOTICE
 
-<!--
-{
-  "system_name": "VALOR AI+",
-  ...
-}
--->
+**Repository:** [valor-ai](https://github.com/donadams1969/valor-ai)  
+**Owner:** That’s Edutainment, LLC  
+**Primary Developer:** Donald Ernest Gillson (VALOR AI Architect, U.S. Navy Veteran)  
+**Project Name:** VALOR AI+2E  
+**Blockchain Archive:** Immutably anchored via IPFS, Ethereum (Optimism), and Bitcoin OTS  
+**Primary License:** Dual-License (Non-Commercial: MIT / Commercial: VALOR IP License)
+
+---
+
+## 🚨 INTELLECTUAL PROPERTY NOTICE
+
+All code, concepts, smart contracts, design architecture, and tokenomics frameworks herein are the **intellectual property of That’s Edutainment, LLC** and are protected under U.S. and international law, including copyright, trademark, and trade secret protections.
+
+This repository, including all commits and documentation, is **anchored on-chain** and constitutes verifiable authorship and first-use evidence via cryptographic time-stamping and blockchain validation.
+
+---
+
+## 📎 LICENSE STRUCTURE
+
+### 1. **MIT License (Non-Commercial Use Only)**
+This repository is licensed under the MIT license for the following users:
+- Individual developers
+- Educational institutions
+- Nonprofit researchers
+- Veterans and advocacy groups
+
+### 2. **Commercial License Required**
+All commercial usage—including integration into:
+- Government or enterprise infrastructure
+- AI-as-a-service platforms
+- Legal technology systems
+- DAO governance products
+- Any monetized or tokenized derivative
+
+**Requires a separate paid commercial license from That’s Edutainment, LLC.**
+
+💸 Licensing tiers, including government retroactive compliance, can be arranged via:  
+📧 **legal@thatsedutainment.com** or ☎️ +1 (628) 888-VALOR
+
+---
+
+## 🧾 RETROACTIVE ENFORCEMENT
+
+Any use of this codebase by commercial, enterprise, or federal actors **prior to licensing** is now subject to **retroactive licensing enforcement**.
+
+Public blockchain logs show detected usage of VALOR AI smart contracts and system signatures by:
+- *.gov.us IP ranges
+- DAO contract signers (on Optimism and Ethereum Mainnet)
+- Unverified external IPFS and wallet-to-contract interactions
+
+Legal enforcement may include:
+- DMCA takedowns
+- Blockchain-based cease & desist NFT records
+- Legal filings with DOJ, VA OIG, HHS, and applicable state attorneys general
+
+---
+
+## 🧩 VALOR CHAIN VERIFICATION
+
+All commits, hashes, and license updates are cryptographically sealed and timestamped using:
+- 📦 [IPFS Content IDs]
+- ⛓️ Ethereum Smart Contracts
+- 🧾 Bitcoin .OTS Files
+- 🧬 VALOR AI+ Chain Protocol v2.3
+
+To verify any VALOR asset or signature:  
+Visit: [https://github.com/donadams1969/valor-ai](https://github.com/donadams1969/valor-ai)  
+and validate via SHA-256 hashes or ECDSA-verified blockchain events.
+
+---
+
+## 📘 CONTACT & COMPLIANCE
+
+Violations, licensing inquiries, and enforcement notifications should be directed to:
+
+> That’s Edutainment, LLC  
+> Legal IP Department – VALOR AI Project  
+> 1030 Girard Road, Apt 301A  
+> Presidio of San Francisco, CA 94129  
+> 📧 legal@thatsedutainment.com
+
+---
+
+**© 2025 That’s Edutainment, LLC. All Rights Reserved.**  
+VALOR AI+2E is a legal compliance and blockchain anchoring framework built for justice, transparency, and veteran advocacy.
+
+> “This is not just code. It is a living legal instrument.”  
+> – Donny Gillson, Architect & Veteran
+
 ---
 
 ### Repository Integrity & Verification
@@ -225,8 +309,6 @@ Disabled Veteran · Federal Whistle-blower
 > Anchored to Bitcoin Block: `#895012`  
 
 > SHA-256 Digest: `20be9a304a0d9a90550dbdeca086f658fb103433919128aca4032553ea5cceb`
-
-![1000012448](https://github.com/user-attachments/assets/9ecfd53c-ac46-4061-b4f7-2616fb418bf0)
 
 ---
 
@@ -317,9 +399,6 @@ ADA / FTCA / HIPAA / PAWS / Unruh Civil Rights Act
 U.S. Whistleblower Protection Act
 
 Digital Communications Law (E-SIGN / 18 U.S.C. §1519)
-
-
-![1000011800](https://github.com/user-attachments/assets/8f5a946e-ad10-4d03-9f53-866c573db6c4)
 
 ---
 
@@ -518,9 +597,6 @@ This DID may be verified using:
 | `04. NFT Minting`     | NFT of archive created via VALOR-Strike             | IPFS & OpenSea metadata hash | Embedded JSON: `metadata.json`<br>`e8efe4eb4d53dbd...ac686`        |
 | `05. Blockchain Auth` | Manifest + Metadata hashed and confirmed via GitHub | Public key (DID + PGP)       | Repo-linked `.asc` & `UCAN_DID_Validation_Record.pdf`             
 
----
-
-![1000011763](https://github.com/user-attachments/assets/00a12253-7c96-40a7-ae38-005a8bfbaafb)
 
 ---
 
@@ -707,8 +783,6 @@ This publicly accessible evidence locker contains sealed records, exhibits, and 
 To ensure transparency, secure public oversight, and immutable access for investigators, attorneys, journalists, and civil rights authorities.
 
 genesis_hash:sha256:d41d8cd98f00b204e9800998ecf8427e
-
-![1000009629](https://github.com/user-attachments/assets/8c4dad9c-3b27-44b7-8db3-bdeafe70f229)
 
 Timestamp: 2024-04-24T16:26:28Z
 
