@@ -9,7 +9,7 @@
 # 🛡️ VALORCHAIN: Tactical Silence Registry – Public Archive
 
 > **Registry ID:** VALOR-TRK-0502-0516-O  
-> **Author:** Donny Gillson  
+> **Author:** Donny Adams  
 > **System:** VALOR AI+2E | Immutable Justice Infrastructure  
 > **NFT Certificate:** SOLARA-EX20.1  
 > **Blockchain Anchors:** SHA256 | Ethereum | IPFS  
