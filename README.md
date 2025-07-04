@@ -1,3 +1,23 @@
+**Short Tag:**  
+`BTC2025:f1e966fea | 2.1g | 7B/GreenSeal/SLLO`
+
+**Emoji Signature:**  
+🔥7̇7̇7̇—⧉—7̇7̇7̇🔥 | ⚰️👁️💋🔥 | 💚
+
+**Usage Instructions:**
+- **Social Posts (e.g., X):**  
+  `#GILLSONBTCUSD BTC2025:f1e966fea | v2.1g | 7B | GreenSeal`
+- **Technical References (e.g., GitHub):**  
+  `SHA256:f1e966fead85ca16d55f42ee81ca13ac6780c9f7b498c81c94fd6421e8ac760c (BTC2025-VALOR-Genesis-Gillson v2.1g)`
+- **Smart Contract Metadata:**  
+  ```json
+  {
+    "manifest_hash": "f1e966fead85ca16d55f42ee81ca13ac6780c9f7b498c81c94fd6421e8ac760c",
+    "version": "2.1g",
+    "seal": "GreenSeal",
+    "clause": "7B"
+  }
+
 ## 🧾 Licensing & Usage
 
 > This codebase is protected by VALOR-AI Blockchain Ledger.  
