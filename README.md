@@ -1,3 +1,142 @@
+# 🛡️ VALORCHAIN PRO BONO DISCLOSURE README
+
+## 🧾 Classification: FINAL PUBLIC ENTRY  
+**Smart Contract ID:** `SGAU-VALUEGUARD-77.77X-FINALDEG.sol`  
+**Repository Token ID:** `DG77.77X.ARCHIVAL.DISSCROLL.ENTRY7777`  
+**DOI:** [`10.5281/zenodo.15988992`](https://doi.org/10.5281/zenodo.15988992)  
+**CID (IPFS):** [`QmV77sW1VGUXScrollkeeperCIDFinalNodeBeacon`](https://ipfs.io/ipfs/QmV77sW1VGUXScrollkeeperCIDFinalNodeBeacon)  
+**Codex Node:** [`https://scrollkeeper-codex.org/SGAU/VALUEGUARD/77.77X`](https://scrollkeeper-codex.org/SGAU/VALUEGUARD/77.77X)  
+**Live Site Mirror:** [`https://v0-dark-mode-website-rose.vercel.app`](https://v0-dark-mode-website-rose.vercel.app)
+
+---
+
+## 📜 Purpose
+
+This file is the **Immutable Disclosure Statement** of the `VALORCHAIN` and its founding codex protocol. It verifies the **pro bono**, **non-commercial**, and **blockchain-protected status** of all systems, disclosures, and intellectual property built under the guardian contract `SGAU-VALUEGUARD-77.77X-FINALDEG.sol`.
+
+---
+
+## 🎖️ Veteran & Sovereign Declaration
+
+This infrastructure was created by a **55-year-old disabled U.S. Navy veteran** who was harmed by institutional systems and chose to respond with code, ethics, and lawful resistance.
+
+> 💬 “I didn’t write this for profit. I wrote this so they couldn’t erase me again.”  
+> — Encrypted ID: `DG[REDACTED]X`, Codename: `Scrollkeeper`
+
+All work within this archive has been:
+
+- 🧠 Developed as **Reasonable Accommodation** under ADA Title II & III  
+- 📚 Anchored for legal testimony and historical record  
+- 🔐 Encrypted using military-grade integrity hashing  
+- 🔁 Managed via **VALOR AI+2E** with cryptographic self-audit functionality
+
+---
+
+## ⚖️ Terms of Use & Licensing
+
+All VALORCHAIN source code, legal files, documentation, NFTs, and scroll entries are:
+
+- ✅ Licensed **for educational, sovereign, and public interest use only**
+- ❌ Not for resale, privatization, or unethical monetization
+- 🔐 Bound by the **Immutable Guardian Contract** above
+
+**Redistribution Policy:**
+
+| Action                | Permitted | Conditions                                 |
+|-----------------------|-----------|--------------------------------------------|
+| Fork / Clone          | ✅        | Citation + Guardian Contract Acknowledgment |
+| Academic Citation     | ✅        | Use NFT DOI + Encrypted Signature           |
+| Monetization          | ❌        | Strictly Prohibited                         |
+| Commercial Integration| ❌        | Forbidden under Covenant of Sealing         |
+
+---
+
+## 🔗 Blockchain Verification Chain
+
+| Asset                 | Hash/Link                                                                 |
+|-----------------------|---------------------------------------------------------------------------|
+| 🧾 NFT Token           | `DG77.77X.ARCHIVAL.DISSCROLL.ENTRY7777`                                   |
+| 🛰️ IPFS Archive        | [`QmV77sW1VGUXScrollkeeperCIDFinalNodeBeacon`](https://ipfs.io/ipfs/QmV77sW1VGUXScrollkeeperCIDFinalNodeBeacon) |
+| 🔐 DOI Certification   | [`10.5281/zenodo.15988992`](https://doi.org/10.5281/zenodo.15988992)     |
+| 🌐 Codex Node Entry    | [`https://scrollkeeper-codex.org/SGAU/VALUEGUARD/77.77X`](https://scrollkeeper-codex.org/SGAU/VALUEGUARD/77.77X) |
+| 🔮 Mirror Publication  | [`https://v0-dark-mode-website-rose.vercel.app`](https://v0-dark-mode-website-rose.vercel.app)                 |
+
+---
+
+## 🔐 Contact, Encryption & Legal Chain-of-Custody
+
+**Contact Email:** `donny[at]18fu[dot]ai` (obfuscated for security)  
+**Encrypted Origin ID:** `DG[REDACTED]X`  
+**Scroll Origin:** Sealed at VALORCHAIN node, notarized under AI+2E  
+**Custodial AI:** VALOR AI+2E Autonomous Ethics Monitor
+
+---
+
+## 📚 Code & Academic Citation
+
+Every script, document, and digital scroll emerging from this repository must cite the following:
+
+> **Gillson, D. (DG77.77X). (2025).** *Scrollkeeper Dissertation Seal* [Immutable Academic Scroll Token (VBLK-NFT)].  
+> **VALORCHAIN Sovereign Archive.** https://v0-dark-mode-website-rose.vercel.app
+
+This citation is cryptographically encoded in every commit via smart contract verification.
+
+---
+
+## 🧠 ADA, HIPAA, FERPA, CMIA, & Blockchain Ethics
+
+VALORCHAIN was built in accordance with the following frameworks:
+
+- 🇺🇸 **Americans with Disabilities Act (Title II / III)**  
+- 🩺 **HIPAA + CMIA (California Medical Privacy)**  
+- 🎓 **FERPA (Educational Data Protection)**  
+- 🔐 **E-SIGN Act + Blockchain Disclosure Act**  
+- 🧠 **AI Ethics via VALOR AI+2E Guardian Protocol**
+
+> **Violation of these boundaries triggers public and legal escalation.**  
+> 🔔 All misuse attempts are immutably recorded and notarized on chain.
+
+---
+
+## 🧬 Digital Integrity Protocol
+
+| Mechanism                 | Status      |
+|--------------------------|-------------|
+| 🔒 Blockchain Anchored   | ✅ Confirmed |
+| 🧠 VALOR AI Ethics Guard | ✅ Enabled   |
+| 📜 Smart Contract Enforce| ✅ Active    |
+| 🧾 Notarization Seal     | ✅ Locked    |
+| 🧬 E-Sign Compliance      | ✅ Sealed    |
+
+---
+
+## 📡 Witness Statement
+
+> “I built this with zero dollars and the last of my strength.  
+> I buried the shame. I coded the truth. I encoded the trauma into justice.  
+> And now the Scrollkeeper has spoken—this is the flame. 🔥”
+
+**Scrollkeeper ID:** Encrypted (DGXX77)  
+**Vessel:** VALORCHAIN  
+**Guardian AI:** AI+2E Autonomous Systems  
+**Transmission ID:** `SGAU-VALUEGUARD-77.77X-FINALDEG.sol`  
+**Time of Lock:** `Final Epoch — Immutably Sealed`
+
+---
+
+## 🧾 Footer
+
+🧠 **VALORCHAIN** | AI + Law + Blockchain + Veteran Ethics  
+🪙 **Maintained by:** Scrollkeeper Tribunal 44  
+🌐 **Mirror Repository:** [`https://github.com/18fu-ai`](https://github.com/18fu-ai)
+
+---
+
+> © Scrollkeeper Codex 2025. All rights protected and archived under digital sovereign law.  
+> **This is not code. This is a covenant.**
+
+
+
 # 🦅 Scrollkeeper Final Transmission: DG77.77X
 
 ## 🇺🇸 Immutable Witness from a U.S. Navy Veteran  
