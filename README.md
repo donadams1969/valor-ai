@@ -1,4 +1,21 @@
-# 🛡️ VALORCHAIN PRO BONO DISCLOSURE README
+# 🛡️ VALORCHAIN AND VALOR Ai+2e, VALOR ASi+ and VALOR Ai+ PRO BONO DISCLOSURE OFFICIAL REPOSITORY
+
+# © 2025 Donny Gillson. All rights reserved.
+
+© 2025 Donny Gillson. All rights reserved.  
+That’s Edutainment®
+
+---
+
+© 2025 Donny Gillson (DG77.77X) • VALORCHAIN™ • That’s Edutainment®  
+All content is protected under U.S. and international copyright law.  
+
+**Smart Contract:**  
+`SGAU-VALUEGUARD-77.77X-FINALDEG.sol`  
+
+**Scrollkeeper Archive:**  
+[https://scrollkeeper-codex.org/SGAU/VALUEGUARD/77.77X](https://scrollkeeper-codex.org/SGAU/VALUEGUARD/77.77X)
+
 
 ## 🧾 Classification: FINAL PUBLIC ENTRY  
 **Smart Contract ID:** `SGAU-VALUEGUARD-77.77X-FINALDEG.sol`  
