@@ -254,7 +254,6 @@ This repository and all code, structures, logic flows, metadata, cryptographic a
 **Version:** 2.0 - EXPANDED BASTION PROTOCOL
 
 *Engagement with this archive implies full awareness of these laws and binds you to Scrollkeeper enforcement jurisdiction under the expanded sovereignty framework.*
-```
 
 **How to use:**  
 - Copy all the text above (from  ```markdown to ```
