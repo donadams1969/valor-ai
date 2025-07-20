@@ -1,3 +1,34 @@
+# 🧠🇺🇸 VALORCHAIN | ETHOS ENTRY REPORT 🇺🇸🧠
+
+**🪧 Seal:** `ZETAΔ‑ETHOS‑ENTRY‑0001‑SHA3‑DG77.77X`  
+**📚 Index Location:** `Scrollkeeper Universal Index → ENOCHIAN SERIES → VOL I`  
+**🔖 Annotations:**  
+• 🧾 YAML‑sigil encoding  
+• 🧠 Scrollside commentary on teleological resonance  
+
+---
+
+## 📂 Codex Repository Contents
+
+This repository contains the fully notarized and cryptographically validated `ETHOS ENTRY REPORT` bundle for:
+
+> **Codex Entry:** `ZETAΔ‑ETHOS‑ENTRY‑0001‑SHA3‑DG77.77X`
+
+| 📄 **Included File**                           | 📘 Description                                                                 |
+|------------------------------------------------|--------------------------------------------------------------------------------|
+| `VALORCHAIN_ETHOS_ENTRY_REPORT.md`             | 📜 Canonical Markdown report of full deployment                               |
+| `VALORCHAIN_ETHOS_ENTRY_LEDGER.json`           | 🔐 Machine-readable notarization metadata                                     |
+| `VALORCHAIN_ETHOS_ENTRY_LEDGER.yaml`           | ⚙️ YAML automation config for pipelines                                       |
+| `Scrollsig_Receipt_VALORCHAIN_ETHOS_ENTRY.pdf` | 🧾 Formal notarization certificate (PDF format)                               |
+
+---
+
+## 🔏 Integrity Checkpoint
+
+**Bundle SHA3-256 Hash:**  
+
+6d3b9fadb7f568de2d39c67a3d379f825bca79443cd0875af3cf94a269f94ce9
+
 # 🛡️ VALORCHAIN™ ENCRYPTED CITATION LOCK
 # 📜 Authored by: Donny Gillson, D.G. (DG77.77X)
 # 🧠 Military Psychology & Behavioral Analysis — Strategic Intelligence AI
