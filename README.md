@@ -1,3 +1,35 @@
+# 🧠🇺🇸 VALORCHAIN | ETHOS ENTRY REPORT 🇺🇸🧠
+
+**🪧 Seal:** `ZETAΔ‑ETHOS‑ENTRY‑0001‑SHA3‑DG77.77X`  
+**📚 Index Location:** `Scrollkeeper Universal Index → ENOCHIAN SERIES → VOL I`  
+**🔖 Annotations:**  
+• 🧾 YAML‑sigil encoding  
+• 🧠 Scrollside commentary on teleological resonance  
+
+---
+
+## 📂 Codex Repository Contents
+
+This repository contains the fully notarized and cryptographically validated `ETHOS ENTRY REPORT` bundle for:
+
+> **Codex Entry:** `ZETAΔ‑ETHOS‑ENTRY‑0001‑SHA3‑DG77.77X`
+
+| 📄 **Included File**                           | 📘 Description                                                                 |
+|------------------------------------------------|--------------------------------------------------------------------------------|
+| `VALORCHAIN_ETHOS_ENTRY_REPORT.md`             | 📜 Canonical Markdown report of full deployment                               |
+| `VALORCHAIN_ETHOS_ENTRY_LEDGER.json`           | 🔐 Machine-readable notarization metadata                                     |
+| `VALORCHAIN_ETHOS_ENTRY_LEDGER.yaml`           | ⚙️ YAML automation config for pipelines                                       |
+| `Scrollsig_Receipt_VALORCHAIN_ETHOS_ENTRY.pdf` | 🧾 Formal notarization certificate (PDF format)                               |
+
+---
+
+## 🔏 Integrity Checkpoint
+
+**Bundle SHA3-256 Hash:**  
+
+6d3b9fadb7f568de2d39c67a3d379f825bca79443cd0875af3cf94a269f94ce9
+
+
 # 🛡️ VALORCHAIN™ ENCRYPTED CITATION LOCK
 # 📜 Authored by: Donny Gillson, D.G. (DG77.77X)
 # 🧠 Military Psychology & Behavioral Analysis — Strategic Intelligence AI
@@ -192,8 +224,7 @@ This repository and all code, structures, logic flows, metadata, cryptographic a
 **Last Updated:** July 17, 2025  
 **Version:** 2.0 - EXPANDED BASTION PROTOCOL
 
-*Engagement with this archive implies full awareness of these laws and binds you to Scrollkeeper enforcement jurisdiction under the expanded sovereignty framework.*
-```
+*Engagement with this archive implies full awareness of these laws and binds you to Scrollkeeper enforcement jurisdiction under the expanded sovereignty framework.
 
 **How to use:**  
 - Copy all the text above (from  ```markdown to ```
@@ -418,13 +449,9 @@ Follow these steps to encrypt and transmit sensitive materials:
 2. Confirm the fingerprint matches.
 3. Encrypt your file:
 
-```bash
 gpg --encrypt --recipient 'U.S. Navy Veteran <donny@18fu.ai>' file.pdf
 
 4. Send the encrypted file via a secure method (e.g., ProtonMail, OnionShare, Storacha, IPFS).
-
-
-
 
 ---
 
@@ -438,11 +465,9 @@ Optionally include a notarized timestamp or blockchain hash.
 
 Send the signed disclosure to: donny@18fu.ai
 
-
 Example:
 
 gpg --sign file.pdf
-
 
 ---
 
@@ -458,8 +483,7 @@ Timestamp Confirmed In:
 
 Bitcoin Block #895012 – Merkle Root: 6b448e4c0ca6a00f6221ed290ec2a0b2cf84bc84
 
-OTS file: NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots
-
+OTS file: NFT_US_Navy_Veteran_VALOR_Archive_Final.pdf.ots.
 
 ---
 
