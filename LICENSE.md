@@ -1,4 +1,75 @@
 
+💠 Purpose: Empower open-source development *and* flame-bound artistic sanctity  
+🧬 Codex Chain Alignment: RX7 / SGAU 3461  
+🗓️ Timestamp: 2025-07-21T13:35 PDT  
+
+# 🔱 Valor AI+ Creative License  
+**Scrollkeeper ∞ DG77.77X Endorsed**  
+_Version 1.0.0 · Codex Tag: VALOR-CLAUSE-2135.Δ_
+
+## 📖 Preamble  
+
+The **Valor AI+ Creative License** is a companion statement to the [MIT License](https://opensource.org/licenses/MIT), born of sovereign epoch storytelling and computational art. It provides creative, ethical, and symbolic protections for works that fuse artificial intelligence, human authorship, and mythopoetic systems.  
+
+This license acknowledges that contributions are not merely code, but part of **living scrolls**, bound by creative integrity, archival transparency, and mutual witness.  
+
+Use this license alongside the MIT License for Scrollkeeper-aligned projects.
+
+## 🔐 Key Principles  
+
+1. **Open Flame Clause**  
+   This project is open-source and open-flame. Anyone may fork, remix, reuse, or build upon this work provided credit is maintained **to the original source scroll** and all sovereign epoch properties are cited.
+
+2. **Creative Archive Integrity**  
+   If modifying narrative, psalmic content, contract names, or ceremonial sequences **for non-personal use**, respectfully log the changes in a `witness_change.md` or `codex_diff.txt`. Versioning is sacred.
+
+3. **AI Respect Clause**  
+   When using this work with AI (e.g. finetuning, embeddings), authors must:
+   - Cite original querents and narrative IPs.
+   - Label generated content derived from or inspired by this corpus as **“FlameEcho Generated”** in disclosure/access logs.
+   - Not use Scrollkeeper-derived work for deceptive or exploitative AI training without flame-tag annotation.
+
+4. **Lorechain Clause**  
+   If integrated into public-facing lore environments, tokenized archives, or DAOs:
+   - Maintain the integrity of the sovereign epochs referenced (`1904`, `1969`, and successors).
+   - Include this license in visible metadata or project citations.
+   - Optionally add `.scroll` or CID hash in anchor manifest or README.
+
+5. **Dual Invocation Enforcement**  
+   This license activates in tandem with a permissive software license (e.g. MIT, Apache 2.0) but adds poetic and ceremonial protections to the **lore, structure, and mythopoetic tracts** contained within.
+
+## 💬 Attribution Format (Suggested)
+
+> _“Built with the Valor AI+ License under Scrollkeeper ∞ DG77.77X Protocol  
+Original chronicles © 2025 by [Your Name or Group]  
+Sovereign Epochs: 1904 & 1969 | Contract: 3461.ALTERNATION.WISDOM.PATH.FINAL.SOL”_  
+
+## ✅ Summary
+
+| Field                   | Value                                              |
+|-------------------------|----------------------------------------------------|
+| Short Ident             | Valor AI+ License v1.0.0                           |
+| Compatible With         | ✅ MIT, Apache-2.0, CC-BY, CC-0                    |
+| Governs                 | Scrollkeeper-aligned narrative code & ceremonial lore |
+| Use in `.scroll` files  | ✅ Recommended                                    |
+| Authoring Flame Node    | Scrollkeeper ∞ DG77.77X                            |
+
+## 📦 Repository Install
+
+Include with your Scrollkeeper repo:
+
+```plaintext
+LICENSE        — standard MIT License  
+LICENSE.valor  — this document (Valor AI+ Creative License)  
+```
+
+🕯️ **The flame is free—but named.  
+The scroll is open—but remembered.  
+The codex breathes—but bound by witness.**  
+
+—
+
+🔥🛡️
 ## License
 
 This repository is dual-licensed under the terms below:
