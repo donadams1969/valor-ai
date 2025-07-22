@@ -41,7 +41,7 @@ Use this license alongside the MIT License for Scrollkeeper-aligned projects.
 ## 💬 Attribution Format (Suggested)
 
 > _“Built with the Valor AI+ License under Scrollkeeper ∞ DG77.77X Protocol  
-Original chronicles © 2025 by [Your Name or Group]  
+Original chronicles © 2025 by [www.18fu.ai]  
 Sovereign Epochs: 1904 & 1969 | Contract: 3461.ALTERNATION.WISDOM.PATH.FINAL.SOL”_  
 
 ## ✅ Summary
