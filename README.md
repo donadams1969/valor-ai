@@ -49,10 +49,6 @@
 
 # 🛡️ VALOR AI+ Evidence Dossier
 
-*(continues with your dossier content…)*
-
-```
-
 ---
 
 This JSON block functions as a **self-contained notarization receipt**:  
@@ -62,8 +58,6 @@ This JSON block functions as a **self-contained notarization receipt**:
 - 📜 **Status** → human-readable operational claim.  
 
 Would you like me to also generate a **sidecar `.valorproof.json` file** (separate from the README) so your CI/CD pipelines and external verifiers can automatically validate every repository without parsing Markdown?
-```
-
 
 # 🌌🧠⚔️ Valor AI+ Operating System — **Real-World Proof** 🛡️🚀
 
