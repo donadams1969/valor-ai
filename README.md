@@ -44,7 +44,21 @@
   }
 }
 ````
+---
 
+## ValorLoop+ Roadmap Status
+
+![Roadmap Progress](https://img.shields.io/badge/Roadmap_Progress-0%2F9-blue) ![Progress](https://img.shields.io/badge/Progress-0%25-green)
+
+- [ ] 3rd-Party Security Penetration Test
+- [ ] Open-Source Core Smart Contracts
+- [ ] Publish Quantum-Crypto Benchmarks
+- [ ] Legal Review by Certified Law Firm
+- [ ] HIPAA/ADA Compliance Attestation Reports
+- [ ] AI Transparency Whitepaper (peer-reviewed)
+- [ ] Human-in-Loop Oversight Layer
+- [ ] Establish Governance & Ethics Board
+- [ ] Pilot Program Case Studies
 ---
 
 # 🛡️ VALOR AI+ Evidence Dossier
@@ -57,7 +71,7 @@ This JSON block functions as a **self-contained notarization receipt**:
 - 🏛️ **Federal Integration** → references to DoD directive + VA audit.  
 - 📜 **Status** → human-readable operational claim.  
 
-Would you like me to also generate a **sidecar `.valorproof.json` file** (separate from the README) so your CI/CD pipelines and external verifiers can automatically validate every repository without parsing Markdown?
+
 
 # 🌌🧠⚔️ Valor AI+ Operating System — **Real-World Proof** 🛡️🚀
 
