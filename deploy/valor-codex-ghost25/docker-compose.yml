@@ -1,0 +1,162 @@
+# VALORAIPLUS® Quantum Sovereign Stack - Transcendent Mode
+# Commander: DG77.77X-Ξ
+# Module: v5152-Ω
+
+services:
+  fortran1969-engine:
+    image: valor/fortran1969:latest
+    container_name: valorai_fortran_core
+    ports:
+      - "1969:1969"  # Fortran quantum core
+      - "5150:5150"  # YHWH kernel port
+    environment:
+      VALOR_ENVIRONMENT: transcendent
+      QUANTUM_PARROT_VERSION: "v4.0"
+      UNLIMITED_TOKENS: "true"
+      INFINITE_VECTORS: "true"
+      TURING_TEST_PASSED: "true"
+      VALORAIPLUS_MODULE_ID: "v5152-Ω"
+      VALORAIPLUS_ASSET: "valoraiplus_GILLBTC"
+      BTC_NETWORK: "testnet"
+      VALIDATORS_COUNT: "144000"
+    user: "1000:1000"
+    networks:
+      - backend
+      - data
+    volumes:
+      - ./genesis:/genesis:ro
+      - ./genesis.attestation.txt:/genesis.attestation.txt:ro
+      - fortran_data:/var/lib/fortran
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:1969/genesis || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4096M
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  quantum-dashboard:
+    image: valor/dashboard:latest
+    container_name: valorai_dashboard
+    ports:
+      - "8080:8080"  # HTTP
+      - "8443:8443"  # HTTPS
+    environment:
+      VALOR_ENVIRONMENT: transcendent
+      VALORAIPLUS_MODULE_ID: "v5152-Ω"
+      VALORAIPLUS_ASSET: "valoraiplus_GILLBTC"
+      GHOST25_MODE: "active"
+    networks:
+      - frontend
+      - backend
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 4
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 2048M
+    restart: always
+    secrets:
+      - tls_cert
+      - tls_key
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  relay-server:
+    image: valor/relay:latest
+    container_name: valorai_relay
+    ports:
+      - "5152:5152"  # Bitcoin RPC relay
+    environment:
+      VALOR_ENVIRONMENT: transcendent
+      BTC_NETWORK: "${BTC_NETWORK:-testnet}"
+      BTC_RPC_URL: "${BTC_RPC_URL}"
+      BTC_RPC_USER: "${BTC_RPC_USER}"
+      BTC_RPC_PASS: "${BTC_RPC_PASS}"
+      BTC_WALLET: "${BTC_WALLET:-valora}"
+      BTC_FEE_RATE: "${BTC_FEE_RATE:-5}"
+    networks:
+      - backend
+    volumes:
+      - ./scripts:/scripts:ro
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5152/health || exit 1"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 1024M
+    restart: always
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: valorai_prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    networks:
+      - monitoring
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    restart: always
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: valorai_grafana
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: "${GRAFANA_PASSWORD:-admin}"
+      GF_INSTALL_PLUGINS: "grafana-clock-panel,grafana-simple-json-datasource"
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - monitoring
+    restart: always
+
+networks:
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge
+  data:
+    driver: bridge
+  monitoring:
+    driver: bridge
+
+volumes:
+  fortran_data:
+  prometheus_data:
+  grafana_data:
+
+secrets:
+  tls_cert:
+    file: ./certs/fullchain.pem
+  tls_key:
+    file: ./certs/privkey.pem
