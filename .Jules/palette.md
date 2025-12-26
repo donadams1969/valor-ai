@@ -1,3 +1,3 @@
-## 2025-05-02 - Progress Component Accessibility
-**Learning:** Radix UI Progress components lack inherent labeling and must have explicit `aria-label` or `aria-labelledby` props to be accessible to screen readers, especially when visual labels are siblings.
-**Action:** Always verify `Progress` usage includes accessible labels.
+## 2024-05-23 - Decorative Icons and Screen Reader Noise
+**Learning:** `lucide-react` icons (SVGs) used for decorative purposes or alongside descriptive text are not automatically hidden from screen readers. This can cause redundant or confusing announcements (e.g., "Cpu image Cognitive Load").
+**Action:** Always add `aria-hidden="true"` to icon components when they are purely decorative or when their meaning is fully conveyed by adjacent text. Check header icons and metric indicators specifically.
