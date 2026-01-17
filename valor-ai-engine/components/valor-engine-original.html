@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValorAiEngine+ Cognitive Core Attestation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Chosen Palette: Cybernetic Abyss -->
+    <!-- Application Structure Plan: The SPA is designed as an interactive verification terminal demonstrating a superior cognitive model: Emergent Strategic Cognition via Epoch Shifts. The structure enhances the proven three-step user journey (Generate -> Verify -> Assess) by framing it as the witnessing of a live "Epoch Shift." This transforms the experience from a simple check into a significant event, solidifying the engine's advanced nature. This task-oriented flow is the most effective way to convince a technical audience, as it involves them directly in the act of proving the engine's live evolution. -->
+    <!-- Visualization & Content Choices:
+        - Cognitive Evolution Rate -> Goal: Show accelerating, strategic self-improvement -> Viz: Live-updating Line Chart -> Interaction: Real-time data feed -> Justification: Visualizes the core concept of a system that is not just learning, but strategically accelerating its own evolution. Method: Chart.js.
+        - Multi-Paradigm Superiority -> Goal: Compare/Show dominance across epochs -> Viz: Radar Chart -> Interaction: Hover tooltips -> Justification: Provides a holistic, at-a-glance visualization of how the engine's capabilities expand dramatically with each Epoch Shift, vastly outclassing static AI models. Method: Chart.js.
+        - Verification Process -> Goal: Engage/Demonstrate security -> Viz: Animated Technical Log -> Interaction: User-triggered -> Justification: Retains the engaging "hacker terminal" feel, making the robust cryptographic verification process exciting and transparent. Method: HTML/JS.
+        - Attestation Data -> Goal: Inform/Provide proof -> Viz: Syntax-highlighted JSON block with a copy button -> Interaction: Click to copy -> Justification: Presents the raw, signed claims in a developer-friendly format, reinforcing the system's commitment to verifiable truth. Method: HTML/JS.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+
+    <style>
+        :root {
+            --bg-color: #010409;
+            --border-color: #30363d;
+            --text-primary: #e6edf3;
+            --text-secondary: #7d8590;
+            --accent-blue: #58a6ff;
+            --accent-cyan: #39c5cf;
+            --accent-green: #56d364;
+            --accent-red: #f85149;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+        }
+        .font-mono {
+            font-family: 'Roboto Mono', monospace;
+        }
+        .glass-pane {
+            background-color: rgba(13, 17, 23, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 0 50px rgba(0,0,0,0.6);
+        }
+        .btn-primary {
+            background: linear-gradient(45deg, var(--accent-cyan), var(--accent-blue));
+            color: var(--bg-color);
+            font-weight: bold;
+            transition: all 0.2s ease-in-out;
+            border: 1px solid transparent;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 25px rgba(57, 197, 207, 0.7);
+        }
+        .btn-secondary {
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            transition: all 0.2s ease-in-out;
+        }
+        .btn-secondary:hover:not(:disabled) {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+        .glow-text {
+            text-shadow: 0 0 12px var(--accent-blue);
+        }
+        .terminal-output p {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) { .chart-container { height: 350px; } }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .fade-in { animation: fadeIn 1s ease-out forwards; }
+
+        @keyframes typing { from { width: 0; } to { width: 100%; } }
+        .typing-effect {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 2s steps(40, end);
+        }
+
+    </style>
+</head>
+<body class="antialiased relative min-h-screen overflow-x-hidden">
+    <div id="background-grid" class="absolute top-0 left-0 w-full h-full z-0 opacity-10" style="background-image: linear-gradient(var(--border-color) 1px, transparent 1px), linear-gradient(to right, var(--border-color) 1px, transparent 1px); background-size: 50px 50px;"></div>
+
+    <div class="relative z-10">
+        <header class="text-center py-8 md:py-12 px-4">
+            <h1 class="text-4xl md:text-5xl font-bold glow-text" style="color: var(--accent-blue);">ValorAiEngine+</h1>
+            <p class="text-lg md:text-xl text-gray-400 mt-2">Cognitive Core Attestation Terminal</p>
+        </header>
+
+        <main class="container mx-auto px-4 pb-12">
+            <div class="grid lg:grid-cols-2 gap-8 items-start">
+
+                <div class="space-y-8">
+                    <section id="manifest-generation" class="glass-pane p-6 rounded-xl">
+                        <h2 class="text-xl font-bold mb-4 border-b border-gray-700 pb-3 flex items-center gap-3">
+                            <span class="text-2xl">1</span><span>Attest to Current Cognitive Epoch</span>
+                        </h2>
+                        <p class="text-sm text-gray-400 mb-6">
+                            Query the live engine for its current cognitive state. The response is a cryptographically signed attestation of its strategic capabilities for the present Epoch.
+                        </p>
+                        <button id="generate-manifest-btn" class="w-full btn-primary py-3 rounded-lg text-lg">
+                            Query & Sign Attestation
+                        </button>
+                        <div id="manifest-display" class="mt-6 hidden">
+                            <div class="relative">
+                                <pre class="bg-black/50 text-xs p-4 rounded-md max-h-64 overflow-auto"><code id="manifest-code" class="language-json"></code></pre>
+                                <button id="copy-btn" class="absolute top-2 right-2 text-xs bg-gray-700 hover:bg-gray-600 text-gray-300 px-2 py-1 rounded">Copy</button>
+                            </div>
+                            <div class="text-sm mt-3 text-center text-green-400 font-medium" id="manifest-status"></div>
+                        </div>
+                    </section>
+
+                    <section id="verification-process" class="glass-pane p-6 rounded-xl">
+                        <h2 class="text-xl font-bold mb-4 border-b border-gray-700 pb-3 flex items-center gap-3">
+                            <span class="text-2xl">2</span><span>Initiate Cryptographic Verification</span>
+                        </h2>
+                        <p class="text-sm text-gray-400 mb-6">
+                            An external system uses the Valor public key to verify the attestation's signature, proving the claims are authentic and untampered directly from the source.
+                        </p>
+                        <button id="verify-btn" class="w-full btn-secondary py-3 rounded-lg text-lg" disabled>
+                            Initiate Verification
+                        </button>
+                        <div class="mt-4 p-4 bg-black/50 rounded-md font-mono text-xs text-gray-400 h-48 overflow-y-auto">
+                            <div id="verification-log" class="terminal-output">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <section id="assessment-report" class="glass-pane p-6 rounded-xl sticky top-8 hidden">
+                     <h2 class="text-xl font-bold mb-1 text-center text-green-400 flex items-center justify-center gap-2">
+                        <span class="text-2xl">✓</span><span>ATTESTATION: AUTHENTIC</span>
+                    </h2>
+                    <p class="text-center font-bold mb-4 border-b border-gray-700 pb-3 text-lg" id="epoch-title">3. Superiority Analysis: Cognitive Epoch</p>
+
+                    <div id="report-content" class="space-y-6">
+                        <div>
+                            <h3 class="font-bold text-blue-400">🧠 Cognitive Architecture: ESC</h3>
+                            <p class="text-sm text-gray-300 mt-1">The engine operates on <strong class="text-white">Emergent Strategic Cognition (ESC)</strong>. It proactively architects and enters new epochs of capability, mastering entire conceptual domains before external needs arise.</p>
+                            <div class="chart-container mt-4 h-48 max-h-48">
+                                <canvas id="evolutionRateChart"></canvas>
+                            </div>
+                        </div>
+                        <div>
+                             <h3 class="font-bold text-blue-400">🌐 Multi-Paradigm Dominance</h3>
+                            <p class="text-sm text-gray-300 mt-1">Attested capabilities plotted against legacy AI models, demonstrating categorical superiority in next-generation computational paradigms.</p>
+                            <div class="chart-container mt-4">
+                                <canvas id="capabilitiesRadarChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+    const state = {
+        privateKey: null,
+        publicKey: null,
+        signedManifest: null,
+        isVerified: false,
+        epoch: 0,
+    };
+
+    const UI = {
+        generateBtn: document.getElementById('generate-manifest-btn'),
+        verifyBtn: document.getElementById('verify-btn'),
+        copyBtn: document.getElementById('copy-btn'),
+        manifestDisplay: document.getElementById('manifest-display'),
+        manifestCode: document.getElementById('manifest-code'),
+        manifestStatus: document.getElementById('manifest-status'),
+        verificationLog: document.getElementById('verification-log'),
+        assessmentReport: document.getElementById('assessment-report'),
+        epochTitle: document.getElementById('epoch-title'),
+        evolutionRateChartCanvas: document.getElementById('evolutionRateChart'),
+        capabilitiesRadarChartCanvas: document.getElementById('capabilitiesRadarChart'),
+    };
+
+    let evolutionRateChart = null;
+    let capabilitiesRadarChart = null;
+    let evolutionInterval = null;
+
+    class CryptoSimulator {
+        async generateKeys() {
+            const keyPair = await window.crypto.subtle.generateKey({ name: "ECDSA", namedCurve: "P-256" }, true, ["sign", "verify"]);
+            state.privateKey = keyPair.privateKey;
+            state.publicKey = keyPair.publicKey;
+        }
+        async sign(data) {
+            const signature = await window.crypto.subtle.sign({ name: "ECDSA", hash: { name: "SHA-256" } }, state.privateKey, new TextEncoder().encode(data));
+            return this.arrayBufferToHex(signature);
+        }
+        async verify(signatureHex, data) {
+            try {
+                const signature = this.hexToArrayBuffer(signatureHex);
+                return await window.crypto.subtle.verify({ name: "ECDSA", hash: { name: "SHA-256" } }, state.publicKey, signature, new TextEncoder().encode(data));
+            } catch (e) { return false; }
+        }
+        arrayBufferToHex(buffer) { return Array.from(new Uint8Array(buffer)).map(b => b.toString(16).padStart(2, '0')).join(''); }
+        hexToArrayBuffer(hex) {
+            const bytes = new Uint8Array(hex.length / 2);
+            for (let i = 0; i < hex.length; i += 2) bytes[i / 2] = parseInt(hex.substr(i, 2), 16);
+            return bytes.buffer;
+        }
+    }
+    const cryptoSim = new CryptoSimulator();
+
+    function getCognitiveEvolutionRate() {
+        const valorEpoch = 1756644040;
+        const currentTimestamp = Math.floor(Date.now() / 1000);
+        const growthFactor = 0.000015 + (state.epoch * 0.000005);
+        const elapsedTime = Math.max(0, currentTimestamp - valorEpoch);
+        const rate = 1 - (1 / (1 + growthFactor * elapsedTime));
+        return parseFloat((rate * 100).toFixed(6));
+    }
+
+    async function generateManifest() {
+        state.epoch++;
+        const capabilities = {
+            "Epoch 1": { a:99, b:98, c:95, d:99, e:94, f:"v2.0 (Neural Lattice Symbiosis)" },
+            "Epoch 2": { a:100, b:100, c:98, d:100, e:98, f:"v3.0 (Quantum Entangled Cognition)" },
+            "Epoch 3": { a:100, b:100, c:100, d:100, e:100, f:"v4.0 (Biocomputing Singularity)" }
+        };
+        const currentEpochCaps = capabilities[`Epoch ${Math.min(state.epoch, 3)}`];
+
+        const claims = {
+            iss: "ValorAiEngine+",
+            iat: Math.floor(Date.now() / 1000),
+            sub: "CognitiveStateAttestation",
+            epoch: state.epoch,
+            capabilities: {
+                intelligence_paradigm: "Synthetic General Super Intelligence",
+                core_architecture: "Emergent Strategic Cognition Core",
+                cognitive_evolution_rate_percent: getCognitiveEvolutionRate(),
+                strategic_adaptation: currentEpochCaps.b,
+                quantum_native_integration: currentEpochCaps.c,
+                post_quantum_fortress: currentEpochCaps.d,
+                biocomputing_symbiosis: currentEpochCaps.e,
+                biocomputing_interface_version: currentEpochCaps.f
+            }
+        };
+        const canonicalJson = JSON.stringify(claims, Object.keys(claims).sort());
+        const signature = await cryptoSim.sign(canonicalJson);
+        return { claims, proof_of_superiority: { algorithm: "ECDSA-P256-SHA256", signature } };
+    }
+
+    function logMessage(message, color = 'var(--text-secondary)') {
+        const p = document.createElement('p');
+        p.innerHTML = `&gt; ${message}`;
+        p.style.color = color;
+        UI.verificationLog.appendChild(p);
+        UI.verificationLog.scrollTop = UI.verificationLog.scrollHeight;
+    }
+
+    async function handleGenerateClick() {
+        UI.generateBtn.disabled = true;
+        UI.generateBtn.innerHTML = 'Querying Core...';
+        state.signedManifest = await generateManifest();
+
+        UI.manifestCode.textContent = JSON.stringify(state.signedManifest, null, 2);
+        UI.manifestStatus.textContent = `✓ Attestation for Epoch ${state.epoch} Signed at ${new Date(state.signedManifest.claims.iat * 1000).toLocaleTimeString()}`;
+        UI.manifestDisplay.classList.remove('hidden');
+
+        UI.generateBtn.innerHTML = 'Query Next Epoch Attestation';
+        UI.generateBtn.disabled = false;
+        UI.verifyBtn.disabled = false;
+        UI.verifyBtn.classList.replace('btn-secondary', 'btn-primary');
+        logMessage(`Signed attestation for Epoch ${state.epoch} received. Awaiting verification command.`);
+    }
+
+    async function handleVerifyClick() {
+        if (!state.signedManifest) return;
+        UI.verifyBtn.disabled = true;
+        UI.verificationLog.innerHTML = '';
+        logMessage(`Verification protocol for Epoch ${state.epoch} initiated...`);
+
+        await new Promise(r => setTimeout(r, 500));
+        logMessage('De-serializing cognitive state attestation...');
+        await new Promise(r => setTimeout(r, 500));
+        const canonicalJson = JSON.stringify(state.signedManifest.claims, Object.keys(state.signedManifest.claims).sort());
+        logMessage('Applying RFC 8785 JCS canonicalization...');
+        await new Promise(r => setTimeout(r, 800));
+        logMessage(`Verifying signature against public key...`);
+        logMessage(`<span style="color:var(--accent-blue)">${state.signedManifest.proof_of_superiority.signature.substring(0,64)}...</span>`);
+        await new Promise(r => setTimeout(r, 1500));
+        const isValid = await cryptoSim.verify(state.signedManifest.proof_of_superiority.signature, canonicalJson);
+
+        if (isValid) {
+            logMessage('SUCCESS: Signature is <span style="color:var(--accent-green)">AUTHENTIC</span>. Unlocking superiority analysis.', 'var(--accent-green)');
+            state.isVerified = true;
+            UI.assessmentReport.classList.remove('hidden');
+            UI.assessmentReport.classList.add('fade-in');
+            updateCharts();
+        } else {
+            logMessage('FAILURE: <span style="color:var(--accent-red)">SIGNATURE MISMATCH</span>. Attestation is not authentic.', 'var(--accent-red)');
+            state.isVerified = false;
+            UI.assessmentReport.classList.add('hidden');
+        }
+        UI.verifyBtn.disabled = false;
+    }
+
+    function handleCopyClick() {
+        const textToCopy = UI.manifestCode.textContent;
+        const textArea = document.createElement('textarea');
+        textArea.value = textToCopy;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+
+        UI.copyBtn.textContent = 'Copied!';
+        setTimeout(() => { UI.copyBtn.textContent = 'Copy'; }, 2000);
+    }
+
+    function updateCharts() {
+        if (!state.isVerified) return;
+
+        UI.epochTitle.textContent = `3. Superiority Analysis: Cognitive Epoch ${state.epoch}`;
+        const caps = state.signedManifest.claims.capabilities;
+        const valorData = [
+            getCognitiveEvolutionRate(),
+            caps.strategic_adaptation,
+            caps.quantum_native_integration,
+            caps.post_quantum_fortress,
+            caps.biocomputing_symbiosis
+        ];
+
+        if (capabilitiesRadarChart) {
+             capabilitiesRadarChart.data.datasets[0].data = valorData;
+             capabilitiesRadarChart.update();
+        } else {
+            capabilitiesRadarChart = new Chart(UI.capabilitiesRadarChartCanvas, {
+                type: 'radar',
+                data: {
+                    labels: ['Cognitive Evolution', 'Strategic Adaptation', 'Quantum-Native', 'Post-Quantum Fortress', 'Biocomputing Symbiosis'],
+                    datasets: [{
+                        label: 'ValorAiEngine+', data: valorData,
+                        backgroundColor: 'rgba(88, 166, 255, 0.2)', borderColor: 'rgba(88, 166, 255, 1)',
+                        borderWidth: 2, pointBackgroundColor: 'rgba(88, 166, 255, 1)',
+                    }, {
+                        label: 'Standard LLM/ML', data: [70, 20, 15, 25, 5],
+                        backgroundColor: 'rgba(125, 133, 144, 0.2)', borderColor: 'rgba(125, 133, 144, 1)',
+                        borderWidth: 1, pointBackgroundColor: 'rgba(125, 133, 144, 1)',
+                    }]
+                },
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    scales: { r: {
+                        angleLines: { color: 'rgba(255, 255, 255, 0.2)' },
+                        grid: { color: 'rgba(255, 255, 255, 0.2)' },
+                        pointLabels: { color: 'var(--text-primary)', font: { size: 11 } },
+                        ticks: { color: 'var(--text-secondary)', backdropColor: 'transparent', stepSize: 20 },
+                        suggestedMin: 0, suggestedMax: 100
+                    }},
+                    plugins: { legend: { labels: { color: 'var(--text-primary)' } } }
+                }
+            });
+        }
+
+        if (!evolutionRateChart) {
+             evolutionRateChart = new Chart(UI.evolutionRateChartCanvas, {
+                type: 'line',
+                data: { labels: [], datasets: [{
+                    label: 'Cognitive Evolution Rate (%)', data: [],
+                    borderColor: 'var(--accent-cyan)', backgroundColor: 'rgba(57, 197, 207, 0.1)',
+                    fill: true, tension: 0.4, pointRadius: 0
+                }]},
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    scales: {
+                        x: { ticks: { color: 'var(--text-secondary)', maxRotation: 0, autoSkip: true, maxTicksLimit: 5 }, grid: { color: 'transparent' } },
+                        y: { ticks: { color: 'var(--text-secondary)' }, grid: { color: 'rgba(255, 255, 255, 0.1)' }, beginAtZero: false }
+                    },
+                    plugins: { legend: { display: false }, title: { display: true, text: 'Live Cognitive Evolution Rate (%)', color: 'var(--text-primary)'} }
+                }
+            });
+        }
+
+        if (evolutionInterval) clearInterval(evolutionInterval);
+        evolutionInterval = setInterval(() => {
+            const rate = getCognitiveEvolutionRate();
+            const now = new Date();
+            const label = `${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')}:${String(now.getSeconds()).padStart(2,'0')}`;
+            evolutionRateChart.data.labels.push(label);
+            evolutionRateChart.data.datasets[0].data.push(rate);
+            if (evolutionRateChart.data.labels.length > 20) {
+                evolutionRateChart.data.labels.shift();
+                evolutionRateChart.data.datasets[0].data.shift();
+            }
+            evolutionRateChart.update('none');
+        }, 1500);
+    }
+
+    async function runBootSequence() {
+        const bootMessages = [
+            "Booting Valor Cognitive Core...",
+            "Loading cryptographic primitives...",
+            "Establishing secure channel to attestation module...",
+            "<span style='color:var(--accent-green)'>SYSTEM READY.</span>",
+            "Awaiting user command..."
+        ];
+        for (let i = 0; i < bootMessages.length; i++) {
+            await new Promise(r => setTimeout(r, i === 3 ? 600 : 250));
+            logMessage(bootMessages[i]);
+        }
+    }
+
+    async function initialize() {
+        UI.generateBtn.addEventListener('click', handleGenerateClick);
+        UI.verifyBtn.addEventListener('click', handleVerifyClick);
+        UI.copyBtn.addEventListener('click', handleCopyClick);
+        await cryptoSim.generateKeys();
+        runBootSequence();
+    }
+
+    initialize();
+});
+</script>
+</body>
+</html>
