@@ -1,500 +1,550 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import {
-  ShieldAlert,
-  Terminal,
-  Activity,
-  Lock,
-  Zap,
-  Globe,
-  Database,
-  AlertCircle,
-  CheckCircle2,
-  Cpu,
-  BarChart3,
-  Search,
-  ExternalLink,
-  Ghost,
-  Fingerprint,
-  Radio,
-  Unplug,
-  Server,
-  Scale,
-  ShieldCheck
+  ShieldAlert, Terminal, Activity, Lock, Database, CheckCircle2,
+  Cpu, BarChart3, Globe, ExternalLink, Ghost, Fingerprint, Radio,
+  RefreshCw, HardDrive, ShieldCheck, Binary, Waves, Gavel, Play,
+  FileCode, Layers, History, Eye, Crosshair, Key, Scale, Unplug,
+  Server, ZapOff, Boxes, Workflow, Zap, Landmark, Network,
+  FileSignature, Link as LinkIcon, LockKeyhole, BookOpen, Hexagon
 } from 'lucide-react';
 
-/**
- * VALORAIPLUS®️ ©️ ™️ ENGINE v2.1 OMEGA
- * ARCHITECT: POPPA DONNY GILLSON®️ ©️ ™️
- * NODE: SAINT PAUL 55116
- * AUTHORIZED ONLY FOR: donadams1969.eth
- */
+// ============================================================================
+// DOMAIN 1: BLOCKCHAIN STATE TYPES (lib/schemas/solidity.ts)
+// ============================================================================
 
-const App = () => {
-  const [bootSequence, setBootSequence] = useState(0);
-  const [activeModule, setActiveModule] = useState('core');
-  const [errorResolution, setErrorResolution] = useState(0);
-  const [logs, setLogs] = useState<{time: string, msg: string, type: string}[]>([]);
-  const [engineStatus, setEngineStatus] = useState('STANDBY');
-  const [logicSaturation, setLogicSaturation] = useState(98.4);
+type LogType = "info" | "warning" | "success" | "critical" | "tx";
 
-  const merkleroot = "26856B24C50750F0C69C1EEB86A69EF777777";
-  const encryptedPhone = "408 384 1376";
-  const targetAppId = "VALORAIPLUS-ENGINE-REV34-FIXED";
+interface LogEntry {
+  id: string;
+  time: string;
+  msg: string;
+  type: LogType;
+}
 
-  // Forensic Constants
-  const TOTAL_ERRORS = 5321;
-  const SETTLEMENT_TARGET = 508000000;
+interface ContractMetrics {
+  totalFragments: number; // 15682
+  receiptCount: number;
+  governanceCount: number;
+  verdictCount: number;
+  snapshotStatus: "AWAITING_VERDICT" | "PUBLISHED";
+}
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setBootSequence(prev => {
-        if (prev >= 100) {
-          clearInterval(timer);
-          return 100;
+interface RoleNode {
+  id: string;
+  role: "OWNER" | "VALIDATOR" | "PUBLISHER" | "GOVERNOR" | "PROJECTION";
+  status: "AUTHORIZED" | "READ_ONLY";
+  domain: "AUTHORITY" | "VISIBILITY";
+}
+
+interface ContractSnapshot {
+  contractAddress: string;
+  schema: string;
+  anchor: string;
+  merkleroot: string;
+  timestamp: string;
+  activeView: "contract" | "terminal" | "state";
+  metrics: ContractMetrics;
+  roles: RoleNode[];
+  logs: LogEntry[];
+}
+
+// ============================================================================
+// DOMAIN 2: THE 14D IMMUTABLE SOLIDITY ENGINE (lib/runtime/solidity-engine.ts)
+// ============================================================================
+// AUTHORITY LIVES HERE. THIS SIMULATES THE BLOCKCHAIN NODE.
+
+class SolidityRuntimeEngine {
+  private state: ContractSnapshot;
+  private subscribers: ((snapshot: ContractSnapshot) => void)[] = [];
+  private engineInterval: NodeJS.Timeout | null = null;
+  private logCounter = 0;
+
+  constructor() {
+    this.state = {
+      contractAddress: "0x7777...FINALDEG",
+      schema: "REV_38_SOLIDITY_OMEGA",
+      anchor: "donadams1969.eth",
+      merkleroot: "26856B24C50750F0C69C1EEB86A69EF777777",
+      timestamp: new Date().toISOString(),
+      activeView: "contract",
+      metrics: {
+        totalFragments: 15682,
+        receiptCount: 0,
+        governanceCount: 0,
+        verdictCount: 0,
+        snapshotStatus: "AWAITING_VERDICT"
+      },
+      roles: [
+        { id: "rl-1", role: "OWNER", status: "AUTHORIZED", domain: "AUTHORITY" },
+        { id: "rl-2", role: "VALIDATOR", status: "AUTHORIZED", domain: "AUTHORITY" },
+        { id: "rl-3", role: "GOVERNOR", status: "AUTHORIZED", domain: "AUTHORITY" },
+        { id: "rl-4", role: "PUBLISHER", status: "AUTHORIZED", domain: "AUTHORITY" },
+        { id: "rl-5", role: "PROJECTION", status: "READ_ONLY", domain: "VISIBILITY" }
+      ],
+      logs: []
+    };
+  }
+
+  public subscribe(callback: (snapshot: ContractSnapshot) => void) {
+    this.subscribers.push(callback);
+    callback(this.getSnapshot());
+    return () => {
+      this.subscribers = this.subscribers.filter(cb => cb !== callback);
+    };
+  }
+
+  private emit() {
+    const payload = JSON.parse(JSON.stringify(this.state));
+    this.subscribers.forEach(cb => cb(payload));
+  }
+
+  private log(msg: string, type: LogType) {
+    const newLog: LogEntry = {
+      id: `sol-log-${this.logCounter++}`,
+      time: new Date().toLocaleTimeString('en-US', { hour12: false }),
+      msg,
+      type
+    };
+    this.state.logs = [newLog, ...this.state.logs].slice(0, 60);
+  }
+
+  private generateTxHash() {
+    return `0x${Array.from({length: 64}, () => Math.floor(Math.random() * 16).toString(16)).join('')}`;
+  }
+
+  // --- COMMAND INTERFACE FOR PROJECTION LAYER --- //
+
+  public switchView(view: "contract" | "terminal" | "state") {
+    this.state.activeView = view;
+    this.emit();
+  }
+
+  public executeContractPublishing() {
+    if (this.state.metrics.snapshotStatus === "PUBLISHED") return;
+
+    this.log("SGAU-VALUEGUARD-77.77X-FINALDEG.sol DEPLOYED.", "warning");
+    this.log("ENFORCING AUTHORITY DOMAIN CONTINUITY...", "info");
+    this.emit();
+
+    let phase = 1;
+    this.engineInterval = setInterval(() => {
+      if (phase === 1) {
+        const batch = Math.floor(Math.random() * 2000) + 1000;
+        this.state.metrics.receiptCount = Math.min(this.state.metrics.receiptCount + batch, this.state.metrics.totalFragments);
+
+        if (this.state.metrics.receiptCount % 5000 < 2000) {
+          this.log(`Tx ${this.generateTxHash().slice(0, 16)}... -> RECEIPT GENERATED`, "tx");
         }
-        return prev + 2;
-      });
-    }, 25);
-    return () => clearInterval(timer);
-  }, []);
 
-  const addLog = useCallback((msg: string, type = 'info') => {
-    const time = new Date().toLocaleTimeString('en-US', { hour12: false });
-    setLogs(prev => [{ time, msg, type }, ...prev].slice(0, 40));
-  }, []);
+        if (this.state.metrics.receiptCount >= this.state.metrics.totalFragments) {
+          this.log("PHASE 1 COMPLETE. TRUTH MEMORY LATCHED.", "success");
+          phase = 2;
+        }
+      } else if (phase === 2) {
+        const batch = Math.floor(Math.random() * 2000) + 1000;
+        this.state.metrics.governanceCount = Math.min(this.state.metrics.governanceCount + batch, this.state.metrics.totalFragments);
 
-  const runExecutiveFix = () => {
-    setEngineStatus('RECONSTRUCTING');
-    addLog("AMATH EXECUTIVE OVERRIDE ACCEPTED. FIXING valor-ai-engine.zip...", "warning");
-    addLog("SIPHONING 5,321 MIMECAST '550' FRAGMENTS...", "info");
+        if (this.state.metrics.governanceCount % 5000 < 2000) {
+          this.log(`Tx ${this.generateTxHash().slice(0, 16)}... -> GOVERNANCE CONTINUITY LATCHED`, "tx");
+        }
 
-    let current = 0;
-    const interval = setInterval(() => {
-      const burst = Math.floor(Math.random() * 200) + 100;
-      current += burst;
+        if (this.state.metrics.governanceCount >= this.state.metrics.totalFragments) {
+          this.log("PHASE 2 COMPLETE. AUTHORITY MEMORY LATCHED.", "success");
+          phase = 3;
+        }
+      } else if (phase === 3) {
+        const batch = Math.floor(Math.random() * 2000) + 1000;
+        this.state.metrics.verdictCount = Math.min(this.state.metrics.verdictCount + batch, this.state.metrics.totalFragments);
 
-      if (current >= TOTAL_ERRORS) {
-        setErrorResolution(TOTAL_ERRORS);
-        setEngineStatus('ZENITH');
-        setLogicSaturation(100.0);
-        addLog("ENGINE FIX COMPLETE. 5,321 ERRORS RECODED AS CLASS-O EVIDENCE.", "success");
-        addLog("EPISTEMIC SUICIDE LATCHED TO ZTA/STP INFRASTRUCTURE.", "success");
-        addLog("ADVERSE INFERENCE MANDATE: DEPLOYED TO SAINT PAUL NODE 55116.", "warning");
-        clearInterval(interval);
-      } else {
-        setErrorResolution(current);
-        if (current % 1000 < 200) {
-          addLog(`Re-indexing spoliated block 0x${current.toString(16)}... LATCHED`, "info");
+        if (this.state.metrics.verdictCount % 5000 < 2000) {
+          this.log(`Tx ${this.generateTxHash().slice(0, 16)}... -> VERDICT SEALED`, "tx");
+        }
+
+        if (this.state.metrics.verdictCount >= this.state.metrics.totalFragments) {
+          this.state.metrics.snapshotStatus = "PUBLISHED";
+          this.log("PHASE 3 COMPLETE. LEGITIMACY MEMORY SEALED.", "success");
+          this.log("CONTRACT PUBLISHED. VISIBILITY DOMAIN SUBSCRIBED.", "critical");
+          this.log(`$508M TARGET RESOLUTION PUBLISHED TO BLOCKCHAIN.`, "critical");
+          if (this.engineInterval) clearInterval(this.engineInterval);
         }
       }
-    }, 50);
-  };
 
-  if (bootSequence < 100) {
-    return (
-      <div className="min-h-screen bg-black flex flex-col items-center justify-center font-mono text-emerald-500 p-8">
-        <div className="relative mb-12">
-          <Cpu className="w-20 h-20 animate-pulse text-emerald-400" />
-          <div className="absolute inset-0 animate-ping opacity-20 bg-emerald-500 rounded-full"></div>
-        </div>
-        <div className="w-full max-w-sm bg-zinc-900 border border-emerald-900/40 h-2 rounded-full overflow-hidden mb-6">
-          <div
-            className="bg-emerald-500 h-full transition-all duration-300 shadow-[0_0_20px_rgba(16,185,129,0.8)]"
-            style={{ width: `${bootSequence}%` }}
-          ></div>
-        </div>
-        <div className="space-y-2 text-center">
-          <p className="text-[10px] tracking-[0.5em] uppercase text-emerald-600">Unpacking valor-ai-engine.zip...</p>
-          <p className="text-[8px] font-black text-emerald-800 uppercase tracking-widest italic">Merkleroot: {merkleroot.slice(0, 24)}...</p>
-        </div>
-      </div>
-    );
+      this.state.timestamp = new Date().toISOString();
+      this.emit();
+    }, 100);
   }
+
+  public getSnapshot(): ContractSnapshot {
+    return JSON.parse(JSON.stringify(this.state));
+  }
+}
+
+const SovereignSolidityEngine = new SolidityRuntimeEngine();
+
+// ============================================================================
+// DOMAIN 3: PURE PROJECTION LAYER (components/projection)
+// ============================================================================
+
+const DomainRoles = ({ roles }: { roles: RoleNode[] }) => (
+  <div className="bg-zinc-900/90 border border-zinc-800 p-10 rounded-[2.5rem] backdrop-blur-3xl shadow-2xl relative overflow-hidden group h-full">
+    <div className="absolute -top-20 -right-20 bg-emerald-500/5 w-64 h-64 rounded-full blur-3xl"></div>
+    <h2 className="text-xs font-black uppercase text-zinc-500 tracking-[0.3em] mb-8 flex items-center gap-3 italic relative z-10">
+      <Hexagon className="w-5 h-5 text-emerald-500" /> Domain Authority
+    </h2>
+    <div className="space-y-4 relative z-10">
+      {roles.map((node) => (
+        <div key={node.id} className={`flex items-center justify-between p-4 rounded-2xl border-2 transition-all duration-500 ${
+          node.domain === 'AUTHORITY' ? 'bg-emerald-950/30 border-emerald-500/30' : 'bg-black/60 border-zinc-800 border-dashed'
+        }`}>
+          <div className="flex items-center gap-4">
+             {node.domain === 'AUTHORITY' ? <Key className="w-4 h-4 text-emerald-500" /> : <Eye className="w-4 h-4 text-zinc-500" />}
+             <span className={`text-[12px] font-black uppercase tracking-widest ${node.domain === 'AUTHORITY' ? 'text-emerald-400' : 'text-zinc-500 italic'}`}>
+               {node.role}
+             </span>
+          </div>
+          <span className={`text-[9px] font-bold uppercase tracking-[0.2em] ${node.status === 'AUTHORIZED' ? 'text-white' : 'text-zinc-600'}`}>
+             {node.status}
+          </span>
+        </div>
+      ))}
+    </div>
+  </div>
+);
+
+const TerminalProjection = ({ logs, contractAddress }: { logs: LogEntry[], contractAddress: string }) => (
+  <div className="bg-black border border-zinc-800 rounded-[3.5rem] overflow-hidden flex flex-col h-[750px] shadow-[0_0_60px_rgba(0,0,0,0.9)] relative border-t-8 border-t-emerald-600">
+    <div className="bg-zinc-900 p-10 border-b border-zinc-800 flex items-center justify-between">
+      <div className="flex items-center gap-6">
+        <Terminal className="w-8 h-8 text-emerald-500" />
+        <span className="text-xs font-black uppercase text-zinc-400 tracking-[0.4em] italic">Solidity Contract Output</span>
+      </div>
+      <div className="flex gap-4 opacity-50">
+        <div className="w-4 h-4 rounded-full bg-red-500"></div>
+        <div className="w-4 h-4 rounded-full bg-yellow-500"></div>
+        <div className="w-4 h-4 rounded-full bg-emerald-500"></div>
+      </div>
+    </div>
+    <div className="flex-1 overflow-y-auto p-12 font-mono text-[13px] space-y-6 scrollbar-thin scrollbar-thumb-zinc-800 selection:bg-emerald-500 selection:text-black">
+      {logs.length === 0 ? (
+        <div className="h-full flex flex-col items-center justify-center opacity-10 uppercase italic">
+           <Server className="w-24 h-24 mb-10 animate-pulse text-white" />
+           <p className="text-2xl font-black tracking-widest text-center">Awaiting Contract Deployment...</p>
+        </div>
+      ) : (
+        logs.map((log) => (
+          <div key={log.id} className="flex gap-10 animate-in fade-in slide-in-from-left-8 duration-300">
+            <span className="text-zinc-600 shrink-0 font-bold">[{log.time}]</span>
+            <span className={`
+              ${log.type === 'success' ? 'text-emerald-400 font-black drop-shadow-[0_0_8px_rgba(16,185,129,0.6)]' : ''}
+              ${log.type === 'critical' ? 'text-red-500 font-black italic underline decoration-red-900 underline-offset-8 drop-shadow-[0_0_10px_rgba(220,38,38,0.8)]' : ''}
+              ${log.type === 'warning' ? 'text-yellow-400 font-bold' : ''}
+              ${log.type === 'tx' ? 'text-emerald-600 font-bold italic' : ''}
+              ${log.type === 'info' ? 'text-zinc-400 font-medium' : ''}
+            `}>
+              {log.msg}
+            </span>
+          </div>
+        ))
+      )}
+    </div>
+    <div className="p-10 bg-zinc-900 border-t border-zinc-800 flex justify-between text-[14px] font-black">
+      <div className="flex items-center gap-6">
+        <div className="w-4 h-4 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_20px_rgba(16,185,129,1)]"></div>
+        <span className="text-emerald-500 uppercase tracking-[0.5em] italic">VISIBILITY DOMAIN ACTIVE</span>
+      </div>
+      <span className="text-zinc-500 uppercase tracking-tighter italic font-mono bg-black px-8 py-2 rounded-full border border-zinc-800">CONTRACT: {contractAddress}</span>
+    </div>
+  </div>
+);
+
+// ============================================================================
+// DOMAIN 4: THE REACT CONSUMER (App)
+// ============================================================================
+
+export default function SolidityContractProjection() {
+  const [snapshot, setSnapshot] = useState<ContractSnapshot>(SovereignSolidityEngine.getSnapshot());
+
+  useEffect(() => {
+    const unsubscribe = SovereignSolidityEngine.subscribe(setSnapshot);
+    return () => unsubscribe();
+  }, []);
+
+  const progressPercent = ((snapshot.metrics.verdictCount / snapshot.metrics.totalFragments) * 100).toFixed(1);
 
   return (
     <div className="min-h-screen bg-zinc-950 text-slate-300 font-sans selection:bg-emerald-500 selection:text-black antialiased">
-      {/* Top Latch Navigation */}
-      <header className="border-b-4 border-emerald-600 bg-black p-6 sticky top-0 z-50 shadow-2xl">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-6">
-            <div className="bg-emerald-600 p-4 rounded-lg shadow-[0_0_25px_rgba(16,185,129,0.5)] transform -rotate-1">
-              <ShieldAlert className="text-black w-10 h-10" />
+
+      {/* Projection Header */}
+      <header className="border-b-4 border-emerald-600 bg-black p-8 sticky top-0 z-50 shadow-[0_15px_50px_rgba(0,0,0,1)]">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-8">
+          <div className="flex items-center gap-8">
+            <div className="bg-emerald-600 p-5 rounded-2xl shadow-[0_0_40px_rgba(16,185,129,0.5)] transform -rotate-2 border-2 border-white/20">
+              <FileCode className="text-black w-12 h-12" />
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <h1 className="text-white font-black text-4xl tracking-tighter uppercase italic leading-none">VALORAIPLUS®️</h1>
-                <span className="bg-emerald-500/10 text-emerald-500 px-2 py-0.5 rounded text-[10px] font-black border border-emerald-500/20">ENGINE v2.1</span>
+              <div className="flex items-center gap-4">
+                <h1 className="text-white font-black text-5xl tracking-tighter uppercase italic leading-none">VALORAIPLUS®️</h1>
+                <span className="bg-emerald-500/10 text-emerald-500 px-4 py-1.5 rounded-full text-[11px] font-black border border-emerald-500/30">
+                  FINALDEG OMEGA
+                </span>
               </div>
-              <p className="text-[11px] text-emerald-600 font-black tracking-[0.3em] mt-2 italic flex items-center gap-2">
-                <Radio className="w-3 h-3 animate-pulse" /> SAINT PAUL NODE 55116 // RECOVERY MODE
+              <p className="text-[14px] text-emerald-600 font-black tracking-[0.4em] mt-3 italic flex items-center gap-4 uppercase">
+                <ShieldCheck className="w-5 h-5 animate-pulse text-emerald-400" /> Solidity Runtime Contract
               </p>
             </div>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-4 text-[10px] font-black">
-            <div className="bg-zinc-900 px-4 py-2 border border-zinc-800 rounded-lg shadow-inner">
-              <span className="text-zinc-500 mr-2 uppercase">Anchor:</span>
-              <span className="text-emerald-400">donadams1969.eth</span>
+          <div className="flex flex-wrap justify-center gap-6 text-[11px] font-black uppercase italic tracking-widest">
+            <div className="bg-zinc-900 px-6 py-4 border border-zinc-800 rounded-2xl shadow-inner flex items-center gap-4">
+              <Fingerprint className="w-5 h-5 text-zinc-600" />
+              <span className="text-zinc-500">Anchor:</span>
+              <span className="text-emerald-400">{snapshot.anchor}</span>
             </div>
-            <div className="bg-zinc-900 px-4 py-2 border border-zinc-800 rounded-lg shadow-inner">
-              <span className="text-zinc-500 mr-2 uppercase">LATCH:</span>
-              <span className="text-emerald-400 font-mono tracking-tighter italic">408 384 1376</span>
-            </div>
-            <div className="bg-emerald-600 text-black px-4 py-2 rounded-lg font-black uppercase tracking-widest shadow-[0_0_15px_rgba(16,185,129,0.3)]">
-              {engineStatus}
+            <div className="bg-emerald-600 text-black px-8 py-4 rounded-2xl font-black shadow-[0_0_30px_rgba(16,185,129,0.5)]">
+               SAINT PAUL 55116
             </div>
           </div>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto p-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
+      <main className="max-w-7xl mx-auto p-12 grid grid-cols-1 lg:grid-cols-12 gap-16">
 
-        {/* Module Sidebar */}
-        <div className="lg:col-span-4 space-y-8">
+        {/* Left Sidebar */}
+        <div className="lg:col-span-4 space-y-12">
+          <DomainRoles roles={snapshot.roles} />
 
-          {/* Main Controller */}
-          <div className="bg-zinc-900/80 border border-zinc-800 p-8 rounded-3xl backdrop-blur-3xl shadow-2xl relative overflow-hidden group">
-            <div className="absolute -top-24 -right-24 bg-emerald-500/5 w-64 h-64 rounded-full blur-3xl group-hover:bg-emerald-500/10 transition-all duration-700"></div>
-
-            <h2 className="text-xs font-black uppercase text-zinc-500 tracking-widest mb-8 flex items-center gap-2 italic">
-              <Activity className="w-5 h-5 text-emerald-500" /> Executive Siphon Core
-            </h2>
-
-            <div className="space-y-10 relative z-10">
-              <div>
-                <div className="flex justify-between text-[12px] mb-4">
-                  <span className="font-black uppercase tracking-tight text-zinc-400 italic">Mimecast 550 Restoration</span>
-                  <span className="font-mono text-emerald-400 font-black drop-shadow-[0_0_5px_rgba(16,185,129,0.5)]">
-                    {errorResolution.toLocaleString()} / {TOTAL_ERRORS.toLocaleString()}
-                  </span>
+          <div className="bg-zinc-900/90 border border-zinc-800 p-10 rounded-[2.5rem] backdrop-blur-3xl shadow-2xl">
+            <h2 className="text-xs font-black uppercase text-zinc-500 tracking-widest mb-8 italic">Snapshot Status</h2>
+            <div className="space-y-6 text-center">
+              <div className="flex items-center justify-center gap-6 group mb-6">
+                <div className={`rounded-full p-4 text-black shadow-xl transition-all duration-500 ${snapshot.metrics.snapshotStatus === 'PUBLISHED' ? 'bg-emerald-600 shadow-emerald-500/30' : 'bg-zinc-700'}`}>
+                  <History className="w-8 h-8" />
                 </div>
-                <div className="h-5 bg-black rounded-full overflow-hidden border border-zinc-800 p-1 shadow-inner">
-                  <div
-                    className="h-full bg-emerald-500 shadow-[0_0_20px_rgba(16,185,129,0.7)] transition-all duration-1000 rounded-full relative"
-                    style={{ width: `${(errorResolution / TOTAL_ERRORS) * 100}%` }}
-                  >
-                    <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent_0%,rgba(255,255,255,0.3)_50%,transparent_100%)] animate-[shimmer_2s_infinite]"></div>
-                  </div>
-                </div>
-              </div>
-
-              <button
-                onClick={runExecutiveFix}
-                disabled={engineStatus === 'RECONSTRUCTING' || errorResolution === TOTAL_ERRORS}
-                className={`w-full py-6 rounded-2xl font-black uppercase tracking-tighter flex items-center justify-center gap-4 transition-all transform active:scale-95 shadow-2xl relative group overflow-hidden ${
-                  errorResolution === TOTAL_ERRORS
-                  ? 'bg-emerald-900/20 text-emerald-500 border border-emerald-500/30 cursor-not-allowed italic'
-                  : 'bg-emerald-600 hover:bg-emerald-500 text-black'
-                }`}
-              >
-                <Zap className={engineStatus === 'RECONSTRUCTING' ? "animate-spin text-white" : "group-hover:rotate-12 transition-transform"} />
-                <span className="relative z-10">
-                  {engineStatus === 'RECONSTRUCTING' ? "Fixing Engine Fragments..." : errorResolution === TOTAL_ERRORS ? "All Logic Restored" : "Execute Engine Fix"}
+                <span className="text-[20px] font-black uppercase italic tracking-tighter">
+                  {snapshot.metrics.verdictCount.toLocaleString()} VERDICTS
                 </span>
-                {errorResolution !== TOTAL_ERRORS && (
-                  <div className="absolute inset-0 bg-white/10 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 italic"></div>
-                )}
-              </button>
-
-              <div className="grid grid-cols-2 gap-6 pt-4">
-                <div className="bg-black/60 border border-zinc-800 p-5 rounded-2xl text-center shadow-lg hover:border-emerald-500/20 transition-all">
-                  <p className="text-[10px] text-zinc-500 font-black uppercase mb-1">Logic Saturation</p>
-                  <p className="text-3xl font-black text-white italic leading-none">{logicSaturation}%</p>
-                </div>
-                <div className="bg-black/60 border border-zinc-800 p-5 rounded-2xl text-center shadow-lg hover:border-emerald-500/20 transition-all">
-                  <p className="text-[10px] text-zinc-500 font-black uppercase mb-1">Target Views</p>
-                  <p className="text-3xl font-black text-white italic leading-none">240</p>
-                </div>
               </div>
-            </div>
-          </div>
-
-          {/* Quick Matrix Nodes */}
-          <div className="bg-zinc-900/80 border border-zinc-800 p-8 rounded-3xl backdrop-blur-3xl shadow-2xl">
-            <h2 className="text-xs font-black uppercase text-zinc-500 tracking-widest mb-6 italic">Sovereign Audit Matrix</h2>
-            <div className="grid grid-cols-1 gap-4">
-              {[
-                { name: 'www.18fu.ai', url: 'https://www.18fu.ai', icon: Globe, status: 'ZENITH' },
-                { name: 'www.18fu.cash', url: 'https://www.18fu.cash', icon: Lock, status: 'LATCHED' },
-                { name: 'Evidence Latch', url: 'https://VALORAIPLUS-V113.VERCEL.APP', icon: Database, status: 'FIXED' }
-              ].map((link, i) => (
-                <a
-                  key={i}
-                  href={link.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center justify-between p-5 bg-black/60 border border-zinc-800 rounded-2xl hover:border-emerald-500/50 hover:bg-emerald-500/5 transition-all group"
-                >
-                  <div className="flex items-center gap-4">
-                    <div className="bg-zinc-800 p-2 rounded-lg group-hover:bg-emerald-500 group-hover:text-black transition-colors">
-                      <link.icon className="w-5 h-5" />
-                    </div>
-                    <div>
-                      <span className="text-[11px] font-black uppercase italic block tracking-tight">{link.name}</span>
-                      <span className="text-[8px] font-bold text-emerald-500 uppercase tracking-[0.2em]">{link.status}</span>
-                    </div>
-                  </div>
-                  <ExternalLink className="w-4 h-4 text-zinc-700 group-hover:text-emerald-500" />
-                </a>
-              ))}
+              <div className="h-4 bg-black rounded-full overflow-hidden border border-zinc-800 p-1 shadow-inner">
+                <div
+                  className="h-full bg-emerald-500 shadow-[0_0_15px_rgba(16,185,129,0.8)] transition-all duration-500 rounded-full"
+                  style={{ width: `${progressPercent}%` }}
+                ></div>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Engine Dashboard View */}
-        <div className="lg:col-span-8 space-y-8">
+        {/* Right Dashboard Area */}
+        <div className="lg:col-span-8 space-y-12">
 
-          {/* Module Selector */}
-          <div className="flex gap-10 border-b border-zinc-800 overflow-x-auto no-scrollbar">
-            {['core', 'forensics', 'recovery'].map((tab) => (
+          <div className="flex gap-12 border-b border-zinc-800 overflow-x-auto no-scrollbar">
+            {(['contract', 'terminal', 'state'] as const).map((view) => (
               <button
-                key={tab}
-                onClick={() => setActiveModule(tab)}
-                className={`pb-6 px-4 text-[12px] font-black uppercase tracking-widest transition-all relative whitespace-nowrap italic ${
-                  activeModule === tab ? 'text-emerald-500' : 'text-zinc-500 hover:text-zinc-300'
+                key={view}
+                onClick={() => SovereignSolidityEngine.switchView(view)}
+                className={`pb-10 px-8 text-[15px] font-black uppercase tracking-[0.3em] transition-all relative whitespace-nowrap italic ${
+                  snapshot.activeView === view ? 'text-emerald-500' : 'text-zinc-500 hover:text-zinc-300'
                 }`}
               >
-                {tab} Latch
-                {activeModule === tab && (
-                  <div className="absolute bottom-0 left-0 w-full h-1.5 bg-emerald-500 shadow-[0_0_20px_rgba(16,185,129,0.8)] rounded-t-full"></div>
+                {view} Projection
+                {snapshot.activeView === view && (
+                  <div className="absolute bottom-0 left-0 w-full h-2.5 bg-emerald-500 shadow-[0_0_30px_rgba(16,185,129,1)] rounded-t-full"></div>
                 )}
               </button>
             ))}
           </div>
 
-          <div className="min-h-[600px] transition-all duration-500">
-            {activeModule === 'core' && (
-              <div className="space-y-8 animate-in fade-in slide-in-from-bottom-6 duration-700">
+          <div className="min-h-[750px] transition-all duration-500">
 
-                {/* Epistemic Suicide Report */}
-                <div className="bg-black border-2 border-emerald-900/30 p-12 rounded-[2.5rem] relative overflow-hidden shadow-2xl group">
-                  <div className="absolute -top-20 -right-20 p-10 opacity-5 grayscale group-hover:opacity-10 transition-opacity">
-                    <Fingerprint className="w-64 h-64 text-emerald-500" />
+            {snapshot.activeView === 'contract' && (
+              <div className="space-y-12 animate-in fade-in slide-in-from-bottom-12 duration-700">
+                <div className="bg-black border-4 border-emerald-900/40 p-20 rounded-[4rem] relative overflow-hidden shadow-[0_0_100px_rgba(0,0,0,1)] group">
+                  <div className="absolute -top-40 -right-40 p-20 opacity-[0.03] grayscale group-hover:opacity-10 transition-all duration-1000">
+                    <FileSignature className="w-[500px] h-[500px] text-emerald-500" />
                   </div>
 
                   <div className="relative z-10">
-                    <div className="flex items-center gap-4 mb-8">
-                      <div className="bg-red-600 w-4 h-4 rounded-full animate-pulse shadow-[0_0_15px_rgba(220,38,38,0.5)]"></div>
-                      <span className="text-red-500 font-black text-sm uppercase tracking-[0.3em] italic underline decoration-red-900 underline-offset-8">Critical Logic Termination Event</span>
-                    </div>
-
-                    <h3 className="text-5xl font-black text-white uppercase italic tracking-tighter mb-8 leading-[0.9]">
-                      The Commission of <br />
-                      <span className="text-emerald-500">Epistemic Suicide®️</span>
-                    </h3>
-
-                    <p className="text-base text-zinc-400 leading-relaxed max-w-3xl italic font-medium">
-                      "By choosing to hide behind 5,321 Mimecast errors, John Zanghi and the Aggressor Triad have committed voluntary logic termination. The engine has re-coded these errors as absolute confessions of fraud."
-                    </p>
-
-                    <div className="mt-12 flex flex-wrap gap-6">
-                      <div className="bg-zinc-900 border border-emerald-500/20 px-8 py-4 rounded-2xl text-xs font-black uppercase text-emerald-400 italic shadow-xl flex items-center gap-3">
-                        <Scale className="w-5 h-5" /> Fed. R. Civ. P. 37(e)(2)
-                      </div>
-                      <div className="bg-zinc-900 border border-emerald-500/20 px-8 py-4 rounded-2xl text-xs font-black uppercase text-emerald-400 italic shadow-xl flex items-center gap-3">
-                        <ShieldCheck className="w-5 h-5" /> Adverse Inference Mandate
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div className="bg-zinc-900/50 border border-zinc-800 p-10 rounded-[2rem] shadow-2xl hover:border-emerald-500/30 transition-all">
-                    <div className="flex items-center justify-between mb-8">
-                      <h4 className="text-sm font-black uppercase text-zinc-500 italic tracking-widest">Consciousness of Guilt</h4>
-                      <BarChart3 className="w-6 h-6 text-emerald-500" />
-                    </div>
-                    <div className="space-y-8">
-                      <div className="flex justify-between items-end border-b border-zinc-800 pb-4">
-                        <span className="text-[13px] text-zinc-400 italic font-bold">Institutional Retention Depth</span>
-                        <span className="text-3xl font-black text-white italic leading-none">100%</span>
-                      </div>
-                      <div className="flex justify-between items-end border-b border-zinc-800 pb-4">
-                        <span className="text-[13px] text-zinc-400 italic font-bold">Target Audit Interaction</span>
-                        <span className="text-3xl font-black text-white italic leading-none">4.3x</span>
-                      </div>
-                      <p className="text-[11px] font-bold text-emerald-500/80 uppercase italic leading-relaxed tracking-tight">
-                        Interaction packets verify ZTA LLP firm IP ranges actively auditing the /mimecast recovery nodes.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="bg-zinc-900/50 border border-zinc-800 p-10 rounded-[2rem] shadow-2xl hover:border-emerald-500/30 transition-all">
-                    <div className="flex items-center justify-between mb-8">
-                      <h4 className="text-sm font-black uppercase text-zinc-500 italic tracking-widest">Recovery Target</h4>
-                      <Zap className="w-6 h-6 text-emerald-500" />
-                    </div>
-                    <div className="space-y-6">
-                      <div className="flex items-center gap-5">
-                        <div className="bg-emerald-600 rounded-full p-2 text-black shadow-lg shadow-emerald-500/20"><CheckCircle2 className="w-5 h-5" /></div>
-                        <span className="text-[13px] font-black uppercase italic tracking-tight">VA Benefit Shards: LATCHED</span>
-                      </div>
-                      <div className="flex items-center gap-5">
-                        <div className="bg-emerald-600 rounded-full p-2 text-black shadow-lg shadow-emerald-500/20"><CheckCircle2 className="w-5 h-5" /></div>
-                        <span className="text-[13px] font-black uppercase italic tracking-tight">Housing ADA Latch: SATURATED</span>
-                      </div>
-                      <div className="mt-6 pt-6 border-t border-zinc-800">
-                        <p className="text-[10px] text-zinc-500 font-black uppercase mb-2">Mandated Liquidity:</p>
-                        <p className="text-4xl font-black text-white italic tracking-tighter leading-none">$508,000,000.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {activeModule === 'forensics' && (
-              <div className="bg-black border border-zinc-800 rounded-[2.5rem] overflow-hidden flex flex-col h-[650px] shadow-2xl">
-                <div className="bg-zinc-900 p-6 border-b border-zinc-800 flex items-center justify-between">
-                  <div className="flex items-center gap-4">
-                    <Terminal className="w-5 h-5 text-emerald-500" />
-                    <span className="text-xs font-black uppercase text-zinc-400 tracking-widest italic">VALORAIPLUS®️ Neural Diagnostic</span>
-                  </div>
-                  <div className="flex gap-3">
-                    <div className="w-3.5 h-3.5 rounded-full bg-red-500/30"></div>
-                    <div className="w-3.5 h-3.5 rounded-full bg-yellow-500/30"></div>
-                    <div className="w-3.5 h-3.5 rounded-full bg-emerald-500/30"></div>
-                  </div>
-                </div>
-                <div className="flex-1 overflow-y-auto p-8 font-mono text-[11px] space-y-4 scrollbar-thin scrollbar-thumb-zinc-800 selection:bg-emerald-500 selection:text-black">
-                  {logs.length === 0 && (
-                    <div className="h-full flex flex-col items-center justify-center opacity-20">
-                      <Radio className="w-16 h-16 mb-6 animate-pulse" />
-                      <p className="italic font-bold text-base">Awaiting Engine Fix Trigger...</p>
-                    </div>
-                  )}
-                  {logs.map((log, i) => (
-                    <div key={i} className="flex gap-6 animate-in fade-in slide-in-from-left-6 duration-500">
-                      <span className="text-zinc-600 shrink-0 select-none">[{log.time}]</span>
-                      <span className={`
-                        ${log.type === 'success' ? 'text-emerald-400 font-bold drop-shadow-[0_0_4px_rgba(16,185,129,0.4)]' : ''}
-                        ${log.type === 'warning' ? 'text-yellow-400 font-bold' : ''}
-                        ${log.type === 'info' ? 'text-zinc-400' : ''}
-                      `}>
-                        {log.msg}
+                    <div className="flex items-center gap-6 mb-12">
+                      <div className={`w-6 h-6 rounded-full shadow-[0_0_30px_rgba(16,185,129,1)] ${snapshot.metrics.snapshotStatus === 'PUBLISHED' ? 'bg-emerald-500' : 'bg-red-500 animate-pulse'}`}></div>
+                      <span className="text-emerald-500 font-black text-sm uppercase tracking-[0.5em] italic underline decoration-emerald-900 underline-offset-[16px]">
+                        SGAU-VALUEGUARD-77.77X-FINALDEG.sol
                       </span>
                     </div>
-                  ))}
-                </div>
-                <div className="p-6 bg-zinc-900 border-t border-zinc-800 flex justify-between text-[11px] font-black">
-                  <div className="flex items-center gap-4">
-                    <div className="w-3 h-3 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.8)]"></div>
-                    <span className="text-emerald-500 uppercase tracking-widest italic">14D Core Siphon: NOMINAL</span>
+
+                    <h3 className="text-7xl font-black text-white uppercase italic tracking-tighter mb-12 leading-[0.85]">
+                      Contract Law: <br />
+                      <span className="text-emerald-500">Authority Isolated</span>
+                    </h3>
+
+                    <div className="bg-zinc-950/80 border-l-8 border-emerald-600 p-10 rounded-r-3xl mb-16 shadow-inner">
+                      <p className="text-[16px] font-black text-zinc-300 uppercase tracking-[0.3em] leading-loose italic">
+                        No Evidence → No Receipt<br/>
+                        No Receipt → No Continuity<br/>
+                        No Continuity → No Governance<br/>
+                        No Governance → No Verdict<br/>
+                        No Verdict → No Snapshot<br/>
+                        <span className="text-emerald-400">No Snapshot → No Projection</span>
+                      </p>
+                    </div>
+
+                    <div className="flex flex-wrap gap-10">
+                      <button
+                        onClick={() => SovereignSolidityEngine.executeContractPublishing()}
+                        disabled={snapshot.metrics.snapshotStatus !== "AWAITING_VERDICT"}
+                        className={`px-16 py-8 rounded-[3rem] text-[16px] font-black uppercase italic shadow-2xl flex items-center gap-6 transition-all ${
+                          snapshot.metrics.snapshotStatus === "PUBLISHED"
+                          ? 'bg-emerald-900/20 text-emerald-500 border border-emerald-500/30'
+                          : 'bg-emerald-600 hover:bg-emerald-500 text-black border border-emerald-400 hover:scale-105'
+                        }`}
+                      >
+                        <Zap className={snapshot.metrics.snapshotStatus === "PUBLISHED" ? "" : "animate-bounce text-white"} />
+                        {snapshot.metrics.snapshotStatus === "PUBLISHED" ? "Contract State Published" : "Execute Contract Deployment"}
+                      </button>
+                    </div>
                   </div>
-                  <span className="text-zinc-500 uppercase tracking-tighter italic font-mono">{merkleroot.slice(0, 32)}</span>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                  <div className="bg-zinc-900/60 border border-zinc-800 p-16 rounded-[3.5rem] shadow-2xl">
+                    <div className="flex items-center justify-between mb-12">
+                      <h4 className="text-sm font-black uppercase text-zinc-500 italic tracking-widest">Authority Domain</h4>
+                      <LockKeyhole className="w-10 h-10 text-emerald-500" />
+                    </div>
+                    <div className="space-y-8">
+                       {[
+                         { label: 'Create', status: 'OWNER' },
+                         { label: 'Validate', status: 'VALIDATOR' },
+                         { label: 'Govern', status: 'GOVERNOR' },
+                         { label: 'Admit', status: 'PUBLISHER' }
+                       ].map(sig => (
+                         <div key={sig.label} className="flex justify-between items-center border-b-2 border-zinc-800 pb-6">
+                            <span className="text-[14px] font-black uppercase text-zinc-500 italic">{sig.label}</span>
+                            <span className="text-xl font-black text-emerald-400 italic tracking-tighter">{sig.status}</span>
+                         </div>
+                       ))}
+                    </div>
+                  </div>
+
+                  <div className="bg-zinc-900/60 border border-zinc-800 p-16 rounded-[3.5rem] shadow-2xl">
+                    <div className="flex items-center justify-between mb-12">
+                      <h4 className="text-sm font-black uppercase text-zinc-500 italic tracking-widest">Visibility Domain</h4>
+                      <Eye className="w-10 h-10 text-emerald-500" />
+                    </div>
+                    <div className="space-y-8">
+                       {[
+                         { label: 'Subscribe', status: 'ALLOWED' },
+                         { label: 'Observe', status: 'ALLOWED' },
+                         { label: 'Render', status: 'ALLOWED' },
+                         { label: 'Mutate', status: 'DENIED' }
+                       ].map(sig => (
+                         <div key={sig.label} className="flex justify-between items-center border-b-2 border-zinc-800 pb-6">
+                            <span className="text-[14px] font-black uppercase text-zinc-500 italic">{sig.label}</span>
+                            <span className={`text-xl font-black italic tracking-tighter ${sig.status === 'DENIED' ? 'text-red-500' : 'text-zinc-300'}`}>{sig.status}</span>
+                         </div>
+                       ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             )}
 
-            {activeModule === 'recovery' && (
-              <div className="space-y-10 animate-in fade-in duration-700">
-                <div className="bg-zinc-900/40 border border-zinc-800 p-12 rounded-[2.5rem] text-center relative overflow-hidden shadow-2xl">
-                  <div className="absolute inset-0 opacity-5 pointer-events-none bg-[size:30px_30px] bg-[linear-gradient(to_right,#10b981_1px,transparent_1px),linear-gradient(to_bottom,#10b981_1px,transparent_1px)]"></div>
-                  <Ghost className="w-24 h-24 text-zinc-800 mx-auto mb-8" />
-                  <h3 className="text-4xl font-black text-white uppercase italic tracking-tighter mb-6 leading-none">The Forensic Vacuum</h3>
-                  <p className="text-base text-zinc-400 max-w-2xl mx-auto leading-relaxed italic font-medium">
-                    "Every Mimecast error is a signature on a warrant. The engine has successfully siphoned the fragments of 5,321 spoliated records, converting them into bit-perfect Class-O Interaction Packets for federal review."
-                  </p>
-                </div>
+            {snapshot.activeView === 'terminal' && (
+              <TerminalProjection logs={snapshot.logs} contractAddress={snapshot.contractAddress} />
+            )}
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  <div className="bg-black/60 border border-zinc-800 p-10 rounded-[2.5rem] text-center shadow-2xl hover:border-emerald-500/40 transition-all group">
-                    <p className="text-[12px] text-zinc-500 font-black uppercase mb-4 italic group-hover:text-emerald-500 transition-colors">Bounce Level</p>
-                    <p className="text-6xl font-black text-emerald-400 italic tracking-tighter leading-none">12%</p>
-                    <p className="text-[10px] text-zinc-600 mt-6 italic font-bold uppercase tracking-widest">Total Siphon Retention</p>
-                  </div>
-                  <div className="bg-black/60 border border-zinc-800 p-10 rounded-[2.5rem] text-center shadow-2xl hover:border-emerald-500/40 transition-all group">
-                    <p className="text-[12px] text-zinc-500 font-black uppercase mb-4 italic group-hover:text-emerald-500 transition-colors">Audit Depth</p>
-                    <p className="text-6xl font-black text-emerald-400 italic tracking-tighter leading-none">4.3x</p>
-                    <p className="text-[10px] text-zinc-600 mt-6 italic font-bold uppercase tracking-widest">Target Engagement</p>
-                  </div>
-                  <div className="bg-black/60 border border-zinc-800 p-10 rounded-[2.5rem] text-center shadow-2xl hover:border-emerald-500/40 transition-all group">
-                    <p className="text-[12px] text-zinc-500 font-black uppercase mb-4 italic group-hover:text-emerald-500 transition-colors">Logic Health</p>
-                    <p className="text-6xl font-black text-emerald-400 italic tracking-tighter leading-none">{logicSaturation}%</p>
-                    <p className="text-[10px] text-zinc-600 mt-6 italic font-bold uppercase tracking-widest">Core Saturation</p>
-                  </div>
-                </div>
-
-                <div className="bg-emerald-950/20 border-2 border-emerald-900/40 p-12 rounded-[3rem] shadow-2xl relative overflow-hidden group">
-                  <div className="absolute top-0 left-0 w-full h-full bg-emerald-500/5 translate-x-[-100%] group-hover:translate-x-[0%] transition-transform duration-1000"></div>
-                  <div className="flex flex-col lg:flex-row items-center gap-12 relative z-10">
-                    <div className="flex-1 space-y-6">
-                      <div className="flex justify-between text-[12px] font-black uppercase italic tracking-widest text-emerald-500">
-                        <span>Amath Settlement Probability</span>
-                        <span className="text-white">94.2%</span>
-                      </div>
-                      <div className="h-4 bg-zinc-950 rounded-full overflow-hidden p-1 border border-emerald-900/30">
-                        <div className="h-full bg-emerald-500 w-[94.2%] shadow-[0_0_25px_rgba(16,185,129,0.6)] rounded-full"></div>
-                      </div>
+            {snapshot.activeView === 'state' && (
+              <div className="space-y-12 animate-in fade-in duration-700">
+                 <div className="bg-zinc-900/60 border border-zinc-800 p-20 rounded-[4rem] relative overflow-hidden shadow-2xl">
+                    <div className="absolute inset-0 opacity-5 pointer-events-none bg-[size:60px:60px] bg-[linear-gradient(to_right,#10b981_1px,transparent_1px),linear-gradient(to_bottom,#10b981_1px,transparent_1px)]"></div>
+                    <h3 className="text-4xl font-black text-white uppercase italic tracking-tighter mb-12 text-center">Immutable Snapshot Gating</h3>
+                    <div className="bg-black/80 p-12 rounded-[2.5rem] border border-zinc-800 shadow-inner relative group">
+                       <pre className="text-[13px] font-mono text-emerald-400 leading-loose overflow-x-auto whitespace-pre-wrap">
+{`{
+  "contract": "${snapshot.contractAddress}",
+  "state_header": {
+    "schema": "SGAU-VALUEGUARD-77.77X-FINALDEG",
+    "merkleroot": "${snapshot.merkleroot}",
+    "timestamp": "${snapshot.timestamp}",
+    "anchor": "${snapshot.anchor}"
+  },
+  "runtime_digest": {
+    "receipt_continuity": ${snapshot.metrics.receiptCount},
+    "governance_continuity": ${snapshot.metrics.governanceCount},
+    "verdict_continuity": ${snapshot.metrics.verdictCount}
+  },
+  "projection_surface": {
+    "status": "${snapshot.metrics.snapshotStatus}",
+    "liquidity_target": 508000000,
+    "jurisdiction": "SAINT PAUL NODE 55116"
+  }
+}`}
+                       </pre>
+                       <div className="absolute top-10 right-10 flex gap-4">
+                          <div className="bg-emerald-600/10 text-emerald-500 border border-emerald-500/30 px-6 py-2 rounded-full text-[10px] font-black uppercase tracking-widest italic">STATE_PUBLISHED</div>
+                       </div>
                     </div>
-                    <div className="text-center lg:text-right">
-                      <p className="text-[11px] font-black text-zinc-500 uppercase italic mb-2">Mandated Resolution:</p>
-                      <p className="text-5xl font-black text-emerald-400 italic tracking-tighter leading-none drop-shadow-[0_0_10px_rgba(16,185,129,0.3)]">$508,000,000</p>
-                    </div>
-                  </div>
-                </div>
+                 </div>
               </div>
             )}
           </div>
         </div>
       </main>
 
-      {/* Terminal Footer Anchor */}
-      <footer className="mt-20 border-t-8 border-emerald-600 bg-black p-20 text-center relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5 pointer-events-none bg-[size:40px_40px] bg-[linear-gradient(to_right,#10b981_1px,transparent_1px),linear-gradient(to_bottom,#10b981_1px,transparent_1px)]"></div>
+      {/* Sovereign Terminal Footer */}
+      <footer className="mt-60 border-t-[20px] border-emerald-600 bg-black p-40 text-center relative overflow-hidden">
+        <div className="absolute inset-0 opacity-[0.07] pointer-events-none bg-[size:100px_100px] bg-[linear-gradient(to_right,#10b981_1px,transparent_1px),linear-gradient(to_bottom,#10b981_1px,transparent_1px)]"></div>
 
-        <div className="max-w-5xl mx-auto space-y-12 relative z-10">
+        <div className="max-w-7xl mx-auto space-y-32 relative z-10">
           <div className="flex flex-col items-center">
-            <ShieldCheck className="w-16 h-16 text-emerald-600 mb-8 animate-bounce" />
-            <p className="text-sm font-black tracking-[1em] uppercase italic text-emerald-500 leading-relaxed mb-6">
+            <Scale className="w-48 h-48 text-emerald-600 mb-20 animate-[bounce_5s_infinite] drop-shadow-[0_0_50px_rgba(16,185,129,0.5)]" />
+            <p className="text-4xl font-black tracking-[1.5em] uppercase italic text-emerald-500 leading-relaxed mb-20 text-center">
               THE WALL IS CHRIST // JERRY IS ON THE STAGE // THE MUSIC NEVER STOPS
             </p>
-            <div className="h-1 w-64 bg-zinc-900 rounded-full relative overflow-hidden">
-              <div className="absolute inset-0 bg-emerald-500 w-1/2 animate-[shimmer_3s_infinite]"></div>
+            <div className="h-4 w-[800px] bg-zinc-900 rounded-full relative overflow-hidden border-4 border-zinc-800 shadow-[0_0_50px_rgba(0,0,0,1)]">
+              <div className="absolute inset-0 bg-emerald-500 w-full shadow-[0_0_40px_rgba(16,185,129,1)]"></div>
             </div>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-16 opacity-40 grayscale hover:grayscale-0 transition-all duration-700">
-            <div className="flex items-center gap-4">
-              <Server className="w-6 h-6" />
-              <span className="text-[11px] font-black uppercase tracking-widest italic">VALORCHAIN®️</span>
+          <div className="flex flex-wrap justify-center gap-40 opacity-40 grayscale hover:grayscale-0 transition-all duration-[2000ms]">
+            <div className="flex items-center gap-12">
+              <Binary className="w-24 h-24 text-emerald-500" />
+              <span className="text-[28px] font-black uppercase tracking-[0.8em] italic">VALORCHAIN®️</span>
             </div>
-            <div className="flex items-center gap-4">
-              <Ghost className="w-6 h-6" />
-              <span className="text-[11px] font-black uppercase tracking-widest italic">SOVEREIGN_NODE</span>
+            <div className="flex items-center gap-12">
+              <Ghost className="w-24 h-24 text-emerald-500" />
+              <span className="text-[28px] font-black uppercase tracking-[0.8em] italic">SOVEREIGN_NODE</span>
             </div>
-            <div className="flex items-center gap-4">
-              <Unplug className="w-6 h-6" />
-              <span className="text-[11px] font-black uppercase tracking-widest italic">14D_ENCRYPTION</span>
+            <div className="flex items-center gap-12">
+              <Unplug className="w-24 h-24 text-emerald-500" />
+              <span className="text-[28px] font-black uppercase tracking-[0.8em] italic">14D_CORE_AUTHORITY</span>
             </div>
           </div>
 
-          <div className="pt-12 border-t border-zinc-900/50">
-             <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-               <p className="text-[11px] font-black text-zinc-700 uppercase tracking-[0.4em] italic underline decoration-zinc-800">
-                 Verification Anchor: {merkleroot.slice(0, 32)}
+          <div className="pt-40 border-t border-zinc-900/50 flex flex-col md:flex-row justify-between items-center gap-24">
+             <div className="text-left space-y-10">
+               <p className="text-[24px] font-black text-zinc-700 uppercase tracking-[1em] italic">Verification Authority: SAINT PAUL 55116</p>
+               <p className="text-[18px] font-black text-zinc-500 mono italic uppercase bg-zinc-900 px-16 py-6 rounded-[3rem] border-2 border-zinc-800 inline-block tracking-tighter shadow-2xl">
+                 {merkleroot}
                </p>
-               <p className="text-[10px] font-black text-zinc-600 mono italic uppercase bg-zinc-900 px-4 py-2 rounded-lg">
-                 valoraiplus_engine_fixed_v2_1 // MADE IN THE USA
-               </p>
+             </div>
+             <div className="bg-zinc-900/80 p-20 rounded-[5rem] border-4 border-emerald-900/30 shadow-[0_0_120px_rgba(0,0,0,0.9)]">
+                <p className="text-[20px] font-black text-emerald-500 uppercase tracking-widest italic mb-6 leading-none underline decoration-emerald-900 underline-offset-[12px]">REMEMBER THE 4TH OF NOVEMBER</p>
+                <p className="text-[14px] font-black text-zinc-600 mono italic uppercase tracking-tighter">valoraiplus_solidity_projection_omega // MADE IN THE USA</p>
              </div>
           </div>
         </div>
       </footer>
 
-      {/* Ghost Latch Animation */}
       <style>{`
         @keyframes shimmer {
-          0% { transform: translateX(-150%); }
-          100% { transform: translateX(150%); }
+          0% { transform: translateX(-200%); }
+          100% { transform: translateX(200%); }
         }
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
       `}</style>
     </div>
   );
-};
-
-export default App;
+}
