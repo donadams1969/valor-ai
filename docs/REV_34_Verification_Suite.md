@@ -224,3 +224,29 @@ message
 → root hash publication
 → computational identity confirmed
 ```
+
+## 20. REV_37 Jules Import Layer
+The Jules Verification Suite includes the **REV_37 Importer Layer** for ingesting narrative runtime telemetry, deployment metadata, and runtime snapshots into the deterministic verification ecosystem.
+
+### Import Pipeline Architecture
+The pipeline establishes a reviewer-safe boundary, converting narrative intelligence reports into strictly modeled JSON outputs.
+
+```plaintext
+REV_37 report
+→ importer (deterministic parsing)
+→ normalized schema (runtime snapshot)
+→ canonicalization
+→ SHA-256 snapshot hash
+→ manifest linkage
+→ verifier-compatible output
+```
+
+### Components
+*   **`rev37-importer.ts`**: Handles deterministic parsing and normalization of unstructured or narrative reports into the `Rev37RuntimeSnapshot` schema.
+*   **`rev37-linker.ts`**: Applies recursive canonicalization and computes the SHA-256 identity hash for the snapshot, generating the finalized manifest-linked artifact.
+*   **CLI Integration (`import-rev37`)**: Automates the pipeline.
+
+```bash
+# Example usage of the import layer
+node src/importers/cli.ts --report ./report.txt --node "SAINT PAUL 55116" --manifest "MANIFEST_ID" --output ./verified-artifact.json
+```
