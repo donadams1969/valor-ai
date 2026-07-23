@@ -1,0 +1,23 @@
+{
+  "manifestId": "MANIFEST_OMEGA_UNIFIED",
+  "snapshotHash": "da9cae0dad3d201eb0eec8a5c3f2cfa4ceef4649d580556ab76ca8b2430d411b",
+  "linkedAt": "2026-04-26T04:14:22.261Z",
+  "status": "LINKED_AND_VERIFIED",
+  "snapshotData": {
+    "version": "REV_37",
+    "timestamp": "2026-04-26T04:14:22.260Z",
+    "node": "SAINT PAUL 55116",
+    "metrics": {
+      "classification": "TERMINAL EXTINCTION LEVEL",
+      "zero_404_policy": "STRUCTURALLY PERMANENT"
+    },
+    "files": [],
+    "telemetry": {
+      "http_requests": 395,
+      "compilations": 34,
+      "status_200": 390,
+      "status_404": 5,
+      "steady_state_ms": 19
+    }
+  }
+}
